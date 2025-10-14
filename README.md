@@ -1,25 +1,29 @@
-# North Parish of North Andover, MA - Tower Clock Winder Controller
-Code for North Parish's Paul Revere Bell tower clock auto-winder mechanism.<br>
+# Automated Tower Clock Winder Control Logic
+### Copyright 2019 - P. Stephen Vail of North Parish of North Andover, MA.
 
-In awe-inspired memory of **Dana Fischer**; original architect and installer in 1986.<br>
-This project was designed for a Do-More BRX-DM1E Programmable Logic Controller, after Dana's original equipment was disabled by lightning in 2017. 
-This (version 55) is the initial upload for posterity in October of 2025.<br>
+Ladder Logic for North Parish's Paul Revere Bell tower clock auto-winder mechanism.<br>
 
-Copyright 2019 - P. Stephen Vail, but continues to be a work-in-progress.<br>
+In awe-inspired memory of **Dana Fischer**; original architect and installer of the discrete analog winder controller in 1986.
+
+Physically, there are two winding drums, each of which has a weight attached via steel cable.  One is for the bell striking mechanism, and the other for the clock itself.  Both drums are connected via chain drive to a common worm-gear drive motor through independent PWM controlled electric clutches. Photo-optic sensors track drum rotations and minute-hand position of the clock.  There is a limit switch at the top of each weight's travel range to disengage its clutch in case of confusion or a runaway condition. 
+
+This project was designed for a Do-More BRX-DM1E Programmable Logic Controller, after Dana's original controller components were disabled by lightning in 2017. 
+This repository contains version 55 (created and maintained in Automation Direct's Do-More Designer IDE) and is the initial upload for posterity in October of 2025. This project continues to be a work-in-progress.<br>
+
 
 ## Modes Of Operation
 
   In ALL Modes, the Red Stop switch will shut off the clutches and motor.  
      The Green Start button must be pressed to continue.
 
-  The clutches intentionally ramp up and ramp down in voltage to allow for a little
+  The PWM clutches intentionally ramp up and ramp down in voltage to allow for a little
      slippage, thereby reducing the 'jolt' of the sudden release of the tension on the 
-     drums.
+     drums and weights.
 
   Even when the Stop button is pressed, things will run around 5 seconds longer 
      to account for this slow stop.  
     
-  EMO will physically shut off power to EVERYTHING, BRX (PLC) INCLUDED!!!
+  The round EMO button will physically shut off power to EVERYTHING, BRX (PLC) INCLUDED!!!
 
 
 ## Auto/Photo Mode
@@ -83,9 +87,9 @@ The Pulse/Timer switch is ignored in Manual Mode.
  ## A little bit about startup --
  Startup occurs in three phases, or Stages:
  
-  **Stage 0.** Wait in a hard loop for the OS to mount the Flash Memory (SD) card for logging, and give the OS a chance to get going.<br> Also get the Time server from DNS, and set system time.
+  **Stage 0** <br>Wait in a hard loop for the OS to mount the Flash Memory (SD) card for logging, and give the OS a chance to get going.<br> Also get the Time server from DNS, and set system time.
   
-  **Stage 1.**  Determine how long we were without power, and do appropriate initialization. Wait 5 seconds for the system to settle down before entering the Main Loop
+  **Stage 1**  <br>Determine how long we were without power, and do appropriate initialization. Wait 5 seconds for the system to settle down before entering the Main Loop
     
-  **Stage 2.** The Main Loop.  Set up contact debouncers, and start processing events!
+  **Stage 2** <br>The Main Loop.  Set up contact debouncers, and start processing events!
   
