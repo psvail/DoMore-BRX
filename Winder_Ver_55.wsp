@@ -1,0 +1,93 @@
+[VERSION]
+APIVERSION=(100)
+VERSION=(2,10,4,1)
+[FRAME]
+PLACEMENT=(44,0,1,-1,-1,-1,-1,240,2,1854,1024)
+FRAME DATA=(1,1,0,0)
+[FRAME DATA]
+1=(44,0,1,-1,-1,-8,-31,104,104,1013,516)
+2=(44,0,1,-1,-1,-8,-31,0,0,709,412)
+3=(44,0,1,-1,-1,-8,-31,130,130,772,542)
+4=(44,0,1,-1,-1,-8,-31,130,130,694,668)
+5=(44,0,1,-1,-1,-8,-31,104,104,668,642)
+6=(44,0,1,-1,-1,-8,-31,156,156,1042,568)
+7=(44,0,1,-1,-1,-8,-31,182,182,891,594)
+8=(44,2,3,-1,-1,-8,-31,78,78,1235,516)
+9=(44,0,1,-1,-1,-1,-1,0,23,376,155)
+10=(44,0,1,-1,-1,-1,-1,0,0,210,654)
+11=(44,0,1,-1,-1,-1,-1,0,23,319,824)
+12=(44,0,1,-1,-1,-1,-1,0,23,376,665)
+[Ladder Views]
+F1V1=(95,13,0,5,12,2,16,1,6,1,0)
+F2V1=(95,1,0,7,16,5,2,2,1,1,0)
+F3V1=(95,1,0,6,14,4,1,1,9,1,0)
+F4V1=(95,34,0,7,16,5,34,1,1,1,0)
+F5V1=(95,5,-80,7,16,5,7,1,2,1,0)
+F6V1=(95,10,0,5,12,2,10,1,4,1,0)
+F7V1=(95,1,0,7,16,5,5,2,30000,1,0)
+F8V1=(95,56,-56,4,7,1,57,4,10,1,1)
+[Ladder Frame 1]
+Ladder View 1z=(0,0,872,369)
+ModuleSegment=9
+[FRAME TYPES]
+1=3
+2=3
+3=3
+4=3
+5=3
+6=3
+7=3
+8=3
+9=14
+10=6
+11=6
+12=6
+[Ladder Frame 2]
+Ladder View 1z=(0,0,672,369)
+ModuleSegment=17
+[Ladder Frame 3]
+Ladder View 1z=(0,0,605,369)
+ModuleSegment=10
+[Ladder Frame 4]
+Ladder View 1z=(0,0,527,495)
+ModuleSegment=11
+[Ladder Frame 5]
+Ladder View 1z=(0,0,527,495)
+ModuleSegment=13
+[Ladder Frame 6]
+Ladder View 1z=(0,0,849,369)
+ModuleSegment=25
+[Ladder Frame 7]
+Ladder View 1z=(0,0,672,369)
+ModuleSegment=33
+[Ladder Frame 8]
+Ladder View 1z=(0,0,870,794)
+ModuleSegment=6
+[TAB INFO]
+Tab0=3,$Main
+Tab1=3,Initialize
+Tab2=3,CHK_New_Period
+Tab3=3,Photo_Mode
+Tab4=3,Logger
+Tab5=3,Process_MTTQ
+Tab6=3,Initialize_HTML
+Tab7=3,Calibrate
+[DOCKPANE TO FRAME XREF]
+Project Browser`6852=9
+InputOutput.ddt`6857=10
+ConfigAndDebug.ddt`6858=11
+LatestData.ddt`6859=12
+[Watch Views]
+F10V1=(0,1,1,0,0,0,0,21,1,1,0,0,129,28,0,0,28,0,0,0)
+F11V1=(0,1,1,0,0,0,0,15,1,1,0,0,123,93,54,1,93,0,0,0)
+F12V1=(0,1,1,0,0,0,0,21,1,1,0,0,120,153,52,1,102,0,0,0)
+[Watch View 10]
+Filename=C:\Users\Public\Documents\Do-more\Designer2_10\Projects\InputOutput.ddt
+[Watch View 11]
+Filename=C:\Users\Public\Documents\Do-more\Designer2_10\Projects\ConfigAndDebug.ddt
+[Watch View 12]
+Filename=C:\Users\Public\Documents\Do-more\Designer2_10\Projects\LatestData.ddt
+[DISPLAY MODE]
+DoMDIRestore=0
+[SYSTEM NAME]
+System Name=ZEDD

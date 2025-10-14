@@ -1,0 +1,5476 @@
+// Options: Export entire program; Code Block delimiter instructions;
+// Formatted Rung Comments; Element Documentation Database w/Flags;
+// System Configuration; Memory Configuration/Devices with Built-In Types and User Add-Ons;
+// use Element names (no NickNames); rung/address annotations;
+// <TAB> parameter delimiter; 
+// Write/overwrite file C:\Users\Steve\Winder_Ver_55_EXPORT_DMD.txt
+
+PLC BX-DM1E-18ED23
+
+// Do not modify SYS_CONFIG block!
+
+#BEGIN SYS_CONFIG
+c8ee9785531ff1fa7fec4ed377fc6aa03ba8441e2625fb2c4064d4e001e5863414de4f5477d9dd97
+514d37bff629ef52b1c03a18441e1fb6dc1dd4647733d6b50767413facb44d61233d9f4cf5812847
+7dd410bca51bf9c0b302f1eaf59bbdd4fe05311c219b317c0f97ff3106416ac511b4bd1e25d70c10
+24905f97364ba129b891cd8be62a2582af5e9ad448b852ada5a16a5db4c1c3103be4145c565fec42
+df58ec9c28e6d5f89d50e5d9d4ed8c3ea597893048051479d0d44a23a5d04ba012b0efb08ff106cc
+d1215b004b20bfd0ab03830bbadece978a3cbcc268c727cb81b18a880b10508c6dac12df2563ec7c
+2e8b035f55a6eecdfb7b94bdc6e357d4c414efcfe60d241fe24c10189877f9d4ad0c78b8b873d91c
+66ffd120ee204a497fa12835ed8191a8b357103ab3b0ba7ddeefb2ef87bb6ac5f4934888c3443630
+ae4028b92ac2c57bc7ab733f40d7f9489bf096e03bc3bbd72f75d60c58dfda18bca8734133e9e3c7
+41a9c406249cc04f8fbe7100b9a59fdb10c6240851da9258dce7f43771a01afe28ce342441b46198
+a50950aa0550d07f4234a532c6ff74bcb24e674268993774a7f46ecdacf0ad278f886d3444e96de1
+4c53042abd46e5162e3bfc5d7bdc71f96f3988a09632a8075e6f904e0617360fd71f11138f03776d
+4b9a2f61f60dfe5f4f657c691f292b6807c846b62fd265a73456cb67a53c0e4ebdc8a48b12ff2d8e
+8e41d673c245db2f42977f3e344ca9adad7d5c5e19d747f8a24771ec40f7c2a61b9468513a5886b6
+a2a6ba2e58031d8aadada51b09caee1ce17921bf60f9dbc773e380ca6b31a1b99cf14d9734045da7
+942fd95991f72b88b8e1350a9847ef8290959d81899add0029e011f6926609eebc65b16830666bc8
+cbc7c706a670dffaaec53db9f7ca550fb3e7f3d7e262bcd05f4c3084827465c69123e157464d16aa
+c1d39d17c3c2a14b6e51b4c8e456aec1e17b30281d71bb8da23274e4d7090005ee7f2d5d8bb6c667
+b1de591c727661517e989e1b1275284cf991571bc692a94fbd3c59e12113f6c2740e63291580c5d6
+a84dbeb64333d821e77ec6008aa5a3a3b0e77ef528466bf75cda24a11471adf38278587df8de8547
+7daff97cf6acb00aecbccbe02ded9252978d26b82c6a38d6e9949f63b593069803efbc37795ba088
+439790287cbf6c070ac53550ad136227d6410a279f8a04941d91572d8556a59af3c50b1ea5a07965
+4e8342e1cefe583fd26ec041637a158d68e1b0372f8026f481367223c78b63b9dad272fcb9601ac7
+94a74bfc145b3ac2a8f26a4f47cb309a8eadb0af0aa587e6931143a6b870df580ce3e1c9ce4de094
+7b576f224a04e625951cb04db009a952f9fa2232a405c63e4541c12570596c1550420b683316669f
+2661b197b273f09a3f7c553a1c7237f4584d8a42dbb209adf919b7e0805b6a913b17235f92bbba5f
+66c80388dbafb0b83bf3caf07b8eaad54dcf1fc5bb88c81b33d64f2b28caae261fe8c758c7797cbf
+2abc393f41e99f5d43da99c0b7760142ef8fb5db78b1c03780025685595cade22779ba720c4573f2
+be00dbf74a6809792a6c00d2040beb06752a18cdaf9424778ef9c6c64f5f05330012d23888976c6e
+f7538321bcc683a980d9b3d0597612468632c6c35c955bfd468bc49121532e2056047b8a5898024c
+01093f12ece779d4fd5343a5589ecbbc54fe437393308dcdb1955bd002528b7f26709597b44598f2
+904557e1eee03c5822fdc2698dfcb83b0da545982331ba88914d39c776ecd3f726677c1fdffa6a29
+64308b9928fa07a1be8ac404391dcc8d3f031212248c6c51e7895d696c5174d7948eeb6e76b472cd
+ca39114fcf927acb07522476e9134af94ecda4ab089de4e2fff570b8b795365f28d144948281445d
+de7223da37761bc7b51430de1b65d9dcc75c3aac5e45b45be792e227a9fb5cba585186ca58198ccc
+2305ba45b764920be27f335eeaf279422e1d0a0d56e897da2664761bd3eff20d4dd1eb17338e6ba1
+4b4d30a73eb02a544292d8277b29dd3ebe74e6f6e54388727bf5d494ed61e055ba14f2fe6efe1828
+e17ccc3d1e5e1bfe7291bfdbe019bd82c73dd69f4f03170a69f7186a906fe855379b6ff08d5a8a1f
+bc3ac6096dad7b200f2a159488c0ca12bb0c87f57631a71ee22dc558d261d3f0d0d64de7b6a1fc1c
+5f9011ddcb8ac9c0afc96c20237f40dee7c8d25923c6cee3fca09a7b2d0cf441915af15976652477
+1e7177f8b4376b57c9785ebf934a0f2a8a2536686d6359d7eecb2280451de8426891f697b15e5e3b
+6688d8dcdec2b24f2ac1d2e5ef461b85382a7d337e79d54e9470d841dfb3e0bf5fb9308e5f8eaffa
+8d6543c77e6158318a2c287598c3c87e78e2e9e37397838ee622c0fb0ee57b96ebe98a58204bc319
+c185d4f47d3495087f6c0152af4991fa7bac8baa2c7e72e3cf2bc42d44daf27e333679e1c5b94556
+381d343cdca9783b5f9837d26e431e36295e53baa1f42328c785c5753c0583c851d8ae393284ebe1
+d5c5975ead1b7b9e1c46ad90533ec4edd8f2c9ed3e1af3b62b8906f69479aed915e2c0e34e8e1424
+419d9a76c61c779180900217c97abd9a126d5cdc7a4aaafdac750e97b24980a10bee9caa2fe2ea36
+864bb5e0c26add07c1f52c9249b1554469473aeb55d09c9f03ab020165a24a78f3975689f18a8de3
+5038866bbd022227f37d7a15ab2bb59adaaac2bb78ef576fd266dd4603c0299a413add3dd9e1d540
+2ff14fee04561d243b00152749128828b3b34e65ffa101f0934920f670d449a3f9fe7ecb43210e3d
+47decd8cd6aecfb86bf6319bbf90bc94bb85c2f681fc56a67f1c2b5aa188cc12d022960c68af0f1f
+7dc474627c3fedb10cc3ce742f978f8694329ec8671fcd9d122e3b429cc184db6d56c2caac9528d5
+919e4f4716bbb17dd79545c9fd827832a5c5f1402df830c8b829f26c3de8d1c277cafecfb64082c6
+70e92f119ca3a08d5f05230d46c326b2737a02c18c6f890654eae4369a4c246ca26b10b69fb964a6
+fdd481de08ef3ddb0451ce4be67187b834a7e89c910b2401158df18b1d165139dd7458c859ea086f
+2fcf8cfb86147c1d2bd4048d38a39f87d2b6fe70ba7ccd3e192f671f814491ce7953724919632088
+3bee361447bd44fdacc5bdfe61aa807be154588041e7c0dc7ba21c75bb95f9c5d37031f01063bd43
+9c696683cf8d3a053b18d2af5103d06f7a24eb58cd00734595da49019c1a0eb04dd0ded2ee259949
+91699974a094c1b58d1c3cbf2cd557830555ed7ffc43a423b47473fdae9d2d62fd347c22f86c1373
+9fb8745d5ce0dda9c0903eb12feffdf1c8c2a57a2c95e8852a3298f36ae3aefc51c2095ac054319e
+6cc0885c90975dccbe8efb1884f539ba95b62d47e41dd9d2579f906623863c1fa2b107fef16ce106
+c37b8dc755ccde8609ba39c64405799327f265cdb86a8c14e4b065d9e5bb54e9efe4e71c2cb28f68
+71082b1ed0bd99fd6db71748f58b871775157ff80bde244ddef129822a4ddd6d95901eeee3d9ca1e
+a7b805e102069f1cf94b0a660367d12a4f32f5078263bb3e34b188874cc744bebb5321e67979420c
+8e6bd594f81d040a9bb1ee3687ee70683ccc783663ffe2db395dbc0fbf8660a09a7f1ba380ccb7ae
+630d45a4f367e2d9ac8bb4634335a68951ea4273b0ffbee6b8e2053cbba2fb6ab4362733b921a064
+ad56fcd4417e16ffd2eb493e7107c72b32cbcd90529943549c361bde9928b5e651019e868e596301
+92bda50599985b1455316f2bbf7fa35a626b45a2bbc2f1c444290d6961fba0ff423cf0635181ce62
+ad5e1b99001d24c6bcdda1235f58ac7fee4cb0571082bf2c1f5a61722b7251ac0a4da35f62ad7cb2
+2f3fd5e3ad261e9004a095d6c4fd346df76ea5ac4550034b27c2cb4597e1408e0978510a526681ad
+f03fee206bdbe8de901badc3f538e79bcef668fcb254f1e8353706dcae56947e03b82495b66cd8b5
+1afaaddc16db1a8349d0e5287de77e151d23f015b0cc3dd1374af1ed753eb4006dc2d462b17ad7b8
+399117178737cfa5fb6fcbfebddfe3e74e5c44f79edb5e7fa62513886365e878e3932d3d21b19686
+e5cbee79019997af0b3737180a03eae819e62ed7fda0b4d52fa1820e4f18bfbd80031d73943a550a
+f357c5e6b2e3e8c645074601f21eb1cc8c141466c9097b0bd8cc70962d02f1eaaa4fb9f53030c845
+8795e99c3641ba5d719258b94b9af697361c93c7f7fb9230584c149e86c8a9dff871ad061d2df9e8
+fde2cc1dfa2527bf14e02cebebd47ae0ab677027f4dd3de1eeb233f32ebf461a0a7ade9298a61322
+f042be48ef6298ce47b4522ab5afa770ca80ebe459d61600fa467826cd30f05265420f746fc2c41a
+5446edf42a730b3f941888cd78ae90e46d3827a29a3d344aa0c8acc868b2ca8dc52631a4fb803be0
+40622d88f3b031a4b3d7a3d0f929725d755263f134421358bf0bd78a90e64983e98c2a4c1a2f9fd7
+ca501b736a7207690022edf2d840d187610cf71b5324b0e5b8a1260329fe4eb9f3e8ebf7728910f0
+5d3edddc3bf98dc93ea2cdfcafc6016b9098d1a2e96823c61626e478372ab3b7677d79d94f29cd3d
+a8272d52d9fd43bb0abb77cedecf1a75899d21d5a8f008152f753678c96125957daebecfa6a1766f
+c4ae3b41b9a47ee580ad7f5e14d649d3397559a49ddb9b2cf3c10536d3d22fcf0f5c87c52fe843cb
+b3e4ddf4c30d154e33307ea0105fc92144f4595f099232ede53372504a116c6f5766e015ca6ab743
+0c7d4161b5ca248bb5ee32540ceeb8d2ca598104f5469980ae09fb1e4c68a86c458236184bfc42f9
+d0dfa8cebaa48f7aa59848657febfd53a46d6088efd93acd161c3da1ee88a572c4aca5d4c7b86cd1
+30d4b3856662ce6d8fd744af850f768902e582d761358c77bf425f5d3da470528c44bb9e177b0578
+cceb2a02ed9c7ee2e53c04662ae846e68d5d271d80eb349e22a20e95b358eaafc77dd89f99232308
+3a5bb3729dc47f04aa180411ae5e7eef50472d07cb5c8408ac29de04f183ca06dae834cdd299165f
+25bb826585e00b39075995dba79dcf2729e2dc1c2bd384ce02e2f2a70c70c1a6334c4d00a52d9e64
+6c11354d59145c0694be28349d57f63f2ff29964f04783ef50e5cfb268ee46ff0158ceed8208dc44
+64d3a030ed7648d737641ea403a0783cfe783f406ef8022fe50cae3f5bca7f02c351bcaccd8e601c
+056ea70512b9a2c8a03101ebfd2f914c5c53fc4cf442ffc64d62d3e05a681c588ec0484db7d21ce0
+d4233a4dc1df02d3ab01796f5decebb848599c9510fb9ddc33629f1da25a6bf5db902f1bfa00f41f
+b3c44092a88deac996c618a6e57ee58ccfeb715ed42ab959e7997fdc5bf25522600784706dddabda
+022ec4e0452c83f4c1af37a2e09a322679ac3696e8191a039d95010bd80d3893714f41443282eb0a
+922236a15166fdb93f1547eca0f627cc7d1cae09c639c6c4f23bd0b7f48bafa8dd26b74af781ab3e
+86b420be6eb16b1879e71df205482dde7c3a56c4bb9acc7e57b02f87f2b6f0f2f64bff81a1943366
+b4b094f28db4d31158aba46f9179a957865310ffd1b63bd11d6d7f1a873142800a3320a1060a8117
+5831d5f93ec630c19c58517fc484755332fae2c9afa914808c00c0831d14f8591db6cd0bba75a227
+4805e736e5d178afa9551f2a99edbdbcf88bdb741382c329e8752d44f88756bd067b36be6e84e5ca
+d7f60137f4049c1fba38b09979efa7c75ee94ecff95261e0437a6271691bd5819f7bab5f8bcfdd6c
+3227addf32c6c97f262abab2d375ac7514abb0fab9aece3ae6272dbaaff91020ceed6f813d2f3cec
+5ea56395bedc15ba7c9b48171f7c78f2d8a797aa634343e3acf753bd73b644f96bf1e83a7b708e7d
+d9df2da1b503677e51b78dbe08650a4cbc078eef666ea2250093b9bb1527151c602a018a7c6b1380
+e1571ea0971e60413b8a8c9fae4427f3eeb318c57e36a93407d42ed63f35ff1c0bac1267b8c6fd45
+d0baef9d99cc747ca5270bbdbe980a6cb8bb47c98427ad0f822f5f85aadda45f6088d4bfa928ad17
+48b315602fec37c62c1568ed65d553dd0596b1598f1b9fe09941c7287be1e6823fb932f5c2410054
+e0d6ea3db2582c96082011514019c83f02e5c7a0d34f59f3b3c9ebe39d1e02ab68211a0ffe2545aa
+34c306b7c4433b231e6828c2cf53f30915935de45aba3934a4fd584277c2716bdcbde3c8ea89b69c
+25c1d4022c604b216f4a6431c78d6c84546622831650cfd48995d2b7734f3c77753321af94360c08
+8499db7e9c18f08297e9bf51e71d0a8fc1dc3fa69e17dab78c3d2edadffbe036bd8b4668bc0775db
+442873ad75165587ba2ddc69c17f939249a24bacd25fed9608fd0bfe7dec05a4148f8ee193925b6c
+63aaa333c1448154cb96a8f75399f4ce7c445561ac755997aae19fc80eb54e18bd7d4decfad8db53
+0e5b73ac808a84afea123f63f6ab9a09f0ea6dcae20f0debdad733afca1f7a69896b92842adaca41
+55b7b52f126b9e33ad66f17cceb30db4df2a8fd06a9f34fda40af516f52247ef5099ea91bf2b0106
+988cda69e62943ca39ec45682028f682d2ed9ec346fb5c8f7bb7cd65ce171c49d596a0eda74bb0ba
+4387e4cc132f3f5a13dc632585e5f3091fea9c2f23540123ce4783844f7c15423931dbbd009705f1
+f17a5f0b86993d149a9d97c9bbe9b613ff551e332264363281d35750d6ce80699efc5eefe309a258
+0ebd6fc2461e33be60a3a4aa7826d2abcc535350a9af895a2b3e0be52da26279626f3c24b0aa273e
+956e628b8e193fdd7497fef1b63ee4dc00129e8bca60661f1f9a87bf314d82ef355c69699b615d63
+17bccca53b949a67145f5d4804e81f15ec6e2b62e8ed8287a786b8cab4335da043326a94c1e5ed2c
+738e704ce70185d94ad4acb4d8c3fea8ce736d022c2d97d2283360221b25fa4663f4abde17aef79a
+2b43f7289dfdd00854ea206347c3080921d4731be7e1a9ead69315fae6af31db9c1e833c53bcbd93
+22b8e4c7d5b341db7c3f3d6a82343057ed6ec455e69e9e633eccfa4b3207658e0a6a6522b06231c0
+bca0b4394874722d5da73fbd676f2976d14bf69d05402cf9a918864d168c94f5f39d4e142f82e5b4
+28861a9e7c7d58d7f87f673a745dafbe104407ec432f3a1802bd77f293e30a429b67231fd2a1755a
+2af824f6cef25ef48ffb32f6e516cf2d70c8a9ea9916d15df9bdc3692645d4d3660a2a487076150d
+ecedebc7cbd493997ddb2ae7efb158faa54f4ac67daf898c4ed0bc0e473646f19aaed889d5e7d5bd
+5b4990a9413c21c3f4d6d6c48585ead45094ec14d78b3a78d64cb3378534a374e23b1c8eb3f36b15
+49b4e7a7bf871e41c2eb5ced06a38579b05403a805cdcef1fd3ed91ad6f81730d9983a48aa095703
+a9c45196cfb811a363057f256b491c044ce53a0c0b13600b24ffce1ff4e8140932e426a417d635a8
+257a7690658b139174a76b9fd51e207dbbb19e1cbdeb58d225df24d6e5b85c725c15fb022abd33c6
+406595c33ecaef15de0f2306edceec85fa425192dc2db9f5e450f9b926f88604202387b73fb9ea46
+c0f3b155916a820bd60de919119ffd79f6c1ec82e6a8434916095e1fd64f4f232935f29773b74ca4
+2df0ab4ebeb6385ade51c62180ebdc861c82d145d9a6100d5724133402a25bd27fef04aa6da2c49a
+ffd5b07de36bc2b88d46d179a6ba153ad65d6c557cb671ec2f7902f9c53206ef6ddf5ed525bb8ed4
+e4494210e0be9572665266f9471b99b9fb01db7e0be0daef21f437120a269552a2eb95c355329513
+3ddeea7a3490d10713ea6b0c0840c2a1d1ebab1c1c7600fe3d939ea66143cf5094a6a498c1a7ca34
+bff37aba1de41b22372a9cae29b0b039edd06b8b16ddd09bd3afa0c3dcc397f3d8bf75161d69cebb
+4a9f341a8717d03e3b20e602cf2627509ead8713550896523fa4bdffe5225d760e8ce659a5f62a7f
+9fc9d1f82cce713d622e95b486666b31bc57d401238824a927a46006e2bedea8e44c70c54a25edeb
+6e23212e15dec6e775363f9dda00e255b0ec0be122baec4b3651c8d3a202e23fcdfe0826ca44ab82
+3f5cccd85fdc11bd5e2607227c7ab5be25041446c9919ce296df6f9c0bc9c9e5f423cd51faa4f61b
+7add6b2eec9d3011799336b19270fe288b274a4b76669089c006bc07fabdcc9a847f10a0cb71187b
+880d64461cb48628fa69112268fc65e18384d2d9bb0d882e2243ed9590528964f3b160a93a48ab6c
+6815fb8765ba334089ca6318058e71ead4393caf8228a2dce34535f32db4702bddce1b7904d74ecd
+c9fc26d1a840ca74820554a678d51d31114b396e68fce9b7a51398a0d1ac8e1edfd1ff2595e32c59
+e3604a885718641a375b986217376521f841c03edad3e0aeb9ba1dfe99fe4a96c85c02ca7ccd1e73
+e760e219ad7ca77c57e71198ddbc425db79244f85f7f6bb5a4b395c084eed25024dc2aff28796c96
+c891a3f109389729758a0f68a9fcfbed21ec709ff04662c36458d225aec5ce6dc647beefafaea58c
+a185ba6868127b0b82ef86edec7719155639569774cf6b305a0af8ba75f672d78d76708ceb380eb7
+b1256f84ee3efbc3317347c5546f3127dd4de4054215608159d6fc133a121ab6d18d0817127f1483
+466c6311ac7ea0e4597ce5657266a806735b6b6efc99c73a73d32f81e2b5a0d0046ea5a78275df44
+571cf37b6b39f5332e942bf07d34d95fe46f57bb17216cb1d6c3af27cefb934f4f0071674e5386c8
+cea9fe3f8ac7b81418b18841b6c403ef8bb37209c1e1305d73f19adf99b1343076fa01f01a7a7fe1
+f2341c78323a525a8bdc8486f01063f540673b946d107fbc20c53df7db72257bc0229f0b9ccd1481
+72186a66bfa3833e0fb6bb2ef4c0f6c8c025188ce3196b97d9e563e0b5ae35321ddf4b1f080cba84
+fc144c18131922d892d1376817a34142f394cb78bebf75828274efd359cc3a35429ee39bfa2a5905
+3b21d73efbe7ec70986a3a8dc8a1bff29c32d20dd6a3fb8b3dd8a6e846941c0d51a4ed7248376177
+4df095f684f335746e57520682719165bfa1de0621a89113e97c2bd2c15047ca81e0b72527cebc22
+58713d4ae3cafae7ebac7959738b5b7e31ef662dea57a55290f37a9951b28a5aeff998597de27fc9
+21c3a977376083d1f2a7916b82260de85627cff2e9ab7212a8e60172259b69ff3e0c72e1ef152a9c
+e1e27aceabe3a470af2b5fc73e15d3f28f31fb9da381e92d7127d129555c397b8b23decb54be9644
+5ace0693d674742cf61a59ad7f86629ea49f5563d712294c5aa1d9f8015d660b76197c7151f04f1a
+a6f3d813bab34b7d86f142c729e1d6d8102025affc6eb31961d1c64567d4d7d149470fc1b30016ea
+558457c43de14debe0ff7c2ffb51f6b6debc670e789a3858eb648a305c14f7010df55085e7f79db0
+fb8e1e5cfd9d783145335adc925c1be64cbfbcb8f8302d976c88a68b154cb8d3cd1f95cce63322b7
+8e1b45154c4107c937d4de81b6309ee5c2b41bfe8b4c52f6643f98920a68b51f68aa26cbaff14eb2
+31d00b3d781830101c8c0e48825a995f5d63670638266fe9ea8ca9d4eb1b45d399d3b569d8978429
+7690f613fc97d0323deed608d7b609b09b2d30f7a9ef0ab205d27dd530b5b5e216a7be73647a2c3d
+9f8c60959f0e64d5086e071a33d690e44107b66bce83a6885feac1451fc819e5eb0a36c063e856b7
+1314411d590c397bc6196abede488965c752dad75938778c51e9789b08a7d516f61d1562d40051e2
+04a07102acb65abc4edf7aab03b3af3b9ed3020261176e1245487d620e48d969d27c0986bd722257
+ab0b1bf2e02c4998fce8f4c833d235f0fbfb62d904bed84fb84850ece64bac45b40264fad68bfdf1
+b6a313760421e359f697090b11251d37550b6ba5b9710a08278c21edef0ac9e124ac08934bb31620
+66713fabbfb17779d788f99183622799301fb8067d85bc4a354eb0d4b7419977443315bfadf927fa
+0a04354daac11103fa85cc0b754008c16a1766f7e9ddf87039ec8bf16046b88ac3918f2de05bf5aa
+e7803b1b818abc7a86220a4c07487b491acb3c85fbb8a0db3c44eeb37a784db8c748e2eed56198b0
+29396af6c71eb1e90d7750cbb56da268e7f39b7fa7314a2e6b7054cb3516e7a86146d4d4fea6aaf2
+81c5bddbd988b2dcd0e3b2f79f2a76de4775d50075a414e604f7a93901630d1ade58ad1b2b772880
+3c09e467a500e695e6726d8dc92760628f8b794a400377330d892757da9d9d1f9466f856501c8e2e
+3ffb5742317ce5ef166b10779247a0bda42fc08c6cad3030ace15cfe1da0947cd8fc54731a07e986
+c025d27aa5a72a322872401931063c2293017af5868b39277b0d52e381b0383b960a83665235b34f
+2d1a6c74155831e26161db59dc2b1b99d4ea87fad2160c520eccee76919dfbcf399bba284cc33ad8
+ed3a43365eb3ae25b315c0253949497f156c3d208356f12cc1275c359a5cf68384e945eacf2b7fca
+01c74b3264c5cd81c459a762d925298962728bccf0fa575133f473f83898c5ab8d7e5846ff5f8f8d
+689ae5caaf2d64a6839c1a06fe733759100e52906746f142a3019c13dd680d1c0e1d2ec24b4f9719
+5d390e0bb7acc577b351e5899815f5fb2a548395446f8ad1eb3eaaf8b36ce2f2e7e8f5b23ff5c65d
+818f5058f51da58062407aefc8dff76c1f3d32b6cceabc59bf0faea5fdccce7c511434c646a63c3e
+2157b15a2c03c3c057e291ac49f8c2376ad37a3a82b28f43a44802a9dd97fb351234d14fa3f01593
+26876cef6250482f88abbf01ce372cae9900b5f0de5bd12fae33b320d18ba3fd6336eadb30384fa3
+b433cc2b6f81629a6f1f84dcaace1441761803969cc60ff5e944983b04de2f1962794f802ae82cea
+4fecbaba9b67a4212fc8e054cd18dcf4a69f319024dc53230451c5cee33b3e9a71b62ee28f22c54e
+803306318d16e351818bce437af3f800811d070bdd9d44390c25876fded4d8549f69ab876a778d6c
+38e38142e0e814300b349155b07e4a081ad9f74a798ce20ef92f601aec5cf46c0f5232409e48f616
+7ad225e9bb56f01f92a5ee05b9cba3d15dab63a91a6a1377a704562604eb3dcb5ef80dd93dc7b6c4
+600764a3597b0fbcd4bfd44d8d8315a813923e25ce64f9eeccfde98785c9b3c0b226c8bf0b19c8c9
+1dc09ca9880d07e9fa4680334e994e07f262c96f8f200d2f4442af7371ae1de3ecc0da06917e3b37
+743db47eb9bbf03fb9b9377448f238fed2b19821060eca5671ae990d5b633f3b51cef3f89d7a4463
+12ab69b941ed9b3be713ed1e0d04e82a413426c28b0e5ddad3da407c1c1df9ff3a82e9738060c9af
+297328e612df2c91d3b0aee504b69e6fc0e669fa9d6e621cd1e1912319261badb10a784183153d93
+ee280189586c9b0e8d50d8fb8b7484bb66496f5d2a6ce4099bc845416a6e0890714cde6b18f5af84
+ea354f8b5ef39e2c1d29b7e15b7a28297c9447d5205a346d60e2c8c38d097ae1c23fea4512965833
+e102571d3e6cc11320070f3eab78fe83df6f027c8982c80b2bf2f6f9d7928fe343135212c47afe24
+94503c58458068cf2ecad6b323448f29f78a4971ebfd9ac10fceafbaf5cd3f2106a572d3d7c116c5
+f0f6d83cfb66870156e3fe8ce29882d89f2dd56dbc6cc1c2dbd23a1da68e47968ef191a769ae630b
+db59e0599b8fc6090d8462df37a6ce2218e3255aa631462dbd5a264b432cab2e332e0350cbe8a1d2
+5c4d47b83f8e24d195ffaf5ac69e51edf7e918bbc5c34c71fe1718bc96336c9cd85e265541c16978
+d0853107e8293cc4c7488d35f77a8c65e7493c0c1a7bfcb473f5b8e3269b0aa0bd6553471ce9fbec
+7d5db4ddb1a29fa8a1a02d01bcaf7f0028c5920ec3d2455437f499032fde930d415671ae8f7b0fd3
+764085994153b0ae9dd46a5dece6fa0c4182493c15b92fb1879b28c37ccdb2b131069854fbdefe4a
+db42d8f59a5585b6d14982145d47fe9b1594d733fe75f3afb7c9aeeb3c634cf6913c78cbc6da70be
+010ce8438b730f100acc983082a3ee6643e3a847cbac10ca73c77735703b96584ab1fdeb486945a0
+fd5cf35dbd4bb7853c244d154c51d8548499ea060a4d58ccfcb4465ca800
+#END
+
+
+
+#BEGIN DEVICE
+	@LocalIOMaster, 12, 27
+	@RamFS, 1, 1
+	@SDCardFS, 25, 1
+	@UserLog, 7, 11
+	@IntEthernet, 4, 2
+	@DMLogger, 5, 10
+	@IntModTCPClient, 9, 14, 1000, 2, 60
+	@IntEIPClient, 22, 31, 1000, 2, 60
+	@IntEthDMPPClient, 23, 32, 50, 250, 2
+	@IntSerial, 10, 15
+	@emailer, 32769, 7, 4294967295, 465, 60000, psvail@verizon.net, 1, 110, psvail@verizon.net, is54land, 14, smtp.verizon.net
+	@POM, 24, 33
+	@Axis0, 30, 35
+	@Axis1, 31, 35
+	@Axis2, 32, 35
+	@Axis3, 33, 35
+	@STK_PWM, 26, 34
+	@WND_PWM, 27, 34
+	@ComcastEmail, 32770, 7, 4294967295, 587, 30000, winder@northparish.org, 0, 110, , , 6, smtp.comcast.net
+	@NoParishMailer, 32771, 7, 4294967295, 587, 50000, winder@northparish.org, 1, 110, winder@northparish.org, Wi190190!!, 6, smtp.office365.com
+	@HEATER_PWM, 28, 34
+	@MQTT_flespi, 32775, 36, 66, 30, mqtt.flespi.io, 3117744661, 1883, 4294967295, bx7hO8zhRvnpDsZ5LlkZrpI3TMIO6MPwcbrkYLfxKYMN1rv6ynWNIzozkd1zblU9, , , 
+#END
+
+#BEGIN MEM_CONFIG
+	X	BIT	decimal	2048	-1
+	Y	BIT	decimal	2048	-1
+	WX	SWORD	decimal	256	-1
+	WY	SWORD	decimal	256	-1
+	C	BIT	decimal	2048
+	V	UWORD	decimal	4096
+	N	SWORD	decimal	4096
+	D	SDWORD	decimal	4096
+	R	REAL	decimal	4096
+	T	TIMER	decimal	256
+	CT	COUNTER	decimal	256
+	SS	STRING	decimal	256
+	SL	STRING	decimal	128
+	UDT	DATETIME	decimal	128
+	PL	UWORD	decimal	256
+	DLX	BIT	octal	01000	-1
+	DLY	BIT	octal	01000	-1
+	DLC	BIT	octal	01000
+	DLV	UWORD	octal	04000
+	MI	BIT	decimal	1024
+	MC	BIT	decimal	1024
+	MIR	SWORD	decimal	2048
+	MHR	SWORD	decimal	2048
+	RX	REAL	decimal	256	-1
+	RY	REAL	decimal	256	-1
+	TimedStart	DATETIME	decimal	16
+	PowerOutages	STRING48	decimal	100
+	PeriodSummaries	STRING256	decimal	100
+	ClockDriftAccum	DATETIME	decimal	50
+	SXL	STRING1024	decimal	10
+	ClockDriftAccSec	SWORD	decimal	50
+	MSG	STRING		0
+	ERR	STRING		0
+	SysName	STRING		0
+	SysDesc	STRING		0
+	SerialNum	STRING		0
+	PartNum	STRING		0
+	Initialize	<Virtual>		0
+	STK_CL_RAMP_DN	RAMPSOAK		0
+	PID_0	PID		0
+	Calc_NEXT_TIMER	<Virtual>		0
+	Truncate_Time	<Virtual>		0
+	CHK_New_Period	PROGRAM		0	-1
+	Logger	PROGRAM		0	-1
+	Timer_Mode	PROGRAM		0	-1
+	Photo_Mode	PROGRAM		0	-1
+	STK_CL_RAMP_UP	RAMPSOAK		0
+	WND_CL_RAMP_UP	RAMPSOAK		0
+	WND_CL_RAMP_DN	RAMPSOAK		0
+	Timer_500ms	INTERRUPT		0
+	Calibrate	<Virtual>		0
+	Timer_10sec	INTERRUPT		0
+	Setup_Mode_Strs	<Virtual>		0
+	Setup_Time_Strs	<Virtual>		0
+	Process_Environs	PROGRAM		0	-1
+	Heater_RampSoak	RAMPSOAK		0
+	EnvironExtremes	<Virtual>		0
+	Timer_2sec	INTERRUPT		0
+	Process_Debug	PROGRAM		0	-1
+	Process_MTTQ	PROGRAM		0	-1
+	OBS_Time_Drift	PROGRAM		0	-1
+	Time_Drift	PROGRAM		0	-1
+	CHK_New_Period2	PROGRAM		0	-1
+	Real2FractionStr	<Virtual>		0
+	Adjuster	PROGRAM		0	-1
+	Initialize_HTML	PROGRAM		0	-1
+#END
+
+// Beginning of Code Block Timer_500ms
+$INT	Timer_500ms
+
+// Rung Timer_500ms#1
+// Offset 0
+STRN	C50
+OUT	C50
+
+// End of Code Block Timer_500ms
+$INTEND	Timer_500ms
+
+// Beginning of Code Block Timer_10sec
+$INT	Timer_10sec
+
+// Rung Timer_10sec#1
+// Offset 0
+STRN	C55
+OUT	C55
+
+// End of Code Block Timer_10sec
+$INTEND	Timer_10sec
+
+// Beginning of Code Block Timer_2sec
+$INT	Timer_2sec
+
+// Rung Timer_2sec#1
+// Offset 0
+STRN	C102
+OUT	C102
+
+// End of Code Block Timer_2sec
+$INTEND	Timer_2sec
+
+// Beginning of Code Block Initialize
+$LGCMOD	Initialize
+
+// Rung Initialize#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##    <B><U><FONT tsize=4>INITIALIZE  Subroutine</FONT></U></B><br>##<br>"
+"##  Initialize all static strings, and other variables.  "
+"Set up initial Time-based values<br>##<br>##"
+#END
+
+NOP
+
+// Rung Initialize#2
+// Offset 1
+#BEGIN COMMENT 
+"##"
+"##       UPON    INSTALLATION"
+"##   Reset all lifetime accumulators"
+"##"
+#END
+
+STR	C59
+OR	C1002
+COPY	0x1	"4 0x0 MAX_HUMIDITY R11 1 0x0 MIN_HUMIDITY R10 1 0x0 MAX_TEMPERATURE R7 1 0x0 MIN_TEMPERATURE R6 1 0x0 0 C1002 1"
+
+// Rung Initialize#3
+// Offset 20
+STR	C59
+COPY	0x1	"4 0x0 SDT0 UDT30 1"
+STRCLEAR	PowerOutages1	98
+STRCLEAR	PeriodSummaries1	98
+MOVE	0	C59
+
+// Rung Initialize#4
+// Offset 37
+#BEGIN COMMENT 
+"##"
+"##   SETUP CONFIGURATION PARAMETERS -- all runtime variables are tweaked here"
+"##"
+"##  Once running for real, change the number of seconds to realistic values."
+"##  We will want to tune the TIMER_ON frequency and duration for reasonable times."
+"##    (e.g. 43200 seconds = 12 hrs, 86400 = 24hrs, 172800 = 48 hrs, 259200 = 72hrs)"
+"##"
+"##    Calc_NEXT_TIMER will set it to 5 after the TIMER_ON_HOUR on the next date"
+"##"
+"##  We will also do something similar for NewPeriodFreq rollover"
+"##    (e.g. 604800 seconds = 3600 * 24 * 7 = one week)."
+"##"
+"##  Also setup pulse counter max and min for both drums, "
+"##"
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 HOURS_24 D10 1 0x0 1 C80 1 0x0 6 N0 1 0x0 1080 D1 1 0x0 DAYS_2 D24 1 0x0 13 V0 1 0x0 1 C51 1 0x0 1 C7 1 0x0 1 C15 1 0x0 20 R25 1 0x0 50 R26 1 0x0 32 R23 1 0x0 600 D50 1"
+COPY	0x1	"4 0x0 11 N10 1 0x0 8 N6 1 0x0 0 N8 1 0x0 10 N11 1 0x0 5 N7 1 0x0 0 N9 1 0x0 12 V50 1 0x0 60000 D5 1 0x0 43200000 D37 1 0x0 1 C79 1 0x0 1 C81 1 0x0 1500 D58 1 0x0 -10 R33 1 0x0 75 R35 1"
+
+// Rung Initialize#5
+// Offset 97
+#BEGIN FMT_COMMENT 
+"<B><FONT color=ff0000>##</FONT></B><br>"
+"<FONT color=ff0000 tsize=4><B>##  !!  DO NOT CHANGE THIS "
+"VALUE  !!</B></FONT><br>"
+"<FONT color=ff0000 tsize=4><B>##      You can burn out the "
+"clutches!  </B></FONT><br>"
+"<FONT color=ff0000 tsize=4><B>##      65%25 ~= 88vdc  --  "
+"Clutches want 90VDC</B></FONT><br><B><FONT "
+"color=ff0000>##</FONT></B>"
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 65.0 D13 1"
+
+// Rung Initialize#6
+// Offset 105
+#BEGIN COMMENT 
+"##"
+"##  This simulates the strike clutch lockout on the hour for 5 minutes"
+"##"
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 0 C44 1"
+
+// Rung Initialize#7
+// Offset 111
+NOP
+
+// Rung Initialize#8
+// Offset 112
+#BEGIN COMMENT 
+"##"
+"## Shouldnt need to tweak below here"
+"##"
+#END
+
+NOP
+
+// Rung Initialize#9
+// Offset 113
+STR	ST1
+STRPRINT	SS0	0x4	"""TIME Clutch"""
+STRPRINT	SS1	0x4	"""STRIKE Clutch"""
+STRPRINT	SS2	0x4	"""WinderLog_"""
+STRPRINT	SS3	0x4	"""ON"""
+STRPRINT	SS4	0x4	"""OFF"""
+STRPRINT	SS5	0x4	"""DRIVE Motor"""
+STRPRINT	SS6	0x4	"""TIMER Triggering"""
+STRPRINT	SS7	0x4	"""PHOTO Triggering"""
+
+// Rung Initialize#10
+// Offset 177
+STR	ST1
+STRPRINT	SS8	0x4	"""AUTO Mode"""
+STRPRINT	SS9	0x4	"""MANUAL Mode"""
+STRPRINT	SS10	0x4	"""TIMER TRIGGER"""
+STRPRINT	SS12	0x4	"""NEW PERIOD"""
+STRPRINT	SS16	0x4	"""TOTAL STRIKE COUNTS"""
+STRPRINT	SS17	0x4	"""TOTAL TIME COUNTS"""
+STRPRINT	SS18	0x4	"""PHOTO MODE VS TIMER"""
+STRPRINT	SS19	0x4	"""AUTO MODE VS MANUAL"""
+
+// Rung Initialize#11
+// Offset 251
+STR	ST1
+STRPRINT	SS20	0x4	"""STRIKE PHOTO"""
+STRPRINT	SS21	0x4	"""TIME PHOTO"""
+STRPRINT	SS22	0x4	"""LOCKOUT PHOTO"""
+STRPRINT	SS23	0x4	"""STRIKE LIMIT"""
+STRPRINT	SS24	0x4	"""TIME LIMIT"""
+STRPRINT	SS25	0x4	"""CALIBRATE BUTTON"""
+STRPRINT	SS26	0x4	"""START BUTTON"""
+STRPRINT	SS27	0x4	"""STOP BUTTON"""
+
+// Rung Initialize#12
+// Offset 318
+STR	ST1
+STRPRINT	SS28	0x4	"""INITIALIZE CALLED"""
+STRPRINT	SS29	0x5	"""POWER INTERRUPTION"""
+STRPRINT	SS31	0x5	"""STOP Active"""
+STRPRINT	SS30	0x5	"""Calibration"""
+STRPRINT	SS33	0x5	"""Mode SW 1"""
+STRPRINT	SS34	0x5	"""Mode SW 2"""
+STRPRINT	SS35	0x5	"""Period Summary"""
+STRPRINT	SS47	0x5	"""HEATER"""
+STRPRINT	SS48	0x5	"""HI TEMP ALARM"""
+STRPRINT	SS49	0x5	"""LO TEMP ALARM"""
+STRPRINT	SS50	0x5	"""LO LO TEMP ALARM"""
+STRPRINT	SS51	0x5	"""degF"""
+STRPRINT	SS52	0x5	"""Pct"""
+STRPRINT	SS79	0x5	"""% RH"""
+STRPRINT	SS67	0x4	"""DEBUG Event"""
+STRPRINT	SS107	0x4	"""SET LO TEMP ALARM"""
+STRPRINT	SS81	0x4	"""HEATER HOLD"""
+STRPRINT	SS82	0x4	"""SUMMERTIME (DST)"""
+STRPRINT	SS83	0x4	"""Cnt"""
+STRPRINT	SS80	0x4	"""HAMMER STRIKE"""
+STRPRINT	SS87	0x5	"""Accuracy"""
+STRPRINT	SS90	0x5	"""Adjustment"""
+STRPRINT	SS91	0x5	"""Pulses"""
+
+// Rung Initialize#13
+// Offset 504
+NOP
+
+// Rung Initialize#14
+// Offset 505
+#BEGIN COMMENT 
+"##"
+"## Set up Time-based triggers based on $Now, to prime the updates."
+"##  This makes it trigger right away on startup if in Timer mode, but so it goes"
+"##"
+#END
+
+STR	C50
+DTDIFF	SDT0	UDT1	D16
+
+// Rung Initialize#15
+// Offset 509
+#BEGIN COMMENT 
+"##"
+"## If timer mode,  and the next time is in the past,  "
+"## Then setup the next timer on and new logging period"
+"##"
+#END
+
+STRN	X7
+ANDGE	D16	0
+CALL	Calibrate	0x1	DST511	"3 1 C53 1 0 C54 1 1 C52 1"	"3"
+
+// Rung Initialize#16
+// Offset 524
+#BEGIN COMMENT 
+"##"
+"##  If Auto/Photo mode, we cant be sure that we were not winding on power loss"
+"##  If greater than half a minute, better recalibrate if auto CAL triggering is on."
+"##  This will calibrate everything!"
+"##"
+#END
+
+STR	X7
+AND	X6
+CALL	Calibrate	0x1	DST511	"3 1 C53 1 1 C54 1 1 C52 1"	"3"
+MOVE	0	D27
+AND	C7
+ANDGE	D27	3600
+STRN	ST15
+OR	ST1
+ANDSTR
+OUT	C17
+MOVE	0	D27
+
+// Rung Initialize#17
+// Offset 549
+#BEGIN COMMENT 
+"##"
+"##  If we power up in Manual mode, make sure we are stopped"
+"## "
+#END
+
+STRN	X6
+SET	C18
+
+// Rung Initialize#18
+// Offset 551
+#BEGIN COMMENT 
+"##"
+"##  The COPY is due to what i think is a bug in the hardware PWM or the rampsoak,"
+"##    In that if power is shut off while running, it remembers the dutycycle for a bit until"
+"##   The main loop catches up to turn it all off.  This still doesnt fix it.  "
+"##   See _CL_ACTIVE contacts in front of warning bell enable"
+#END
+
+STR	ST1
+CALL	Setup_Mode_Strs	0x1	DST511	"3"	"3"
+COPY	0x1	"4 0x0 0 R0 1 0x0 0 R1 1 0x0 0 $STK_PWM.EnableOutput 1 0x0 0 $WND_PWM.EnableOutput 1 0x0 0 C10 1 0x0 0 C11 1 0x0 0 C43 1 0x0 0 C42 1 0x0 0 $STK_PWM.DutyCycle 1 0x0 0 $WND_PWM.DutyCycle 1"
+
+// Rung Initialize#19
+// Offset 577
+RET
+
+// End of Code Block Initialize
+$LGCEND	Initialize
+
+// Beginning of Code Block Calc_NEXT_TIMER
+$LGCMOD	Calc_NEXT_TIMER
+
+// Rung Calc_NEXT_TIMER#1
+// Offset 0
+#BEGIN COMMENT 
+"##"
+"##    Calc_NEXT_TIMER  Subroutine"
+"##"
+"## Calculate the Next timer trigger, rounded down to 5 past the hour"
+"##   First, add the frequency, this will do the right thing with date rollover"
+"##   Then truncate to the hour, and add 5 minutes to avoid the hourly strike lockout"
+"##   Usually, we will force it to be at 5 past TIMER_ON_HOUR"
+"##"
+#END
+
+STR	C50
+DTOFFSET	UDT1	D24	UDT1
+CALL	Truncate_Time	0x1	DST511	"3 UDT1 UDT2 1 D24 D11 1 300 D12 1 0 C78 1"	"3 UDT3 UDT1 1"
+
+// Rung Calc_NEXT_TIMER#2
+// Offset 24
+#BEGIN COMMENT 
+"##"
+"##  Force the hour to be as specified"
+"##"
+#END
+
+STR	C51
+MOVE	V0	UDT1.Hour
+
+// Rung Calc_NEXT_TIMER#3
+// Offset 27
+RET
+
+// End of Code Block Calc_NEXT_TIMER
+$LGCEND	Calc_NEXT_TIMER
+
+// Beginning of Code Block Truncate_Time
+$LGCMOD	Truncate_Time
+
+// Rung Truncate_Time#1
+// Offset 0
+#BEGIN COMMENT 
+"##"
+"##  Truncate_Time  subroutine"
+"##"
+"##  Truncate a time value by the modulus, then add in a number of seconds"
+"## "
+"##"
+#END
+
+STR	ST1
+DT2EPOCH	UDT2	D0
+MATH	D0	"((D0 / D11) * D11) + D12"
+EPOCH2DT	D0	UDT3
+
+// Rung Truncate_Time#2
+// Offset 17
+#BEGIN COMMENT 
+"##"
+"##  If flag is set,   DO SOMETHING DIFFERENT"
+"##    DAY OF WEEK?"
+"##   SOMETHING ELSE???????"
+"##"
+#END
+
+STR	C78
+OUT	C78
+COPY	0x1	"4 0x0 SDT0 UDT28 1 0x0 V0 UDT28.Hour 1 0x0 5 UDT28.Minute 1 0x0 0 UDT28.Second 1 0x0 7 UDT28.DayOfWeek 1"
+
+// Rung Truncate_Time#3
+// Offset 35
+RET
+
+// End of Code Block Truncate_Time
+$LGCEND	Truncate_Time
+
+// Beginning of Code Block Calibrate
+$LGCMOD	Calibrate
+
+// Rung Calibrate#1
+// Offset 0
+#BEGIN COMMENT 
+"##"
+"##     Calibrate  Subroutine - called with args"
+"##"
+"##  Calibrate PHOTO            -- Calibrate the pulse tracking system"
+"##  Calibrate TIMER_ON       -- Determine Next Timer  On Trigger point"
+"##  Calibrate PERIOD           -- Calculate end of period times for log rollover"
+"##"
+"##"
+#END
+
+NOP
+
+// Rung Calibrate#2
+// Offset 1
+#BEGIN COMMENT 
+"##"
+"##  CALIBRATE PHOTO"
+"##"
+"## Always reset the counts when the limit hits"
+"##   This assumes that both drums have already been run to their limit switches."
+"##   This will set counts to the max of normal range, plus an amount which will allow"
+"##    the cable to back off to the normal range, to keep the cable wear in a safer range"
+"##  See Photo_Mode Program"
+"##"
+#END
+
+STR	C54
+AND	ST2
+MATH	CT0.Acc	"N6 + N10"
+MATH	CT1.Acc	"N7 + N11"
+
+// Rung Calibrate#3
+// Offset 19
+NOP
+
+// Rung Calibrate#4
+// Offset 20
+NOP
+
+// Rung Calibrate#5
+// Offset 21
+#BEGIN COMMENT 
+"##"
+"## CALIBRATE PERIOD"
+"##   Reset Time-based NEW_PERIOD dates and times for logs and email"
+"##"
+#END
+
+STR	C53
+CALL	Truncate_Time	0x1	DST511	"3 SDT0 UDT2 1 D10 D11 1 D10 D12 1 0 C78 1"	"3 UDT3 UDT4 1"
+DTOFFSET	UDT4	-30	UDT6
+
+// Rung Calibrate#6
+// Offset 45
+NOP
+
+// Rung Calibrate#7
+// Offset 46
+NOP
+
+// Rung Calibrate#8
+// Offset 47
+#BEGIN COMMENT 
+"##"
+"##  CALIBRATE NEXT TIMER ON"
+"##    Reset Time-based TIMER_ON dates and times"
+"##    Try to set it to the next TIMER_ON_HOUR, if possible"
+"##    43200 seconds = 12 hrs, 86400 = 24hrs, 172800 = 48 hrs, 259200 = 72hrs"
+"##"
+#END
+
+STR	C52
+MEMCOPY	SDT0	UDT1	0x20000	1
+COPY	0x1	"4 0x0 SDT0 UDT1 1 0x0 V0 UDT1.Hour 1 0x0 5 UDT1.Minute 1 0x0 0 UDT1.Second 1"
+
+// Rung Calibrate#9
+// Offset 66
+#BEGIN COMMENT 
+"##"
+"##  If calibrating, but too late for today, do it tomorrow"
+"##"
+#END
+
+STR	C52
+ANDLT	V0	SDT0.Hour
+DTOFFSET	UDT1	86400	UDT1
+
+// Rung Calibrate#10
+// Offset 75
+RET
+
+// End of Code Block Calibrate
+$LGCEND	Calibrate
+
+// Beginning of Code Block Setup_Mode_Strs
+$LGCMOD	Setup_Mode_Strs
+
+// Rung Setup_Mode_Strs#1
+// Offset 0
+#BEGIN COMMENT 
+"##"
+"##  Setup_Mode_Strs  Subroutine"
+"##"
+"##  Creates strings for current operating modes"
+"##"
+#END
+
+STR	X6
+MEMCOPY	SS8	SS14	0x20000	1
+
+// Rung Setup_Mode_Strs#2
+// Offset 5
+STRN	X6
+MEMCOPY	SS9	SS14	0x20000	1
+
+// Rung Setup_Mode_Strs#3
+// Offset 10
+STR	X7
+MEMCOPY	SS7	SS13	0x20000	1
+
+// Rung Setup_Mode_Strs#4
+// Offset 15
+STRN	X7
+MEMCOPY	SS6	SS13	0x20000	1
+
+// Rung Setup_Mode_Strs#5
+// Offset 20
+RET
+
+// End of Code Block Setup_Mode_Strs
+$LGCEND	Setup_Mode_Strs
+
+// Beginning of Code Block Setup_Time_Strs
+$LGCMOD	Setup_Time_Strs
+
+// Rung Setup_Time_Strs#1
+// Offset 0
+#BEGIN COMMENT 
+"##"
+"##  Setup_Time_Strs  Subroutine"
+"##"
+"##  Setup strings that are based on time values.  Most of these need to be "
+"##    converted to thousandths before converting to a string."
+"##"
+#END
+
+STR	ST1
+STRPRINT	SS37	0x4	"FmtTMR(D33,sec)"
+STRPRINT	SS38	0x4	"FmtTMR(D34,sec)"
+STRPRINT	SS39	0x4	"FmtTMR(D35,sec)"
+MATH	D47	"D10 * 1000"
+STRPRINT	SS74	0x4	"FmtTMR(D47,sec)"
+
+// Rung Setup_Time_Strs#2
+// Offset 33
+STR	ST1
+STRPRINT	SS43	0x5	"""HI:$09"" FmtReal(R3,5,1,dec) ""$09"" FmtDate(UDT11,asia) FmtTime(UDT11,24h)"
+STRPRINT	SS44	0x5	"""LO:$09"" FmtReal(R4,5,1,dec) ""$09"" FmtDate(UDT10,asia) FmtTime(UDT10,24h)"
+STRPRINT	SS45	0x5	"""HI:$09"" FmtReal(R6,5,1,dec) ""$09"" FmtDate(UDT12,asia) FmtTime(UDT12,24h)"
+STRPRINT	SS46	0x5	"""LO:$09"" FmtReal(R7,5,1,dec) ""$09"" FmtDate(UDT13,asia) FmtTime(UDT13,24h)"
+
+// Rung Setup_Time_Strs#3
+// Offset 90
+STR	ST1
+STRPRINT	SS58	0x5	"""HI:$09"" FmtReal(R12,5,1,dec) ""$09"" FmtDate(UDT18,asia) FmtTime(UDT18,24h)"
+STRPRINT	SS59	0x5	"""LO:$09"" FmtReal(R13,5,1,dec) ""$09"" FmtDate(UDT19,asia) FmtTime(UDT19,24h)"
+STRPRINT	SS60	0x5	"""HI:$09"" FmtReal(R10,5,1,dec) ""$09"" FmtDate(UDT20,asia) FmtTime(UDT20,24h)"
+STRPRINT	SS61	0x5	"""LO:$09"" FmtReal(R11,5,1,dec) ""$09"" FmtDate(UDT21,asia) FmtTime(UDT21,24h)"
+
+// Rung Setup_Time_Strs#4
+// Offset 147
+RET
+
+// End of Code Block Setup_Time_Strs
+$LGCEND	Setup_Time_Strs
+
+// Beginning of Code Block EnvironExtremes
+$LGCMOD	EnvironExtremes
+
+// Rung EnvironExtremes#1
+// Offset 0
+#BEGIN COMMENT 
+"##"
+"##  EnvironExtremes - subroutine"
+"##  Called with args for Temperature and Humidity"
+"##"
+"##  Set period extremes"
+"##"
+#END
+
+STRGT	R19	R15
+MOVE	R19	R15
+MEMCOPY	SDT0	UDT14	0x20000	1
+
+// Rung EnvironExtremes#2
+// Offset 10
+STRLT	R19	R16
+MOVE	R19	R16
+MEMCOPY	SDT0	UDT15	0x20000	1
+
+// Rung EnvironExtremes#3
+// Offset 20
+#BEGIN COMMENT 
+"##"
+"##  Set lifetime extremes"
+"##"
+#END
+
+STRGT	R19	R17
+MOVE	R19	R17
+MEMCOPY	SDT0	UDT22	0x20000	1
+
+// Rung EnvironExtremes#4
+// Offset 30
+STRLT	R19	R18
+MOVE	R19	R18
+MEMCOPY	SDT0	UDT23	0x20000	1
+
+// Rung EnvironExtremes#5
+// Offset 40
+RET
+
+// End of Code Block EnvironExtremes
+$LGCEND	EnvironExtremes
+
+// Beginning of Code Block Real2FractionStr
+$LGCMOD	Real2FractionStr
+
+// Rung Real2FractionStr#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##    <U><b><FONT tsize=4>REAL2FRACTIONSTR - subroutine</FONT></b></U><br>##<br>"
+"##  Convert Real number to fractional string rounded to "
+"eights - assumes positive real<br>##<br>"
+"##   1/16=0.0625,   3/32=0.09375,     1/8=0.1250,    "
+"5/32=0.1563,   3/16=0.1875<br>"
+"##   7/32=0.2188,     1/4=0.2500,     5/16=0.3125,     "
+"3/8=0.3750,    7/16=0.4375,     <br>##    1/2=0.5000      "
+"9/16=0.5625,  11/16=0.6875, 13/16=0.8125,   "
+"15/16=0.9375<br>##"
+#END
+
+STR	ST1
+MATH	D91	"-1"
+MATH	D92	"TRUNC(R29)"
+MATH	R32	"FRAC(R29)"
+
+// Rung Real2FractionStr#2
+// Offset 22
+#BEGIN FMT_COMMENT 
+"## %3C 3/64 (0.04688)  yields no fraction"
+#END
+
+STRE	D91	-1
+ANDLT	R32	0.04688
+MATH	D91	"0"
+
+// Rung Real2FractionStr#3
+// Offset 37
+#BEGIN FMT_COMMENT 
+"## %3C 3/32 (0.09375)  yields 1/16"
+#END
+
+STRE	D91	-1
+ANDLT	R32	0.09375
+MATH	D91	"1"
+
+// Rung Real2FractionStr#4
+// Offset 52
+#BEGIN FMT_COMMENT 
+"## %3C 5/32 (0.1563) yields 1/8"
+#END
+
+STRE	D91	-1
+ANDLT	R32	0.1563
+MATH	D91	"2"
+
+// Rung Real2FractionStr#5
+// Offset 67
+#BEGIN FMT_COMMENT 
+"## %3C 7/32 (0.2188) yields 3/16"
+#END
+
+STRE	D91	-1
+ANDLT	R32	0.2188
+MATH	D91	"3"
+
+// Rung Real2FractionStr#6
+// Offset 82
+#BEGIN FMT_COMMENT 
+"## %3C 5/16 (0.3125) yields 1/4"
+#END
+
+STRE	D91	-1
+ANDLT	R32	0.3125
+MATH	D91	"4"
+
+// Rung Real2FractionStr#7
+// Offset 97
+#BEGIN FMT_COMMENT 
+"## %3C  7/16 (0.4375) yields 3/8"""
+#END
+
+STRE	D91	-1
+ANDLT	R32	0.4375
+MATH	D91	"5"
+
+// Rung Real2FractionStr#8
+// Offset 112
+#BEGIN FMT_COMMENT 
+"## %3C  9/16 (0.5625) yields 1/2"""
+#END
+
+STRE	D91	-1
+ANDLT	R32	0.5625
+MATH	D91	"6"
+
+// Rung Real2FractionStr#9
+// Offset 127
+#BEGIN FMT_COMMENT 
+"## %3C  11/16 (0.6875) yields 5/8"""
+#END
+
+STRE	D91	-1
+ANDLT	R32	0.6875
+MATH	D91	"7"
+
+// Rung Real2FractionStr#10
+// Offset 142
+#BEGIN FMT_COMMENT 
+"## %3C  13/16 (0.8125) yields 3/4"""
+#END
+
+STRE	D91	-1
+ANDLT	R32	0.8125
+MATH	D91	"8"
+
+// Rung Real2FractionStr#11
+// Offset 157
+#BEGIN FMT_COMMENT 
+"## %3C  15/16 (0.9375) yields 7/8"""
+#END
+
+STRE	D91	-1
+ANDLT	R32	0.9375
+MATH	D91	"9"
+
+// Rung Real2FractionStr#12
+// Offset 172
+#BEGIN FMT_COMMENT 
+"## %3C  17/16 (1.063) yields 1.0""<br>"
+"###  This is wrong - by definition cannot be %3E 1<br>"
+"### Maybe bump integer by 1 instead if %3E0, but%3C1/16, "
+"and set fraction to 0<br>##"
+#END
+
+STRE	D91	-1
+ANDLT	R32	1.0625
+MATH	D91	"10"
+
+// Rung Real2FractionStr#13
+// Offset 187
+STRE	D92	0
+STRPRINT	SS75	0x4	"Lookup(D91,"""",""1/16"",""1/8"",""3/16"",""1/4"",""3/8"",""1/2"",""5/8"",""3/4"",""7/8"",""1"")"
+
+// Rung Real2FractionStr#14
+// Offset 218
+STRNE	D92	0
+DUPBOOL
+ANDE	D91	0
+STRPRINT	SS75	0x4	"D92"
+POPBOOL
+ANDNE	D91	00
+STRPRINT	SS75	0x4	"D92 ""-"" Lookup(D91,"""",""1/16"",""1/8"",""3/16"",""1/4"",""3/8"",""1/2"",""5/8"",""3/4"",""7/8"",""1"")"
+
+// Rung Real2FractionStr#15
+// Offset 269
+STRNE	D92	0
+AND	ST2
+STRPRINT	SS75	0x5	"D92 Lookup(D91,"" "",""1/16"",""1/8"",""3/16"",""1/4"",""3/8"",""1/2"",""5/8"",""3/4"",""7/8"",""1"")"
+
+// Rung Real2FractionStr#16
+// Offset 304
+STRE	D91	-1
+STRPRINT	SS75	0x5	"""?"" FmtReal(R29,5,4,dec)"
+
+// Rung Real2FractionStr#17
+// Offset 316
+NOP
+
+// Rung Real2FractionStr#18
+// Offset 317
+RET
+
+// End of Code Block Real2FractionStr
+$LGCEND	Real2FractionStr
+
+// Beginning of Code Block $tFirstScan
+$TSK	$tFirstScan
+
+// Rung $tFirstScan#1
+// Offset 0
+NOP
+
+// End of Code Block $tFirstScan
+$TSKEND	$tFirstScan
+
+// Beginning of Code Block $Main
+$PRGRM	$Main
+
+// Rung $Main#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT "
+"tsize=4><B>###############################################################</B></FONT><br><FONT "
+"tsize=4><B>##</B></FONT><br>"
+"<FONT tsize=4><B>##    North Parish of North Andover Tower "
+"Clock Winder Controller</B></FONT><br>"
+"<FONT tsize=4><B>##                   Copyright 2019 - P. "
+"Stephen Vail, et. al.</B></FONT><br>"
+"<FONT tsize=4><B>##</B></FONT><br><FONT tsize=4><B>##      "
+"In awe-inspired memory of Dana Fischer; original architect "
+"in 1986</B></FONT><br><FONT tsize=4><B>##</B></FONT><br>"
+"<FONT tsize=4><B>###############</B></FONT><FONT "
+"tsize=4><B>################################################</B></FONT>"
+#END
+
+NOP
+
+// Rung $Main#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"                           <B>Modes Of Operation</B><br>"
+" <br>     In ALL Modes, the Red Stop switch will shut off "
+"the clutches and motor.  <br>     The Green Start button "
+"must be pressed to continue.<br> <br>"
+"     The clutches intentionally ramp up and ramp down in "
+"voltage to allow for a little<br>"
+"     slippage, thereby reducing the 'jolt' of the sudden "
+"release of the tension on the <br>     drums.<br>"
+"     Even when the Stop button is pressed, things will run "
+"around 5 seconds longer <br>     to account for this slow "
+"stop.  <br> <br>"
+"    EMO will physically shut off power to EVERYTHING, BRX "
+"(PLC) INCLUDED!!!"
+#END
+
+NOP
+
+// Rung $Main#3
+// Offset 2
+#BEGIN FMT_COMMENT 
+"                           <b>  Auto/Photo Mode</b><br>"
+" <br>      When the system is turned on, it has no idea how "
+"full the drums/cables are.<br>"
+"      To calibrate it, the CALIBRATE button should be "
+"pressed causing both drums <br>      to be wound up to the "
+"limit switches. This will set the photo counters to 8, "
+"<br>      which is two more than the old system.  This will "
+"allow the drums to unwind to a <br>      safe point, "
+"allowing the 'window' on the cable to be in an appropriate "
+"range.<br>     <br>      Calibration also occurs "
+"AUTOMATICALLY after a long power failure, when in <br>      "
+"Auto/Photo Mode, or if the system is switched from Timer "
+"Mode to Photo Mode.<br> <br>"
+"      When the drum(s) unwind, the count is decremented "
+"every time the reflector <br>      passes the photo "
+"detector.  Once the count goes to zero, the relevant clutch "
+"is <br>"
+"      turned on, and the Drive Motor sees the demand and turns "
+"on as well. <br>      Winding commences, counting UP every "
+"time the reflector passes the detector.<br>"
+"      When the counter reaches the setpoint, the clutch "
+"slowly disengages.<br>"
+"      Once the motor sees no more demand (ie both clutches "
+"off),  the motor shuts off.<br>"
+"      For efficiency, if one clutch starts the wind the "
+"other will start if near the bottom."
+#END
+
+NOP
+
+// Rung $Main#4
+// Offset 3
+#BEGIN FMT_COMMENT 
+"                            <b>Auto/Timer Mode</b><br> <br>"
+"      When in Timer Mode, the system will run both drums "
+"for a pre-determined amount <br>      of time (initially 30 "
+"minutes), every 24 hours (initially at 13:05 to avoid the "
+"lockout).  <br>"
+"      These times and durations are arbitrary and can be "
+"changed.<br> <br>      In timer Mode, NO provision is made "
+"to count pulses, so the system relies <br>      on the "
+"limit switches.<br> <br>"
+"      Once the system is taken out of Timer Mode (back to "
+"Photo), it is recommended<br>"
+"      that the Pulse CALIBRATE sequence is performed."
+#END
+
+NOP
+
+// Rung $Main#5
+// Offset 4
+#BEGIN FMT_COMMENT 
+"                           <B>Manual Mode</B><br> <br>"
+"      The Pulse/Timer switch is ignored in Manual Mode.  "
+"<br>      The Green Start button and the Red Stop button "
+"control both clutches and the <br>      motor.<br>"
+"      As always, the limit switches will shut off their "
+"respective clutch when tripped."
+#END
+
+NOP
+
+// Rung $Main#6
+// Offset 5
+#BEGIN FMT_COMMENT 
+"                            <B>Calibration Mode</B><br>"
+" <br>    When CALIBRATE momentary button is pressed, run "
+"both drums to limit switches.<br>"
+"    This will set counts to 8, causing the drums to count "
+"down two rotations past the <br>    current position and "
+"normal range to keep the 1-6 pulses within a safe range of "
+"cable<br> <br>    The intent here is that once the "
+"momentary CALIBRATE SW is pressed, we would<br>"
+"    enter a calibration mode which would wind up both drums "
+"until their  limits, set the<br>"
+"    counters to 8 or some number outside of the normal "
+"range so that they count down<br>"
+"    to a comfortable range of the cables, then turn "
+"CALIBRATION mode off<br> <br>"
+"    Calibration also occurs automatically after a power "
+"failure, when in Auto/Photo  <br>    Mode, or if the system "
+"is switched from Timer Mode to Photo Mode.<br> <br>"
+"    Also, set the period time values and the TIMER_ON values"
+#END
+
+NOP
+
+// Rung $Main#7
+// Offset 6
+NOP
+
+// Rung $Main#8
+// Offset 7
+#BEGIN COMMENT 
+" A little bit about startup - It occurs in three phases, or Stages:"
+""
+"Stage 0. Wait in a hard loop for the OS to mount the Flash Memory card for logging"
+"Stage 1.  Determine how long we were without power, and do appropriate initialization."
+"                Wait 5 seconds for the system to settle down before entering the Main Loop"
+"Stage 2. The Main Loop"
+""
+"############################################################"
+#END
+
+SG	$Main.S0
+
+// Rung $Main#9
+// Offset 9
+STRN	$Main.S2
+FLASHER	125	125	Y6
+FLASHER	125	125	Y7
+
+// Rung $Main#10
+// Offset 18
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  Wait for SD Card to get mounted, give the OS a chance to "
+"get going<br>"
+"##   Get the Time server from DNS, and set system time<br>##"
+#END
+
+STR	$SDCardFS.MediaMounted
+DNSLOOKUP	@IntEthernet	0x0	-800858402	134744072	"""north-america.pool.ntp.org"""	D90	0x0	C33	C32
+NETTIME	@IntEthernet	D90	123	1000	0x0	C33	C32
+JMP	$Main.S1
+
+// Rung $Main#11
+// Offset 50
+SG	$Main.S1
+
+// Rung $Main#12
+// Offset 52
+NOP
+
+// Rung $Main#13
+// Offset 53
+#BEGIN COMMENT 
+"##"
+"##  Now check for Power Failure and set up to 'do the right thing'"
+"##"
+#END
+
+STRN	T4.Timing
+DT2EPOCH	SDT0	D30
+MATH	D28	"D30 - D31"
+
+// Rung $Main#14
+// Offset 64
+#BEGIN COMMENT 
+"##"
+"##  If no watchdog stuff, clear out string, if some, write it out"
+"##"
+#END
+
+STR	ST1
+STRPRINT	SS32	0x4	""""""
+
+// Rung $Main#15
+// Offset 70
+STR	ST128
+ORNE	DST385	00
+OR	ST13
+STRPRINT	SS32	0x4	"""Watchdog Reboot: "" ST13 "",  Reboots: "" DST385 "", Timeout: "" ST128"
+
+// Rung $Main#16
+// Offset 100
+STR	ST1
+DTDIFF	SDT2	SDT1	D55
+
+// Rung $Main#17
+// Offset 104
+#BEGIN COMMENT 
+"##"
+"##  Power Fail greater than 2 seconds - log it"
+"##  Log if there is any watchdog reset info"
+"##"
+#END
+
+STRGT	D28	2
+OR	ST13
+OR	ST128
+COPY	0x1	"4 0x0 UDT9 UDT8 1 0x0 D28 D27 1"
+STRPRINT	SS41	0x5	"FmtDate(UDT8,asia) FmtTime(UDT8,24h)"
+MATH	D17	"D27 / (3600 * 24)"
+MATH	D27	"D27 * 1000"
+STRPRINT	SS40	0x4	"""Down for "" D17 ""d "" FmtTMR(D27,full,sec)"
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS29 1 SS41 1 SS40 1 SS32 1"	"TimeStamp() "","" SS29 "","" SS41 "","" SS40 "","" SS32 ""$0D$0A"""	0x0	C200	C201
+COPY	0x0	"4 0x0 PowerOutages0 PowerOutages1 99"
+COPY	0x1	"4 0x0 D28 D27 1 0x0 0 D28 1"
+STRPRINT	PowerOutages0	0x1	"SS41 SS40"
+
+// Rung $Main#18
+// Offset 239
+#BEGIN COMMENT 
+"##"
+"##  Deal with power on, set up Interrupts"
+"##"
+#END
+
+STRN	T4.Timing
+CALL	Initialize	0x0	DST511	"3"	"3"
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS28 1 SS14 1 SS13 1"	"TimeStamp() "","" SS28 "","" SS14 "","" SS13 ""$0D$0A"""	0x0	C200	C201
+INTCONFIG	0x101	Timer_500ms	"3 0x3 1 250000"	0x0
+INTCONFIG	0x101	Timer_2sec	"3 0x3 3 1000000"	0x0
+INTCONFIG	0x101	Timer_10sec	"3 0x3 2 5000000"	0x0
+
+// Rung $Main#19
+// Offset 310
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  Wait a few seconds for file system to settle, make some "
+"noise, then GO!<br>##<br>"
+"##  Side effect of this timer completing is to kick "
+"'Initialize_HTML' files for run time<br>##"
+#END
+
+STRE	$Main.S1	1
+TMR	T4	5000
+FLASHER	500	500	Y4
+
+// Rung $Main#20
+// Offset 320
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##   Make sure the manual reboot flag is clear, <br>##    allow "
+"Initialize_HTML program to do its thing<br>##"
+#END
+
+STR	ST1
+RST	C1001
+RUN	Initialize_HTML
+
+// Rung $Main#21
+// Offset 324
+#BEGIN FMT_COMMENT 
+" "
+#END
+
+STR	T4.Done
+JMP	$Main.S2
+
+// Rung $Main#22
+// Offset 326
+SG	$Main.S2
+
+// Rung $Main#23
+// Offset 328
+NOP
+
+// Rung $Main#24
+// Offset 329
+#BEGIN FMT_COMMENT 
+"<FONT tsize=4><B><FONT "
+"tsize=4>#################################################</FONT></B><br><B><FONT "
+"tsize=4>#################################################</FONT></B><br>"
+"</FONT><B><FONT tsize=4>##</FONT></B><br>"
+"<B><FONT tsize=4>##     M A I N   T H R E A D</FONT></B><br>"
+"<B><FONT tsize=4>##</FONT></B>"
+#END
+
+NOP
+
+// Rung $Main#25
+// Offset 330
+#BEGIN COMMENT 
+"##"
+"##  Keep track of time so we can detect if we lost power"
+"##"
+#END
+
+STR	ST1
+DT2EPOCH	SDT0	D30
+
+// Rung $Main#26
+// Offset 333
+STR	ST1
+RUN	CHK_New_Period
+RUN	Logger
+RUN	Timer_Mode
+RUN	Photo_Mode
+RUN	Process_Environs
+RUN	Process_Debug
+RUN	Time_Drift
+RUN	Adjuster
+
+// Rung $Main#27
+// Offset 350
+STR	ST2
+RUN	OBS_Time_Drift
+
+// Rung $Main#28
+// Offset 353
+STR	C64
+RUN	Process_MTTQ
+
+// Rung $Main#29
+// Offset 356
+STR	ST4
+COPY	0x1	"4 0x0 SDT0 UDT9 1"
+DT2EPOCH	UDT9	D31
+
+// Rung $Main#30
+// Offset 367
+#BEGIN COMMENT 
+"##"
+"##   Blink the light to show we are processing."
+"##    This output also causes a spdt relay to toggle between temperature and "
+"##     humidity measurements (See ProcessEnvirons)"
+"##"
+#END
+
+STR	C102
+OUT	Y7
+
+// Rung $Main#31
+// Offset 369
+NOP
+
+// Rung $Main#32
+// Offset 370
+#BEGIN FMT_COMMENT 
+"<B>#######################################</B><br>"
+"<B>##</B><br><B>##  Switch debouncing and buffering</B><br>"
+"<b>##</b><br><B>#######################################</B>"
+#END
+
+NOP
+
+// Rung $Main#33
+// Offset 371
+#BEGIN COMMENT 
+"##"
+"## The AUTO/MAN and PULSE/TIMER switches are physically self latching (SPDT)"
+"## MANUAL mode is default with switch off"
+"##"
+#END
+
+STR	X6
+OUT	C19
+
+// Rung $Main#34
+// Offset 373
+#BEGIN COMMENT 
+"##"
+"## ON == PULSE Mode"
+"##"
+#END
+
+STR	X7
+OUT	C16
+
+// Rung $Main#35
+// Offset 375
+#BEGIN COMMENT 
+"##"
+"##  STOP button is Normally Closed"
+"##"
+#END
+
+STRN	X8
+DEBOUNCE	10	10	C38
+
+// Rung $Main#36
+// Offset 380
+STR	X5
+DEBOUNCE	10	10	C39
+
+// Rung $Main#37
+// Offset 385
+#BEGIN COMMENT 
+"##"
+"## Latch the momentary START, STOP buttons."
+"## Disable clutches and drive if Stopped."
+"## Switching OFF Auto mode turns ON Stop (and OFF Start)"
+"## Switching ON  Auto mode turns OFF Stop (and ON Stop)"
+"## Light or extinguish the STOPPED lamp as appropriate"
+"##"
+#END
+
+STR	C38
+ORND	C19
+SET	C18
+
+// Rung $Main#38
+// Offset 389
+STR	C39
+ORPD	C19
+RST	C18
+
+// Rung $Main#39
+// Offset 393
+STR	C18
+FLASHER	250	250	Y6
+
+// Rung $Main#40
+// Offset 398
+NOP
+
+// Rung $Main#41
+// Offset 399
+STR	X0
+DEBOUNCE	100	10	C0
+
+// Rung $Main#42
+// Offset 404
+STR	X1
+DEBOUNCE	100	10	C1
+
+// Rung $Main#43
+// Offset 409
+STR	X3
+DEBOUNCE	100	10	C40
+
+// Rung $Main#44
+// Offset 414
+STR	X2
+DEBOUNCE	100	10	C41
+
+// Rung $Main#45
+// Offset 419
+#BEGIN COMMENT 
+"##"
+"##  DBG_STK_LOCK_TRG is for hourly Strike Lockout sinmulation"
+"##  ENABLED by setting CfgStkLockSim in intialize"
+"##"
+#END
+
+STR	X4
+OR	C9
+DEBOUNCE	100	10	C4
+
+// Rung $Main#46
+// Offset 425
+STR	X9
+DEBOUNCE	10	10	C61
+
+// Rung $Main#47
+// Offset 430
+#BEGIN FMT_COMMENT 
+"##<br>##  Strike Hammer cam-following switch<br>##"
+#END
+
+STR	X16
+OR	C72
+DEBOUNCE	100	100	C70
+
+// Rung $Main#48
+// Offset 436
+NOP
+
+// Rung $Main#49
+// Offset 437
+NOP
+
+// Rung $Main#50
+// Offset 438
+#BEGIN FMT_COMMENT 
+"###############################################<br>##<br>"
+"##  <B>CALIBRATE</B> by running both drums to limit "
+"switches, then set drum <br>##    counts to "
+"Cfg'Drum'CntMax<br>##   This will cause the drums to count "
+"down several rotations past the <br>##    normal range to "
+"keep the 1-6 within a safe range of cable<br>##<br>"
+"##  Also, set the period time values and the TIMER_ON "
+"values<br>##<br>"
+"##  The intent here is that once the momentary CALIBRATE "
+"BTN is pressed, we would<br>"
+"##    enter a calibration mode which would wind up both "
+"drums until the limits, set the<br>"
+"##    counters to 10 or some number outside of the normal "
+"range so that they count <br>##    down to a comfortable "
+"range of the cables, then turn CALIBRATION mode off<br>"
+"##<br>## Calibration can also be triggered by a power "
+"failure of more than 1 hr.  <br>## This will compensate for "
+"most missed pulses during the power failure<br>##<br>"
+"##  And just for superstition, calibrate every few months "
+"early in the "
+"morning<br>##<br>#################################################"
+#END
+
+STRPD	C3
+STRPD	C17
+ANDGE	D27	3600
+ORSTR
+STR	C19
+ANDPD	C16
+AND	C7
+AND	ST2
+ORSTR
+STRE	SDT0.Month	1
+ORE	SDT0.Month	3
+ORE	SDT0.Month	5
+ORE	SDT0.Month	7
+ORE	SDT0.Month	9
+ORE	SDT0.Month	11
+ANDE	SDT0.Day	1
+ANDE	SDT0.Hour	2
+ANDE	SDT0.Minute	10
+ANDE	SDT0.Second	0
+ORSTR
+SET	C2
+MOVE	0	C3
+
+// Rung $Main#51
+// Offset 497
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  Fast Flash to <br>##  Indicate that we are Calibrating using "
+"expansion I/O Y10<br>##"
+#END
+
+STR	C2
+FLASHER	125	125	Y10
+
+// Rung $Main#52
+// Offset 502
+NOP
+
+// Rung $Main#53
+// Offset 503
+#BEGIN FMT_COMMENT 
+"############################################<br>##<br>"
+"##  CLUTCH  RAMP  DOWN  STEPS<br>##<br>"
+"##  Create the Clutch ramp down duty cycle steps relative "
+"to the max allowable<br>"
+"##   This allows clutch to slip a bit to prevent jolting "
+"transitions<br>##"
+#END
+
+STR	ST1
+MATH	D65	"ROUND(D13 * 0.7)"
+MATH	D66	"ROUND(D13 * 0.4)"
+
+// Rung $Main#54
+// Offset 524
+#BEGIN FMT_COMMENT 
+"<B>#########################</B><br><B>##</B><br>"
+"<B>##           TIME   "
+"CLUTCH</B><br><B>##</B><br><B>#########################</B>"
+#END
+
+NOP
+
+// Rung $Main#55
+// Offset 525
+STR	ST1
+MATH	N5	"N7 - 1"
+
+// Rung $Main#56
+// Offset 534
+#BEGIN COMMENT 
+"##"
+"##  If Manual Mode, turn on all demands on Start Button"
+"##   OR If Timer mode, and timer is running."
+"##   OR If Pulse mode and Time down counter trips, set on Time Demand"
+"##  But, if Time limit sw trips, shut it down"
+"##"
+"##  If strike clutch is active, and we are at a count of < max, then wind us too"
+"##"
+#END
+
+STRN	C19
+ANDN	C18
+STR	C19
+STRN	C16
+AND	C8
+STR	C16
+STR	CT1.DnDone
+STR	C43
+ANDLT	CT1.Acc	N5
+ORSTR
+ANDSTR
+ORSTR
+ANDSTR
+ORSTR
+ANDN	C41
+SET	C11
+
+// Rung $Main#57
+// Offset 553
+#BEGIN COMMENT 
+"##"
+"##  If Manual Mode, Stop all demand on Stop Button"
+"## OR If TIMER Mode and Timer turns off"
+"## OR If Pulse mode and Wind up count trips, reset Wind Demand"
+"##"
+#END
+
+STRN	C19
+AND	C18
+STR	C19
+STRN	C16
+ANDN	C8
+STR	C16
+AND	CT1.Done
+ORSTR
+ANDSTR
+ORSTR
+OR	C41
+RST	C11
+
+// Rung $Main#58
+// Offset 565
+#BEGIN FMT_COMMENT 
+"##<br>"
+"## While Time Demand exists, but limit has not tripped, turn "
+"on TimeClutch<br>"
+"## If CALIBRATE MODE, turn on until limits are hit<br>"
+"## As long as Time Clutch is installed, that is...<br>"
+"## May 2025 - stop winding during strike window<br>##"
+#END
+
+STR	C11
+OR	C2
+ANDN	C41
+ANDN	C18
+AND	C81
+ANDN	C4
+OUT	C42
+
+// Rung $Main#59
+// Offset 572
+#BEGIN COMMENT 
+"##"
+"##  NOTE:  Actually no point ramping UP the clutch, the motor is probably delayed"
+"##  To turn the WIND Clutch on, we set the PWM duty cycle to 100%"
+"##"
+#END
+
+STR	C42
+AND	C81
+STR	ST2
+STR	ST2
+RAMPSOAK	WND_CL_RAMP_UP	R1	1	"4 1 0.0 0 0 4 D13 100 0"
+
+// Rung $Main#60
+// Offset 587
+#BEGIN COMMENT 
+"##"
+"## To turn the WIND Clutch off, we ramp it down to 0 over a period of time."
+"## This lets clutch slip a little, relaxing tension on the drum dog."
+"##"
+#END
+
+STRN	C42
+STR	ST2
+STR	ST2
+RAMPSOAK	WND_CL_RAMP_DN	R1	1	"4 1 R1 0 0 4 D65 1000 0 2 0 250 0 4 D66 500 0 2 0 500 0 4 0 2000 0"
+
+// Rung $Main#61
+// Offset 612
+#BEGIN COMMENT 
+"##"
+"##  Send the duty cycle to the Clutch PWM output"
+"##"
+"##  The higher the freq, the less HD occurs, but the ssr may not be able to keep up"
+"##"
+"##   PWM Outputs:"
+"##   Set up the PeriodScale to 1 for ms.  Set up Period to 20 ms=50Hz  "
+"##      OR "
+"##   Set up the PeriodScale to 0 for us, and the Period to 33333us=30Hz"
+"##   Set the PWM Period to .000333 = 30Hz"
+"##   50us = 20,000Hz = .00005s"
+"##   500us = 2,000Hz = .0005s"
+"##   250us = 4000Hz  = .00025s"
+"##   125us = 8000Hz  = .000125s"
+"##    21ms =   480Hz  = .002083s  (this one, for now)"
+"##"
+#END
+
+STR	ST1
+CLAMP	R1	D13	0	R1
+SCALE	R1	0	100	0	133	R31
+PWMOUT	@WND_PWM	$WND_PWM	Y1	480	R1
+
+// Rung $Main#62
+// Offset 637
+NOP
+
+// Rung $Main#63
+// Offset 638
+#BEGIN FMT_COMMENT 
+"<B>#########################</B><br><B>##</B><br>"
+"<B>##           STRIKE  "
+"CLUTCH</B><br><B>##</B><br><B>#########################</B>"
+#END
+
+NOP
+
+// Rung $Main#64
+// Offset 639
+#BEGIN COMMENT 
+"##"
+"##  If Manual Mode, turn on all demands on Start Button"
+"##   OR If Timer mode, and timer is running."
+"##   OR If Pulse mode and Strike down counter trips, set on Strike Demand"
+"##  But, if strike limit trips, shut it down"
+"##"
+"##  If time clutch is active, and we are at a count of 2 or less,"
+"##    and there is time, wind us too"
+"##"
+#END
+
+STRN	C19
+ANDN	C18
+STR	C19
+STRN	C16
+AND	C8
+STR	C16
+STR	CT0.DnDone
+STR	C42
+ANDLE	CT0.Acc	4
+ANDLE	SDT0.Minute	40
+ORSTR
+ANDSTR
+ORSTR
+ANDSTR
+ORSTR
+ANDN	C40
+SET	C10
+
+// Rung $Main#65
+// Offset 662
+#BEGIN COMMENT 
+"##"
+"##  If Manual Mode, Stop all demand on Stop Button"
+"## OR If TIMER Mode and Timer turns off"
+"## OR If Pulse mode and Strike up count trips, reset Strike Demand"
+"##"
+#END
+
+STRN	C19
+AND	C18
+STR	C19
+STRN	C16
+ANDN	C8
+STR	C16
+AND	CT0.Done
+ORSTR
+ANDSTR
+ORSTR
+OR	C40
+RST	C10
+
+// Rung $Main#66
+// Offset 674
+#BEGIN COMMENT 
+"##"
+"## While Strike Demand exists, but limit has not tripped, turn on Strike Clutch"
+"##   hold off until hourly strike lockout goes away"
+"##  ***  Anytime thie strike clutch releases, it must RAMP down"
+"## "
+"##  If CALIBRATE mode, turn on until limits are hit"
+"## As long as Strike Clutch is installed, that is..."
+"##"
+#END
+
+STR	C10
+OR	C2
+ANDN	C40
+ANDN	C18
+ANDN	C4
+AND	C79
+OUT	C43
+
+// Rung $Main#67
+// Offset 681
+#BEGIN COMMENT 
+"##"
+"##  NOTE:  Actually no point ramping UP the clutch, the motor is probably delayed"
+"##  To turn the STRIKE Clutch on, we quickly ramp to the PWM duty cycle to 100%"
+"##    Set up the PeriodScale to 1 for ms.  Set up Period to 20 ms=50Hz or "
+"##    Set up the PeriodScale to 0 for us, and the Period to 33333us=30Hz"
+"##"
+#END
+
+STR	C43
+AND	C79
+STR	ST2
+STR	ST2
+RAMPSOAK	STK_CL_RAMP_UP	R0	1	"4 1 0 0 0 4 D13 100 0"
+
+// Rung $Main#68
+// Offset 695
+#BEGIN COMMENT 
+"##"
+"## To turn the STRIKE Clutch off, we ramp to 0% Duty Cycle  over a period of time."
+"## This allows the clutch to slip a little, releasing tension on the drum dog"
+"##"
+#END
+
+STRN	C43
+STR	ST2
+STR	ST2
+RAMPSOAK	STK_CL_RAMP_DN	R0	1	"4 1 R0 0 0 4 D65 1000 0 2 0 250 0 4 D66 500 0 2 0 500 0 4 0 2000 0"
+
+// Rung $Main#69
+// Offset 720
+#BEGIN COMMENT 
+"##"
+"##  Send the duty cycle to the Clutch PWM output"
+"##"
+"##  The higher the freq, the less HD occurs, but the ssr may not be able to keep up"
+"##"
+"##   PWM Outputs:"
+"##   Set up the PeriodScale to 1 for ms.  Set up Period to 20 ms=50Hz  "
+"##      OR "
+"##   Set up the PeriodScale to 0 for us, and the Period to 33333us=30Hz"
+"##   Set the PWM Period to .000333 = 30Hz"
+"##   50us = 20,000Hz = .00005s"
+"##   500us = 2,000Hz = .0005s"
+"##   250us = 4000Hz  = .00025s"
+"##   125us = 8000Hz  = .000125s"
+"##    21ms =   480Hz  = .002083s  (this one, for now)"
+#END
+
+STR	ST1
+CLAMP	R0	D13	0	R0
+SCALE	R0	0	100	0	133	R30
+PWMOUT	@STK_PWM	$STK_PWM	Y0	480	R0
+
+// Rung $Main#70
+// Offset 745
+NOP
+
+// Rung $Main#71
+// Offset 746
+#BEGIN FMT_COMMENT 
+"<B>#########################</B><br><B>##</B><br>"
+"<B>##    WARNING   BELL   /   DRIVE   MOTOR</B><br>"
+"<B>##</B><br><B>#########################</B>"
+#END
+
+NOP
+
+// Rung $Main#72
+// Offset 747
+#BEGIN FMT_COMMENT 
+"##<br>"
+"## Chirp the beeper as a heads up we are entering the bell "
+"strike period<br>"
+"##  Wait 1m 55s, and chirp the warning 5 sec before the "
+"strike happens<br>##"
+#END
+
+STR	C4
+ONDTMR	T10	115000	C77
+
+// Rung $Main#73
+// Offset 752
+STR	C77
+TIMEDOUT	D58	C75	0x0
+
+// Rung $Main#74
+// Offset 757
+#BEGIN COMMENT 
+"##"
+"## let either reason ring the bell, either short chirp or long warning"
+"## always ring motor warning for safety"
+"##"
+#END
+
+STR	C76
+OR	C75
+OUT	Y4
+
+// Rung $Main#75
+// Offset 760
+#BEGIN FMT_COMMENT 
+"##<br>"
+"## While Demand exists, but it's respective limit has not "
+"tripped, ring the bell<br>"
+"##   for a few seconds, wait a bit, then turn on the Drive "
+"Motor<br>## Motor_Warning should be less than WARNING_TIMER "
+"so there is gap after tone off<br>##"
+#END
+
+STRGT	R0	0.0
+ORGT	R1	0.0
+TIMEDOUT	3500	C76	0x0
+ONDTMR	T2	10000	C21
+
+// Rung $Main#76
+// Offset 777
+NOP
+
+// Rung $Main#77
+// Offset 778
+#BEGIN COMMENT 
+"##"
+"##   After the warning delay, turn on the non-PWM-controlled drive motor,"
+"##   In any mode, turn off drive in sync with clutch ramp down"
+"##"
+#END
+
+STR	C21
+STRN	STK_CL_RAMP_DN.Done
+ORN	WND_CL_RAMP_DN.Done
+ANDSTR
+OUT	Y2
+PD	C23
+ND	C24
+
+// Rung $Main#78
+// Offset 787
+#BEGIN COMMENT 
+"##"
+"##  If in Manual Mode, and drive turns off, set to STOPPED.  "
+"## This could be caused by limit switches, etc."
+"##"
+#END
+
+STR	C24
+ANDN	C19
+SET	C18
+
+// Rung $Main#79
+// Offset 790
+#BEGIN COMMENT 
+"##"
+"##  IF CALIBRATE MODE, and motor shuts off, assume it was due to completion "
+"##    of lift to limits of both drums.  Shut off calibrate mode, and set counter pre-sets"
+"##"
+#END
+
+STR	C41
+AND	C40
+STRN	ST1
+ANDN	C4
+ORSTR
+AND	C2
+RST	C2
+CALL	Calibrate	0x1	DST511	"3 1 C53 1 1 C54 1 1 C52 1"	"3"
+
+// Rung $Main#80
+// Offset 807
+#BEGIN COMMENT 
+"##"
+"##  Same for timer mode active.  Shut it off if both limits reached.  This prevents"
+"##  time clutch from re-starting if it backes off its limit while timer active."
+"##"
+#END
+
+STR	C24
+AND	C8
+ANDN	C43
+ANDN	C42
+MOVE	2	CT3.Acc
+
+// Rung $Main#81
+// Offset 813
+NOP
+
+// Rung $Main#82
+// Offset 814
+STR	C99
+COPY	0x1	"4 0x0 0 UDT30.DayOfWeek 1 0x0 16 UDT30.Hour 1 0x0 33 UDT30.Minute 1 0x0 33 UDT30.Second 1 0x0 11 UDT30.Month 1 0x0 29 UDT30.Day 1 0x0 2019 UDT30.Year 1"
+
+// Rung $Main#83
+// Offset 833
+#BEGIN FMT_COMMENT 
+"<B>##</B><br><B>##</B><br>"
+"<B>##          E N D    O F    M A I N    T H R E A "
+"D</B><br><B>##</B><br>"
+"<b>####################################################</b><br><b>####################################################</b>"
+#END
+
+NOP
+
+// End of Code Block $Main
+$PGMEND	$Main
+
+// Beginning of Code Block CHK_New_Period
+$PRGRM	CHK_New_Period
+
+// Rung CHK_New_Period#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"#############################<br>##<br>"
+"<FONT tsize=4><FONT tsize=3>##</FONT>  <B><U>CHECK_NEW_PERIOD  "
+"program</U></B></FONT><br>##<br>"
+"## New data accumulation period.  Generate an email with "
+"the previous periods data<br>"
+"##  <br>## First check on network connectivity and update "
+"system time, check DST change<br>##<br>"
+"## Then New Period Precursor - Save Current Logfile name "
+"before we roll over<br>##<br>"
+"## Finally, detect the new Period, and generate the start "
+"of Period Log, <br>##    then email out the old one<br>"
+"##<br>##"
+#END
+
+NOP
+
+// Rung CHK_New_Period#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  Sync the clock twice an hour - wait for just after the "
+"hour to try to get DST,<br>"
+"##                                                          just "
+"after the half hour for clock<br>"
+"##  Use pool.ntp.org to get an IP<br>##"
+#END
+
+STRE	SDT0.Minute	11
+ORE	SDT0.Minute	36
+ANDE	SDT0.Second	20
+DNSLOOKUP	@IntEthernet	0x0	-800858402	134744072	"""north-america.pool.ntp.org"""	D90	0x0	C33	C32
+NETTIME	@IntEthernet	D90	123	1000	0x0	C33	C32
+
+// Rung CHK_New_Period#3
+// Offset 43
+#BEGIN COMMENT 
+"##"
+"##  Process DST - https://www.iana.org/time-zones"
+"##   If first Sunday in Nov after 2am, set SummerTime = False"
+"##"
+#END
+
+STRE	SDT0.Month	11
+ANDE	SDT0.DayOfWeek	0
+ANDGE	SDT0.Day	1
+ANDE	SDT0.Hour	2
+ANDE	SDT0.Minute	0
+ANDE	SDT0.Second	0
+RST	ST768
+
+// Rung CHK_New_Period#4
+// Offset 68
+#BEGIN COMMENT 
+"##"
+"##  Process DST"
+"##   If second Sunday in March after 2am. set SummerTime = True"
+"##"
+#END
+
+STRE	SDT0.Month	3
+ANDE	SDT0.DayOfWeek	0
+ANDGE	SDT0.Day	8
+ANDE	SDT0.Hour	2
+ANDE	SDT0.Minute	0
+ANDE	SDT0.Second	0
+SET	ST768
+
+// Rung CHK_New_Period#5
+// Offset 93
+STRDLT	ST768
+AND	ST768
+STRPRINT	SS56	0x4	"""Spring FORWARD"""
+
+// Rung CHK_New_Period#6
+// Offset 106
+STRDLT	ST768
+ANDN	ST768
+STRPRINT	SS56	0x4	"""Fall BACK"""
+
+// Rung CHK_New_Period#7
+// Offset 118
+STRDLT	ST768
+EMAIL	@NoParishMailer	"""psvail@verizon.net"""	"""rzelle@actweb.com,josephcferguson@comcast.net,pagrimm@comcast.net,kirkolsen@123mail.org"""	""""""	"""NP Tower Clock Auto-Winder - DST CHANGE"""	0x0	"""Hi,$0D$0ADaylight Savings Time has changed. $0D$0AIt's time to "" SS56 "" one hour!  Please adjust the clock.$0D$0AThanks!"""	0x0	C35	C36
+
+// Rung CHK_New_Period#8
+// Offset 199
+NOP
+
+// Rung CHK_New_Period#9
+// Offset 200
+#BEGIN COMMENT 
+"##"
+"##  Keep track of operating modes for emailing"
+"##"
+#END
+
+NOP
+
+// Rung CHK_New_Period#10
+// Offset 201
+STRPD	C102
+CALL	Setup_Time_Strs	0x1	DST511	"3"	"3"
+CALL	Setup_Mode_Strs	0x1	DST511	"3"	"3"
+STRPRINT	SS42	0x5	"""Battery Ok"""
+
+// Rung CHK_New_Period#11
+// Offset 225
+STR	ST149
+STRPRINT	SS42	0x5	"""WARNING!!!   Battery is LOW!"""
+
+// Rung CHK_New_Period#12
+// Offset 238
+#BEGIN COMMENT 
+"##############################"
+"##"
+"##  See if we have exceeded the new time period"
+"##"
+#END
+
+STR	C50
+DTCMP	SDT0	UDT6	0x3	C37	ST1023	C37
+
+// Rung CHK_New_Period#13
+// Offset 245
+#BEGIN COMMENT 
+"##"
+"##  Set the log rollover to one minute before the NewPeriod_DT"
+"## This tries to make sure the current filename is populated - ie. a LOG cmd was issued"
+"##"
+#END
+
+STRPD	C37
+STRPRINT	SS55	0x4	"SS1 "": "" D3 "" Starts, "" SS37 "" Active ;"""
+STRPRINT	SS56	0x4	"SS0 "": "" D2 "" Starts,"" SS38 "" Active ;"""
+STRPRINT	SS57	0x5	"SS5 "": "" SS39 "" Active"""
+
+// Rung CHK_New_Period#14
+// Offset 293
+#BEGIN COMMENT 
+"##"
+"## Make the last-ish entry of the period be the summary of time actuated"
+"##"
+#END
+
+STRPD	C37
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS35 1 SS55 3"	"TimeStamp() "","" SS35 "","" SS55 "","" SS56 "","" SS57 ""$0D$0A"""	0x0	C200	C201
+COPY	0x0	"4 0x0 PeriodSummaries0 PeriodSummaries1 99 0x0 SS11 SS127 1"
+STRPRINT	PeriodSummaries0	0x1	"TimeStamp() SS55 SS56 SS57"
+STRPRINT	SS15	0x4	"SS11 "".csv"""
+
+// Rung CHK_New_Period#15
+// Offset 377
+NOP
+
+// Rung CHK_New_Period#16
+// Offset 378
+NOP
+
+// Rung CHK_New_Period#17
+// Offset 379
+#BEGIN COMMENT 
+"#################################"
+"##"
+"##  New logging period detection - Email out previous logfile with summary stats"
+"##"
+"##"
+""
+#END
+
+STR	C50
+DTCMP	SDT0	UDT4	0x3	C34	ST1023	C34
+
+// Rung CHK_New_Period#18
+// Offset 386
+STRPD	C34
+SET	C14
+RST	C35
+
+// Rung CHK_New_Period#19
+// Offset 390
+#BEGIN COMMENT 
+"##"
+"##  use CfgNewPeriodFreq to deterimine next reporting period, unless flag is set"
+"##"
+#END
+
+STRPD	C14
+ANDN	C80
+CALL	Truncate_Time	0x0	DST511	"3 SDT0 UDT2 1 D10 D11 1 D10 D12 1 0 C78 1"	"3 UDT3 UDT4 1"
+
+// Rung CHK_New_Period#20
+// Offset 414
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  If flag is set, use day of week - every CfgNewPeriodDay where "
+"0=sunday<br>"
+"##   either add 7 days, or 7 days minus today to allow for "
+"changes of DOW<br>##  else use CfgNewPeriodFreq<br>##"
+#END
+
+STRPD	C14
+AND	C80
+OR	C1000
+MATH	D60	"D30 + (IF(N0 == SDT0.DayOfWeek, 7, IF(N0 > SDT0.DayOfWeek, N0 - SDT0.DayOfWeek, 7 - (SDT0.DayOfWeek - N0))) * HOURS_24)"
+EPOCH2DT	D60	UDT28
+COPY	0x1	"4 0x0 0 UDT28.Hour 1 0x0 0 UDT28.Minute 1 0x0 0 UDT28.Second 1 0x0 UDT28 UDT4 1 0x0 0 C35 1"
+
+// Rung CHK_New_Period#21
+// Offset 462
+STRPD	C14
+OR	C1000
+DTOFFSET	UDT4	-15	UDT6
+STRPRINT	SS11	0x4	"SS2 UDT6.Year FmtInt(UDT6.Month,dec,2,zeropad) FmtInt(UDT6.Day,dec,2,zeropad)"
+
+// Rung CHK_New_Period#22
+// Offset 479
+NOP
+
+// Rung CHK_New_Period#23
+// Offset 480
+STR	C14
+ANDE	R8	0
+STRPRINT	SS54	0x4	""""""
+
+// Rung CHK_New_Period#24
+// Offset 490
+STR	C14
+AND	C15
+ANDGT	R8	0
+STRPRINT	SS54	0x5	"SS47 R8 SS52"
+
+// Rung CHK_New_Period#25
+// Offset 504
+#BEGIN COMMENT 
+"##"
+"##  Reflect the loging period in the email"
+"##"
+#END
+
+STR	C14
+AND	C80
+STRPRINT	SS114	0x4	"""New period starts first thing each "" Lookup(N0,""Null"",""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday"",""Saturday"",""Sunday"")"
+
+// Rung CHK_New_Period#26
+// Offset 546
+STR	C14
+ANDN	C80
+STRPRINT	SS114	0x4	"""It's a new reporting period (every "" SS74 ""). """
+
+// Rung CHK_New_Period#27
+// Offset 565
+#BEGIN COMMENT 
+"##"
+"##  Now that the new period logfile name is set up, lets write the first log out"
+"##"
+#END
+
+STRPD	C14
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS12 1 SS14 1 SS13 1 SS54 1"	"TimeStamp() "","" SS12 "","" SS14 "","" SS13 "","" SS54 ""$0D$0A"""	0x0	C200	C201
+DNSLOOKUP	@IntEthernet	0x0	-800858402	0	"""google.com"""	D4	0x0	C33	C32
+
+// Rung CHK_New_Period#28
+// Offset 637
+NOP
+
+// Rung CHK_New_Period#29
+// Offset 638
+#BEGIN COMMENT 
+"## Turn on debugging logs - use Debug-->Do-more Logger"
+#END
+
+STRPD	C20
+SET	ST36
+
+// Rung CHK_New_Period#30
+// Offset 641
+STR	ST2
+STRPRINT	SL2	0x4	"""$0D$0ACurrent Temperature:$09 "" FmtReal(R2,4,1,dec) "" degF$0D$0APeriod Extremes (degF):$0D$0A$09"" SS43 ""$0D$0A$09"" SS44 ""$0D$0ALifetime Extremes (degF):$0D$0A$09"" SS45 ""$0D$0A$09"" SS46 ""$0D$0A$0D$0ACurrent Relative Humidity:$09 "" FmtReal(R14,4,1,dec) ""%$0D$0APeriod Extremes (% RH):$0D$0A$09"" SS58 ""$0D$0A$09"" SS59 ""$0D$0ALifetime Extremes (% RH):$0D$0A$09"" SS60 ""$0D$0A$09"" SS61 ""$0D$0A"""
+NOT
+STRPRINT	SL2	0x4	"""$0D$0ASkipping Environmentals Log for now.$0D$0A"" ""Number of Calibrations: "" D86 ""$0D$0A"""
+
+// Rung CHK_New_Period#31
+// Offset 748
+STR	ST2
+STRPRINT	SXL1	0x0	"""This message was generated automatically.$0D$0A"" SS127 ""=Period End$0D$0A"" FmtDate(UDT4,asia) ""=Next Period End$0A$0D"" SS114 ""Next  is "" FmtDate(UDT4,asia) "".$0D$0A"" ""The system is in "" SS14 "" and set to "" SS13 "".$0D$0AThe Strike Clutch activated "" D3 "" times, for "" SS37 "".$0D$0AThe Time  Clutch activated "" D2 "" times, for "" SS38 "".$0D$0AThe Drive Motor was on for a total of "" SS39 "".$0D$0A$0D$0A"" ""Clock is "" FmtInt(D46,dec,2) ""m off.  Rate of drift is "" D51 "" seconds over 48 hours ("" SS126 "")$0D$0A"" ""Summertime (DST)="" ST768 ""$0D$0A$0D$0A"" SS42 ""$0D$0A"" DST5 "" Errors,  "" DST6 "" Warnings, "" DST385 "" WatchdogReboots$0D$0A"" ""LastErrMsg: "" LastERR0"
+
+// Rung CHK_New_Period#32
+// Offset 912
+NOP
+
+// Rung CHK_New_Period#33
+// Offset 913
+STR	C14
+ORPD	C20
+STRPRINT	SXL0	0x0	"""/1024 bytes in msg$0D$0AThis message was generated automatically.$0D$0A"" SS114 "". Next period starts "" FmtDate(UDT4,asia) "".$0D$0A"" ""The system is in "" SS14 "" and set to "" SS13 "".$0D$0AThe Strike Clutch activated "" D3 "" times, for "" SS37 "".$0D$0AThe Time  Clutch activated "" D2 "" times, for "" SS38 "".$0D$0AThe Drive Motor was on for a total of "" SS39 "".$0D$0A"" SL2 ""$0D$0A"" SS85 ""$0D$0ARate of drift is "" D52 "" seconds over 48 hours ("" SS126 "")$0D$0A"" ""Summertime="" ST768 ""$0D$0A"" ""Installed: "" Lookup(UDT30.DayOfWeek,""Sunday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday"",""Saturday"") "", "" FmtDate(UDT30,asia) ""$0D$0A"" ""Last Power Fail/Reboot: "" PowerOutages0 ""$0D$0A"" SS84 ""$0D$0A$0D$0A"" SS42 ""$0D$0A"" SS124 ""$0D$0A"" DST385 "" WatchdogReboots$0D$0A"" ""LastErrMsgs: "" LastERR0 ""$0D$0A """
+MATH	V100	"SXL0.Length"
+FILELOG	@SDCardFS	SS127	0x0	SS0	"2 V100 1 SXL0 1"	"TimeStamp() "","" V100 "","" SXL0 ""$0D$0A"""	0x0	C200	C201
+
+// Rung CHK_New_Period#34
+// Offset 1150
+NOP
+
+// Rung CHK_New_Period#35
+// Offset 1151
+#BEGIN FMT_COMMENT 
+"##<br>"
+"## If network now ok, and last period's logfile failed to "
+"email, try to sqeeze it in first<br>##"
+#END
+
+STR	C33
+AND	C14
+AND	C84
+EMAIL	@NoParishMailer	"""psvail@verizon.net"""	"""rzelle@actweb.com,josephcferguson@comcast.net,pagrimm@comcast.net,kirkolsen@123mail.org"""	""""""	"""NP Tower Clock Auto-Winder - missed log"""	0x2	"SXL2"	0x0	C35	C36	@SDCardFS	SS78
+RST	C84
+
+// Rung CHK_New_Period#36
+// Offset 1207
+#BEGIN COMMENT 
+"##"
+"## If ethernet works, send summary email at period end, and clear period accumulators"
+"## Set $EnableMsgDump and use DBG_SEND_EMAIL to force one out. DoMore Logger"
+"##"
+#END
+
+STR	C33
+AND	C14
+ORPD	C20
+EMAIL	@NoParishMailer	"""psvail@verizon.net"""	"""rzelle@actweb.com,josephcferguson@comcast.net,pagrimm@comcast.net,kim.adami@verizon.net,kirkolsen@123mail.org"""	""""""	"""NP Tower Clock Auto-Winder"""	0x2	"V100 SXL0"	0x0	C35	C36	@SDCardFS	SS15
+MOVE	0	C20
+
+// Rung CHK_New_Period#37
+// Offset 1270
+STRN	C14
+SLOPE	ClockDriftAccSec0	3600000	R40
+SLOPE	ClockDriftAccSec23	3600000	R41
+SLOPE	ClockDriftAccSec48	3600000	R42
+
+// Rung CHK_New_Period#38
+// Offset 1283
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  Instantiate the NewPeriod time, reset periodic accumulators<br>## "
+"added a one minute timeout to deal with persistant network "
+"downtime<br>##"
+#END
+
+STR	C14
+AND	C35
+STR	C14
+ANDGT	SDT0.Minute	0
+ORSTR
+COPY	0x1	"4 0x0 0 D3 1 0x0 0 D2 1 0x0 0 D33 1 0x0 0 D34 1 0x0 0 D35 1 0x0 MIN_TEMPERATURE R3 1 0x0 MAX_TEMPERATURE R4 1 0x0 MAX_HUMIDITY R13 1 0x0 MIN_HUMIDITY R12 1 0x0 0 V7 1 0x0 0 D86 1"
+INIT	"3 DST128 DST159 0"
+COPY	0x1	"4 0x0 LastERR0 LastERR1 7"
+STRCLEAR	LastERR0	1
+RST	C14
+
+// Rung CHK_New_Period#39
+// Offset 1339
+STR	C14
+AND	C36
+STRCOPY	SXL0	SXL2	1
+STRCOPY	SS15	SS78	1
+SET	C84
+
+// End of Code Block CHK_New_Period
+$PGMEND	CHK_New_Period
+
+// Beginning of Code Block Logger
+$PRGRM	Logger
+
+// Rung Logger#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"##<br>##  <b><U>LOGGER  PROGRAM</U></b><br>##<br>"
+"##  Log all switch activity, and any notable events<br>"
+"##<br>##"
+#END
+
+NOP
+
+// Rung Logger#2
+// Offset 1
+STRPD	C19
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS33 1 SS8 1"	"TimeStamp() "","" SS33 "","" SS8 ""$0D$0A"""	0x0	C15	C25
+
+// Rung Logger#3
+// Offset 40
+STRND	C19
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS33 1 SS9 1"	"TimeStamp() "","" SS33 "","" SS9 ""$0D$0A"""	0x0	C26	C27
+
+// Rung Logger#4
+// Offset 80
+STRPD	C16
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS34 1 SS7 1"	"TimeStamp() "","" SS34 "","" SS7 ""$0D$0A"""	0x0	C28	C29
+
+// Rung Logger#5
+// Offset 120
+STRND	C16
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS34 1 SS6 1"	"TimeStamp() "","" SS34 "","" SS6 ""$0D$0A"""	0x0	C30	C31
+
+// Rung Logger#6
+// Offset 160
+STRPD	C39
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS26 1 SS3 1"	"TimeStamp() "","" SS26 "","" SS3 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#7
+// Offset 199
+STRND	C39
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS26 1 SS4 1"	"TimeStamp() "","" SS26 "","" SS4 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#8
+// Offset 238
+STRPD	C38
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS27 1 SS3 1"	"TimeStamp() "","" SS27 "","" SS3 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#9
+// Offset 276
+STRND	C38
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS27 1 SS4 1"	"TimeStamp() "","" SS27 "","" SS4 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#10
+// Offset 315
+STRPD	C18
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS31 1 SS3 1"	"TimeStamp() "","" SS31 "","" SS3 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#11
+// Offset 353
+STRND	C18
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS31 1 SS4 1"	"TimeStamp() "","" SS31 "","" SS4 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#12
+// Offset 391
+STRPD	C3
+AND	ST2
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS25 1 SS3 1"	"TimeStamp() "","" SS25 "","" SS3 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#13
+// Offset 430
+STRND	C3
+AND	ST2
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS25 1 SS4 1"	"TimeStamp() "","" SS25 "","" SS4 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#14
+// Offset 469
+STRPD	C2
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS30 1 SS3 1"	"TimeStamp() "","" SS30 "","" SS3 ""$0D$0A"""	0x0	C200	C201
+MATH	D86	"D86 + 1"
+
+// Rung Logger#15
+// Offset 515
+NOP
+
+// Rung Logger#16
+// Offset 516
+STRPD	C1
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS21 1 SS3 1"	"TimeStamp() "","" SS21 "","" SS3 ""$0D$0A"""	0x0	C200	C201
+COPY	0x1	"4 0x0 D20 D82 1 0x0 SDT0 UDT31 1"
+DT2EPOCH	SDT0	D20
+MATH	D83	"ABS(D20 - D82) * 1000"
+INIT	"3 D22 D22 0"
+
+// Rung Logger#17
+// Offset 583
+STRND	C1
+DT2EPOCH	SDT0	D21
+MATH	D70	"(D21 - D20) * 1000"
+STRPRINT	SS115	0x5	"""Dur:"" FmtTMR(D70,sec)"
+MATH	D22	"D22 + (D21 - D20)"
+STRPRINT	SS111	0x5	"""Cnt:"" CT1.Acc"
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS21 1 SS4 1 SS111 1 SS115 1"	"TimeStamp() "","" SS21 "","" SS4 "","" SS111 "","" SS115 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#18
+// Offset 676
+STRPD	C0
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS20 1 SS3 1"	"TimeStamp() "","" SS20 "","" SS3 ""$0D$0A"""	0x0	C200	C201
+DT2EPOCH	SDT0	D18
+INIT	"3 D23 D23 0"
+
+// Rung Logger#19
+// Offset 723
+STRND	C0
+DT2EPOCH	SDT0	D19
+MATH	D71	"(D19 - D18) * 1000"
+STRPRINT	SS116	0x5	"""Dur:"" FmtTMR(D71,sec)"
+MATH	D23	"D23 + (D19 - D18)"
+STRPRINT	SS110	0x5	"""Cnt:"" CT0.Acc"
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS20 1 SS4 1 SS110 1 SS116 1"	"TimeStamp() "","" SS20 "","" SS4 "","" SS110 "","" SS116 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#20
+// Offset 817
+STRPD	C40
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS23 1 SS3 1"	"TimeStamp() "","" SS23 "","" SS3 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#21
+// Offset 856
+STRND	C40
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS23 1 SS4 1"	"TimeStamp() "","" SS23 "","" SS4 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#22
+// Offset 895
+STRPD	C41
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS24 1 SS3 1"	"TimeStamp() "","" SS24 "","" SS3 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#23
+// Offset 933
+STRND	C41
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS24 1 SS4 1"	"TimeStamp() "","" SS24 "","" SS4 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#24
+// Offset 971
+STRPD	C4
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS22 1 SS3 1 SS87 1 D39 1"	"TimeStamp() "","" SS22 "","" SS3 "","" SS87 "","" D39 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#25
+// Offset 1028
+STRND	C4
+STRPRINT	SS62	0x4	"FmtReal(R14,4,1,dec)"
+STRPRINT	SS36	0x4	"FmtReal(R2,4,1,dec)"
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS22 1 SS4 1 SS51 1 SS36 1 SS79 1 SS62 1 SS68 1 D52 1"	"TimeStamp() "","" SS22 "","" SS4 "","" SS51 "","" SS36 "","" SS79 "","" SS62 "","" SS68 "","" D52 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#26
+// Offset 1129
+STRND	C38
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS27 1 SS4 1"	"TimeStamp() "","" SS27 "","" SS4 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#27
+// Offset 1168
+#BEGIN FMT_COMMENT 
+"##<br>## Log an entry on each hammer strike<br>##"
+#END
+
+STRND	C70
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS80 1 CT4.Acc 1"	"TimeStamp() "","" SS80 "","" CT4.Acc ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#28
+// Offset 1211
+#BEGIN COMMENT 
+"##"
+"## Log an entry when any of the clutches engage or disengage"
+"##  Keep track of On-time for Clutch"
+"## Off times for clutches do NOT include ramp down, so Drive time will be longer"
+"##"
+#END
+
+STRPD	C42
+DT2EPOCH	SDT0	D6
+INC	D2
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS0 1 SS3 1"	"TimeStamp() "","" SS0 "","" SS3 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#29
+// Offset 1252
+STRND	C42
+MATH	D73	"D7"
+EPOCH2DT	D73	UDT32
+STRPRINT	SS100	0x5	"FmtDate(UDT32,asia) "" "" FmtTime(UDT32,24h)"
+STRPRINT	SS101	0x5	"FmtDate(SDT0,asia) "" "" FmtTime(SDT0,24h)"
+MATH	D75	"(D30 - D73) * 1000"
+STRPRINT	SS89	0x5	"FmtTMR(D75,sec)"
+DT2EPOCH	SDT0	D7
+MATH	D25	"(D7 - D6) * 1000"
+MATH	D34	"D34 + D25"
+STRPRINT	SS63	0x5	"FmtTMR(D25,sec)"
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS0 1 SS4 1 SS63 1"	"TimeStamp() "","" SS0 "","" SS4 "","" SS63 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#30
+// Offset 1369
+STRPD	C43
+DT2EPOCH	SDT0	D15
+INC	D3
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS1 1 SS3 1"	"TimeStamp() "","" SS1 "","" SS3 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#31
+// Offset 1411
+STRND	C43
+MATH	D72	"D14"
+EPOCH2DT	D72	UDT33
+STRPRINT	SS102	0x5	"FmtDate(UDT33,asia) "" "" FmtTime(UDT33,24h)"
+STRPRINT	SS103	0x5	"FmtDate(SDT0,asia) "" "" FmtTime(SDT0,24h)"
+MATH	D76	"(D30 - D72) * 1000"
+STRPRINT	SS88	0x5	"FmtTMR(D76,sec)"
+DT2EPOCH	SDT0	D14
+MATH	D26	"(D14 - D15) * 1000"
+MATH	D33	"D33 + D26"
+STRPRINT	SS64	0x5	"FmtTMR(D26,sec)"
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS1 1 SS4 1 SS64 1"	"TimeStamp() "","" SS1 "","" SS4 "","" SS64 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#32
+// Offset 1528
+STR	C23
+DT2EPOCH	SDT0	D8
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS5 1 SS3 1"	"TimeStamp() "","" SS5 "","" SS3 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#33
+// Offset 1567
+STR	C24
+DT2EPOCH	SDT0	D9
+EPOCH2DT	D9	UDT34
+STRPRINT	SS97	0x5	"FmtDate(UDT34,asia) "" "" FmtTime(UDT34,24h)"
+MATH	D29	"(D9 - D8) * 1000"
+MATH	D35	"D35 + D29"
+STRPRINT	SS65	0x5	"FmtTMR(D29,sec)"
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS5 1 SS4 1 SS65 1"	"TimeStamp() "","" SS5 "","" SS4 "","" SS65 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#34
+// Offset 1651
+STRND	C2
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS30 1 SS4 1"	"TimeStamp() "","" SS30 "","" SS4 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#35
+// Offset 1690
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##   This next ""Temperature"" section is rediculous.  There HAS "
+"to be a better way...<br>##"
+#END
+
+NOP
+
+// Rung Logger#36
+// Offset 1691
+#BEGIN COMMENT 
+"##"
+"##  Temperature and Heater"
+"##"
+#END
+
+STRPD	C45
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS48 1 SS3 1 SS70 1 SS51 1"	"TimeStamp() "","" SS48 "","" SS3 "","" SS70 "","" SS51 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#37
+// Offset 1744
+STRND	C45
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS48 1 SS4 1"	"TimeStamp() "","" SS48 "","" SS4 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#38
+// Offset 1782
+STRPD	C46
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS49 1 SS3 1 SS53 1"	"TimeStamp() "","" SS49 "","" SS3 "","" SS53 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#39
+// Offset 1824
+STRPD	C47
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS50 1 SS3 1 SS53 1"	"TimeStamp() "","" SS50 "","" SS3 "","" SS53 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#40
+// Offset 1867
+NOP
+
+// Rung Logger#41
+// Offset 1868
+STRND	C47
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS50 1 SS4 1 SS53 1"	"TimeStamp() "","" SS50 "","" SS4 "","" SS53 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#42
+// Offset 1911
+STRND	C46
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS49 1 SS4 1 SS53 1"	"TimeStamp() "","" SS49 "","" SS4 "","" SS53 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#43
+// Offset 1953
+NOP
+
+// Rung Logger#44
+// Offset 1954
+#BEGIN COMMENT 
+"##"
+"##  LoLo turns off first, leaving Lo still set.  When Lo turns off, heater is off"
+"##"
+#END
+
+STRND	C47
+AND	C15
+AND	ST2
+STRPRINT	SS69	0x4	"""Ramp Dn to "" R9 ""%"""
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS47 1 SS69 1"	"TimeStamp() "","" SS47 "","" SS69 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#45
+// Offset 2008
+STRPD	C48
+AND	C15
+STRPRINT	SS69	0x4	"""Ramp to "" R9 ""%"""
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS47 1 SS69 1"	"TimeStamp() "","" SS47 "","" SS69 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#46
+// Offset 2060
+STRDLT	R23
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS107 1 R23 1"	"TimeStamp() "","" SS107 "","" R23 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#47
+// Offset 2103
+STRPD	C71
+AND	ST2
+STRPRINT	SS81	0x4	"""HeaterHold"""
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS81 1 SS3 1"	"TimeStamp() "","" SS81 "","" SS3 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#48
+// Offset 2151
+STRND	C71
+AND	ST2
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS81 1 SS4 1"	"TimeStamp() "","" SS81 "","" SS4 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Logger#49
+// Offset 2191
+#BEGIN COMMENT 
+"##"
+"##   END of Temperature silliness!"
+"##"
+#END
+
+NOP
+
+// Rung Logger#50
+// Offset 2192
+#BEGIN COMMENT 
+"##"
+"##  Daylight Savings Time"
+"##"
+#END
+
+STRDLT	ST768
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS82 1 ST768 1"	"TimeStamp() "","" SS82 "","" ST768 ""$0D$0A"""	0x0	C200	C201
+
+// End of Code Block Logger
+$PGMEND	Logger
+
+// Beginning of Code Block Timer_Mode
+$PRGRM	Timer_Mode
+
+// Rung Timer_Mode#1
+// Offset 0
+#BEGIN COMMENT 
+"##"
+"##  TIMER MODE  PROGRAM"
+"##"
+"##  Based on the NEXT_TIMER_ON, turn on/off both STRIKE and WIND Clutches"
+"##"
+"##"
+#END
+
+NOP
+
+// Rung Timer_Mode#2
+// Offset 1
+#BEGIN COMMENT 
+"##"
+"##  If mode changes, setup timer on and next time based on next hour as seed"
+"##"
+#END
+
+STRND	C16
+ORPD	C19
+CALL	Calibrate	0x1	DST511	"3 0 C53 1 0 C54 1 1 C52 1"	"3"
+RST	C8
+RST	Y5
+
+// Rung Timer_Mode#3
+// Offset 17
+#BEGIN COMMENT 
+"##"
+"##   DEBUG - Force TIMER_ON to now to cause recalculation"
+"## probably want to change TIMER_ON_FREQ and TIMER_ON_DUR as well"
+"##"
+#END
+
+STR	C6
+DTOFFSET	SDT0	10	UDT1
+COPY	0x1	"4 0x0 0 C6 1 0x0 0 C51 1 0x0 1 C103 1"
+
+// Rung Timer_Mode#4
+// Offset 28
+#BEGIN COMMENT 
+"##"
+"##  Timer processing is always running.  However in Pulse Mode, we ignore it's triggers"
+"##"
+""
+#END
+
+STR	C50
+DTCMP	SDT0	UDT1	0x3	C5	ST1023	C5
+
+// Rung Timer_Mode#5
+// Offset 35
+STRPD	C5
+SET	C8
+
+// Rung Timer_Mode#6
+// Offset 38
+#BEGIN COMMENT 
+"##"
+"## Calculate the Next timer trigger, at 5 past the hour"
+"##   Forces the hour to a certain hour"
+"## Set it now so that the so that the compare does not trip anymore"
+"##"
+#END
+
+STRPD	C8
+CALL	Calc_NEXT_TIMER	0x1	DST511	"3"	"3"
+
+// Rung Timer_Mode#7
+// Offset 47
+#BEGIN COMMENT 
+"##"
+"##  Run the system until the TIMER_ON_DUR expires"
+"##"
+#END
+
+STR	C8
+AND	ST4
+STRND	C8
+CNTDN	CT3	D1
+
+// Rung Timer_Mode#8
+// Offset 53
+#BEGIN COMMENT 
+"##"
+"##  Shut off TIMER_ON_RUNNING"
+"##  If we got here via a DEBUG EVENT, restore the hourly force, "
+"##   and calculate a new NEXT_TIMER_ON"
+"##"
+#END
+
+STRPD	CT3.Done
+RST	C8
+AND	C103
+COPY	0x1	"4 0x0 0 C103 1 0x0 1 C51 1 0x0 ClockDriftAccum11 UDT1 1"
+CALL	Calc_NEXT_TIMER	0x1	DST511	"3"	"3"
+
+// Rung Timer_Mode#9
+// Offset 74
+#BEGIN COMMENT 
+"##"
+"##  Log Timer-based starts and stops -  only if in timer and auto modes"
+"##       Actual activation is done above as if by manual start/stop"
+"##"
+#END
+
+STRN	C16
+ANDPD	C8
+AND	C19
+MATH	D32	"D1 * 1000"
+STRPRINT	SS66	0x5	"FmtTMR(D32,sec)"
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS10 1 SS3 1 SS66 1"	"TimeStamp() "","" SS10 "","" SS3 "","" SS66 ""$0D$0A"""	0x0	C200	C201
+SET	Y5
+
+// Rung Timer_Mode#10
+// Offset 138
+STRN	C16
+ANDND	C8
+AND	C19
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS10 1 SS4 1"	"TimeStamp() "","" SS10 "","" SS4 ""$0D$0A"""	0x0	C200	C201
+RST	Y5
+
+// End of Code Block Timer_Mode
+$PGMEND	Timer_Mode
+
+// Beginning of Code Block Photo_Mode
+$PRGRM	Photo_Mode
+
+// Rung Photo_Mode#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"##<br>##    <b><U>PHOTO   MODE   PROGRAM</U></b><br>##<br>"
+"##  Count Photoswitch pulses and decide when we should "
+"start or stop the winding.<br>"
+"##     Really would be nice to have two photo sensors on "
+"each drum so that we can see<br>"
+"##     leading edge vs trailing edges of detector - if "
+"drive running, must be counting up!<br>"
+"##  Counters follow weights, counting down the weights are "
+"lowering, <br>"
+"##       when count reaches 0, engage Clutch<br>##<br>##"
+#END
+
+NOP
+
+// Rung Photo_Mode#2
+// Offset 1
+#BEGIN COMMENT 
+"##"
+"##    TIME  COUNTER"
+"##"
+"##  If clutch engaged, must be winding UP"
+"##"
+#END
+
+STRND	C1
+ANDGT	R1	0
+STRND	C1
+ANDE	R1	0
+STR	C100
+UDC	CT1	N7	N9
+
+// Rung Photo_Mode#3
+// Offset 17
+#BEGIN COMMENT 
+"##"
+"##    STRIKE  COUNTER"
+"##"
+"## If clutch engaged, must be winding UP"
+"##"
+#END
+
+STRND	C0
+ANDGT	R0	0
+STRND	C0
+ANDE	R0	0
+STR	C101
+UDC	CT0	N6	N8
+
+// Rung Photo_Mode#4
+// Offset 33
+NOP
+
+// Rung Photo_Mode#5
+// Offset 34
+#BEGIN FMT_COMMENT 
+"##<br>##    STRIKE HAMMER COUNTER<br>##<br>"
+"## record each strike of bell, reset counter when LO "
+"triggers<br>##"
+#END
+
+STRPD	C70
+STR	ST2
+STRPD	C4
+UDC	CT4	0	DST511
+
+// Rung Photo_Mode#6
+// Offset 42
+NOP
+
+// Rung Photo_Mode#7
+// Offset 43
+#BEGIN COMMENT 
+"##"
+"##  If limit switch is hit, reset the pulse counter to upper out-of range number plus "
+"##  a back-off amount to allow it to unwind into the normal operating range"
+"##  Refer to CALIBRATE_PHOTO"
+"##"
+#END
+
+STRDLT	C40
+MATH	CT0.Acc	"N6 + N10"
+
+// Rung Photo_Mode#8
+// Offset 54
+STRDLT	C41
+MATH	CT1.Acc	"N7 + N11"
+
+// End of Code Block Photo_Mode
+$PGMEND	Photo_Mode
+
+// Beginning of Code Block $t100ms
+$TSK	$t100ms
+
+// Rung $t100ms#1
+// Offset 0
+NOP
+
+// End of Code Block $t100ms
+$TSKEND	$t100ms
+
+// Beginning of Code Block Process_Environs
+$PRGRM	Process_Environs
+
+// Rung Process_Environs#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"##<br>##   <b><i>PROCESS  ENVIRONS  PROGRAM</i></b><br>"
+"##<br>##  Read temperature / Humidity environment from "
+"external box<br>##  Set exterme trackers and manage Heater "
+"<br>##"
+#END
+
+NOP
+
+// Rung Process_Environs#2
+// Offset 1
+#BEGIN COMMENT 
+"##"
+"## Read the temperature from the temp / humidity box, filter it (or not)"
+"## and see if we need to turn on the heater"
+"##"
+#END
+
+STR	ST2
+FILTER	0.05	WX0	R5
+NOT
+MOVE	WX0	R5
+
+// Rung Process_Environs#3
+// Offset 9
+STR	ST1
+SCALE	WX0	3000	32767	0.0	10.0	R22
+
+// Rung Process_Environs#4
+// Offset 18
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  We are overloading the only analog input we have to read "
+"both <br>##   temperature and humidity.  We use the two "
+"second timer to trigger a relay switching ##   between the "
+"two inputs.  we give the relay 125ms to settle before "
+"reading the value,<br>##   then scale apropriately<br>"
+"##    Finally, look for extremes for the other sensor while "
+"we update this one<br>##<br>"
+"<B>######  Swap polarity on t2sec because wires are swapped "
+"at sensor</B><br><B>##</B>"
+#END
+
+STRN	C49
+ANDN	C102
+ONDTMR	T8	250	C56
+CALL	EnvironExtremes	0x0	DST511	"3 R14 R19 1 R12 R15 1 R13 R16 1 R10 R17 1 R11 R18 1 UDT18 UDT14 1 UDT19 UDT15 1 UDT20 UDT22 1 UDT21 UDT23 1"	"3 R15 R12 1 R16 R13 1 R17 R10 1 R18 R11 1 UDT14 UDT18 1 UDT15 UDT19 1 UDT22 UDT20 1 UDT23 UDT21 1"
+NOT
+ONDTMR	T9	250	C57
+CALL	EnvironExtremes	0x0	DST511	"3 R2 R19 1 R3 R15 1 R4 R16 1 R6 R17 1 R7 R18 1 UDT11 UDT14 1 UDT10 UDT15 1 UDT12 UDT22 1 UDT13 UDT23 1"	"3 R15 R3 1 R16 R4 1 R17 R6 1 R18 R7 1 UDT14 UDT11 1 UDT15 UDT10 1 UDT22 UDT12 1 UDT23 UDT13 1"
+
+// Rung Process_Environs#5
+// Offset 143
+#BEGIN COMMENT 
+"##"
+"## Read Humidity and take a running average - brute force, but its integer"
+#END
+
+STRPD	C57
+COPY	0x1	"4 0x0 V30 V31 19 0x0 R5 V30 1"
+MATH	V3	"AVGR(V30, 20)"
+SCALE	V3	0	32767	0.0	10.0	R37
+SCALE	R37	0.0	10.0	0.0	100.0	R14
+
+// Rung Process_Environs#6
+// Offset 180
+#BEGIN COMMENT 
+"## "
+"## Read Temperature and take a running average - brute force, but its integer"
+"## Range is supposed to be (-20 to 80C)  -4 to 176F, but  -20 to 170 mostly works"
+"## If we just changed the heater, hold off a bit on the alarm reading  to avoid thrash"
+"##"
+#END
+
+STRPD	C56
+COPY	0x1	"4 0x0 V10 V11 19 0x0 R5 V10 1"
+MATH	V2	"AVGR(V10, 20)"
+SCALE	V2	0	32767	0.0	10.0	R36
+MATH	R34	"R33 + R35"
+SCALE	R36	0.0	10.0	R33	R34	R20
+
+// Rung Process_Environs#7
+// Offset 223
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  Simply take the percentage of the possible count and multiply "
+"by <br>##    voltage (10v), then subtract the floor (-20c), "
+"to get degrees C<br>##"
+#END
+
+STR	ST1
+MATH	R20	"((TOREAL(V2) / 32767.0) * 10.0) - 0.2"
+
+// Rung Process_Environs#8
+// Offset 240
+STRPD	C56
+MATH	R2	"((R20 * 9) / 5) + 32"
+STRPRINT	SS70	0x4	"FmtReal(R2,3,1,dec)"
+ANDN	C71
+COPY	0x1	"4 0x0 R2 R21 1"
+
+// Rung Process_Environs#9
+// Offset 267
+NOP
+
+// Rung Process_Environs#10
+// Offset 268
+#BEGIN COMMENT 
+"##"
+"##  BRX wants to be between 32 and 140 degF"
+"## For now, we just track the high limit. We may need a fan running all the time."
+"##"
+""
+#END
+
+STR	ST1
+MATH	R27	"R23 - 5.0"
+ALHILO	R21	DST511	ST1023	85	C45	R23	C46	R27	C47
+
+// Rung Process_Environs#11
+// Offset 287
+NOP
+
+// Rung Process_Environs#12
+// Offset 288
+#BEGIN COMMENT 
+"##"
+"##  If cold, turn on heater patially, else turn off"
+"##"
+#END
+
+STR	C46
+MOVE	R25	R9
+NOT
+MOVE	HEATER_OFF	R9
+
+// Rung Process_Environs#13
+// Offset 295
+#BEGIN COMMENT 
+"##"
+"##  If too cold, turn on heater double LO  time"
+"##"
+#END
+
+STR	C47
+MATH	R9	"R25 * 2.0"
+
+// Rung Process_Environs#14
+// Offset 305
+#BEGIN COMMENT 
+"##"
+"## If either alarm changed, trigger the Heater RAMPSOAK to adjust to the new dutycycle"
+"## Set the Hold flag to prevent additional fluctuations to thrash the alarm state"
+"##"
+#END
+
+STRNE	C46	C73
+ORNE	C47	C74
+ORNE	R9	R28
+SET	C71
+TIMEDOUT	2500	C48	0x1
+COPY	0x1	"4 0x0 C46 C73 1 0x0 C47 C74 1 0x0 R9 R28 1"
+
+// Rung Process_Environs#15
+// Offset 332
+#BEGIN COMMENT 
+"##"
+"## Add a temperature hold period to prevent thrashing"
+"##  dont change alarm state for several minutes"
+"##"
+#END
+
+STR	C71
+MATH	D49	"D50 * 1000.0"
+TMRDOWN	T7	D49
+
+// Rung Process_Environs#16
+// Offset 344
+#BEGIN COMMENT 
+"##"
+"## Dont let the hold timer runaway"
+"##"
+#END
+
+STRPD	T7.Done
+ORE	T7.Zero	1
+RST	C71
+
+// Rung Process_Environs#17
+// Offset 351
+#BEGIN COMMENT 
+"##"
+"##  Trigger the Heater RAMPSOAK to adjust to any new dutycycle"
+"##  the time should be a titch over the ramp time to make sure it finishes but doesnt get"
+"##  in the way of the next change"
+"##"
+#END
+
+STR	C48
+AND	ST2
+ORNE	R9	R8
+STR	ST2
+STR	ST2
+RAMPSOAK	Heater_RampSoak	R8	1	"4 4 R9 2000 0"
+
+// Rung Process_Environs#18
+// Offset 366
+STR	C15
+ANDGT	R9	0
+PWMOUT	@HEATER_PWM	$HEATER_PWM	Y3	30	R8
+
+// Rung Process_Environs#19
+// Offset 385
+#BEGIN COMMENT 
+"##"
+"##  If either ther high limit is exceeded or the heater is on,"
+"##  turn on the blower.  Assuming one exists"
+"##"
+#END
+
+STR	C45
+ORGT	R9	0
+OUT	C82
+
+// End of Code Block Process_Environs
+$PGMEND	Process_Environs
+
+// Beginning of Code Block Process_Debug
+$PRGRM	Process_Debug
+
+// Rung Process_Debug#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"##    <U><b><FONT tsize=4>PROCESS  DEBUG  "
+"Program</FONT></b></U><br>##<br>"
+"##  Overload the debug button to allow us to trigger "
+"various events<br>"
+"##  On the first button push, start a timer and count the "
+"button pushes within 5 seconds<br>"
+"##   1 = operator adjusted works<br>"
+"##   1 = (OBS) calibration<br>##   2 = set next_timer_on to "
+"now<br>##   3 = send email<br>##   4 = spare<br>"
+"##   5 = initialize lifetime accumulators at "
+"installation<br>##"
+#END
+
+NOP
+
+// Rung Process_Debug#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"##<br>##  If Debug button released, then chirp a bit<br>##"
+#END
+
+STRND	C61
+AND	ST1
+TIMEDOUT	D58	C75	0x0
+
+// Rung Process_Debug#3
+// Offset 8
+STRND	C61
+STR	C58
+CNT	CT2	0
+
+// Rung Process_Debug#4
+// Offset 13
+STRGT	CT2.Acc	0
+TMRDOWN	T1	5000
+
+// Rung Process_Debug#5
+// Offset 19
+STRPD	T1.Done
+MOVE	CT2.Acc	V1
+
+// Rung Process_Debug#6
+// Offset 23
+STR	T1.Done
+OR	C65
+ONDTMR	T0	500	C58
+
+// Rung Process_Debug#7
+// Offset 28
+#BEGIN COMMENT 
+"## "
+"##  Do the right thing based on button pushes within the time frame"
+"##"
+#END
+
+NOP
+
+// Rung Process_Debug#8
+// Offset 29
+#BEGIN COMMENT 
+"## "
+"##  Record a manual adjustment was made to the clock "
+"##   - either hands moved, or adjusting knob or both."
+"##  Reset drift accumulators to show no drift - start over"
+"##  leave residual seconds, as resolution of mechanism is one minute"
+"##"
+#END
+
+STRE	V1	DEBUG_CALIBRATE
+STRPRINT	SS68	0x4	"""PHYSICAL ADJUSTMENT"""
+INIT	"3 ClockDriftAccSec1 ClockDriftAccSec49 0 D64 D64 0 D68 D68 0 D52 D52 0"
+SET	C12
+
+// Rung Process_Debug#9
+// Offset 60
+#BEGIN COMMENT 
+"## "
+"##  Turn on calibration mode"
+"##"
+#END
+
+STRE	V1	DEBUG_CALIBRATE
+AND	ST2
+OUT	C3
+STRPRINT	SS68	0x4	"""START CALIBRATION"""
+
+// Rung Process_Debug#10
+// Offset 77
+STRE	V1	DEBUG_TIMER_ON
+OUT	C6
+STRPRINT	SS68	0x4	"""SET TIMER ON"""
+
+// Rung Process_Debug#11
+// Offset 91
+STRE	V1	DEBUG_EMAIL
+OUT	C20
+STRPRINT	SS68	0x4	"""SEND EMAIL"""
+
+// Rung Process_Debug#12
+// Offset 105
+STRE	V1	DEBUG_SPARE
+OUT	C60
+STRPRINT	SS68	0x4	"""SPARE"""
+
+// Rung Process_Debug#13
+// Offset 118
+STRE	V1	DEBUG_INSTALL
+OUT	C59
+STRPRINT	SS68	0x4	"""INSTALLATION"""
+
+// Rung Process_Debug#14
+// Offset 132
+#BEGIN COMMENT 
+"## dont know how to do this.  must override hardware switch"
+#END
+
+STRE	V1	DEBUG_TRIGGERING
+OUT	C66
+STRPRINT	SS68	0x4	"""TRIGGERING"""
+
+// Rung Process_Debug#15
+// Offset 146
+STRNE	V1	0
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS67 1 V1 1 SS68 1"	"TimeStamp() "","" SS67 "","" V1 "","" SS68 ""$0D$0A"""	0x0	C200	C201
+STRPRINT	SS68	0x4	""""""
+
+// Rung Process_Debug#16
+// Offset 201
+STR	C58
+MOVE	0	V1
+
+// Rung Process_Debug#17
+// Offset 204
+NOP
+
+// Rung Process_Debug#18
+// Offset 205
+NOP
+
+// Rung Process_Debug#19
+// Offset 206
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##    D  E  B  U  G     and     S  I  M  U  L  A  T  I  O  "
+"N<br>##"
+#END
+
+NOP
+
+// Rung Process_Debug#20
+// Offset 207
+#BEGIN COMMENT 
+"##"
+"##  Simulate Hourly chime lockout"
+"## Set  one minute before the hour for two minutes "
+"## Modifies STK_LOCKOUT_SW Debounced, above"
+"##"
+#END
+
+STR	C44
+ANDE	SDT0.Minute	58
+ANDE	SDT0.Second	0
+OFFDTMR	T3	299000	C9
+
+// End of Code Block Process_Debug
+$PGMEND	Process_Debug
+
+// Beginning of Code Block Process_MTTQ
+$PRGRM	Process_MTTQ
+
+// Rung Process_MTTQ#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##     <B><U><FONT tsize=4>PROCESS   MQTT   TRANSMISSIONS   PROGRAM</FONT></U></B><br>"
+"##<br>"
+"##  Periodically transmit vitals to MQTT topics on our broker<br>"
+"##"
+#END
+
+NOP
+
+// Rung Process_MTTQ#2
+// Offset 1
+STR	ST3
+DNSLOOKUP	@IntEthernet	0x0	-800858402	134744072	"""google.com"""	D4	0x0	C33	C32
+
+// Rung Process_MTTQ#3
+// Offset 18
+STR	ST1
+DTDIFF	SDT0	UDT8	D74
+MATH	D77	"D74 / (3600 * 24 * 7)"
+STRPRINT	SS73	0x4	"""Weeks:          "" D77 ""$0D$0A"""
+MATH	D78	"(D74 / (3600 * 24)) % 7"
+STRPRINT	SS73	0x6	"""Days:              "" D78 ""$0D$0A"""
+MATH	D79	"(D74 / 3600) % 24"
+STRPRINT	SS73	0x6	"""Hours:           "" D79"
+STRPRINT	SS84	0x5	"""Uptime:"" D77 ""Weeks,"" D78 ""Days,"" D79 ""Hours"""
+
+// Rung Process_MTTQ#4
+// Offset 117
+STR	ST1
+STRPRINT	SS70	0x4	"FmtReal(R2,4,1,dec) """""
+STRPRINT	SS71	0x4	"FmtReal(R14,4,1,dec) """""
+EPOCH2DT	D9	UDT0
+
+// Rung Process_MTTQ#5
+// Offset 134
+STR	ST1
+STRPRINT	SS104	0x4	"FmtDate(UDT0,asia) "" "" FmtTime(UDT0,24h) "" "" SS65"
+EPOCH2DT	D73	UDT0
+STRPRINT	SS96	0x4	"FmtDate(UDT0,asia) "" "" FmtTime(UDT0,24h) "" "" FmtTMR(D75,sec)"
+EPOCH2DT	D7	UDT0
+STRPRINT	SS98	0x4	"FmtDate(UDT0,asia) "" "" FmtTime(UDT0,24h) "" "" SS63"
+EPOCH2DT	D72	UDT0
+STRPRINT	SS95	0x4	"FmtDate(UDT0,asia) "" $0A$0D"" FmtTime(UDT0,24h) ""$0A$0D"" FmtTMR(D76,sec)"
+EPOCH2DT	D14	UDT0
+STRPRINT	SS99	0x4	"FmtDate(UDT0,asia) ""$0A$0D"" FmtTime(UDT0,24h) ""$0A$0D"" SS64"
+
+// Rung Process_MTTQ#6
+// Offset 210
+STR	ST1
+STRPRINT	SS105	0x4	"FmtDate(UDT1,asia) ""$0D$0A"" FmtTime(UDT1,24h)"
+STRPRINT	SS109	0x4	"SS11"
+STRDELETE	SS109	0	SS2.Length
+STRPRINT	SS112	0x4	"SS41 ""$0D$0A"" SS40"
+STRFIND	SS112	0xC	D36	C67	C68	"""Down for"""
+STRDELETE	SS112	D36	9
+MATH	D48	"IF(T7.Timing, ROUND(T7.Acc / 1000.0), 0)"
+STRPRINT	SS113	0x4	"FmtDate(SDT0,asia) "" "" FmtTime(SDT0,24h)"
+STRFIND	SS113	0xD	D61	C67	C68	""":"""
+MATH	D62	"(SS113.Length - D61) - 1"
+AND	ST2
+STRDELETE	SS113	D62	3
+
+// Rung Process_MTTQ#7
+// Offset 294
+STR	ST1
+STRPRINT	SS123	0x4	"""("" FmtInt(D64,dec) "") - ("" FmtInt(D68,dec) "")$0D$0A"" ""= "" FmtInt(D52,dec,2) ""$0D$0AAdj =  "" FmtReal(R29,5,4,dec)"
+STRPRINT	SS76	0x4	"""Strike Lock: "" C4 "" "" ""Strike Limit: "" C40 "" "" ""Time Limit: "" C41"
+STRPRINT	SS117	0x4	"""Sw: "" C0 "",  Cnt:  "" CT0.Acc "" "" ""Hamr: "" C70 "", Hr: "" CT4.Acc ""$0D$0A"" ""--:--"""
+STRPRINT	SS118	0x4	"""Sw: "" C1 "",  Cnt:  "" CT1.Acc ""$0D$0A"" FmtTime(UDT31,24h) ""$0D$0A"" FmtTMR(D83,sec)"
+STRPRINT	SS119	0x4	"""Auto v Man: "" X6 ""$0D$0A"" ""Photo Sw:    "" X7 ""$0D$0A"" ""Stopped:      "" C18"
+STRPRINT	SS120	0x4	"""Strike:       "" FmtReal(R0,3,0,dec) ""$0D$0A"" ""Time:        "" FmtReal(R1,3,0,dec) ""$0D$0A"" ""Motor:       "" Y2 Lookup(C2,"" "","" cal"")"
+STRPRINT	SS121	0x4	"""Heater:     "" FmtReal(R8,3,0,dec) ""$0D$0A"" ""Blower:       "" C82 ""$0D$0A"" ""Hold:      "" FmtReal(D48,5,0,dec)"
+STRPRINT	SS122	0x4	"""Temp F:    "" FmtReal(R2,3,1,dec) ""$0D$0A"" ""Temp C:    "" FmtReal(R20,3,1,dec) ""$0D$0A"" ""Humidity: "" FmtReal(R14,3,1,dec)"
+STRPRINT	SS124	0x4	"""Errors: "" FmtInt(DST5,hex,4,zeropad,prefix) ""$0D$0AWarns: "" FmtInt(DST6,hex,4,zeropad,prefix) ""$0D$0AOther: "" FmtInt(DST7,hex,4,zeropad,prefix)"
+
+// Rung Process_MTTQ#8
+// Offset 538
+STR	ST1
+STRPRINT	SS86	0x4	""" 0:   "" FmtReal(R40,6,2,dec) "" "" ""23:   "" FmtReal(R41,6,2,dec) "" "" ""48:   "" FmtReal(R42,6,2,dec) "" """
+STRPRINT	SS125	0x4	"""Temp:      "" FmtReal(R36,4,2,dec) ""$0D$0A"" ""Humid:    "" FmtReal(R37,4,2,dec) ""$0D$0A"" ""--:-- """
+
+// Rung Process_MTTQ#9
+// Offset 587
+NOP
+
+// Rung Process_MTTQ#10
+// Offset 588
+STR	C64
+ANDN	C69
+ANDN	C32
+ANDN	C90
+MQTTPUB	@MQTT_flespi	0x11	250	"""NoParish/winder/"""	"3 0x110 ""CurrentTime"" SS113"	0x0	C62	C63	V84:SD
+
+// Rung Process_MTTQ#11
+// Offset 611
+#BEGIN COMMENT 
+"##"
+"##  Detect and deal with MQTT comms errors, "
+"##"
+#END
+
+STRPD	C63
+AND	ST1
+SET	C69
+
+// Rung Process_MTTQ#12
+// Offset 615
+STR	C69
+TMRDOWN	T6	D5
+RST	C1063
+
+// Rung Process_MTTQ#13
+// Offset 619
+STRPD	T6.Done
+RST	C69
+INC	V7
+
+// Rung Process_MTTQ#14
+// Offset 623
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  After 20 MQTT comms errors, set the retry timer to 12hrs "
+"so as not to annoy<br>##"
+#END
+
+STRDLT	V7
+ANDGT	V7	600
+MOVE	D37	D5
+MOVE	0	V7
+NOT
+MOVE	60000	D5
+
+// Rung Process_MTTQ#15
+// Offset 637
+NOP
+
+// Rung Process_MTTQ#16
+// Offset 638
+STR	C64
+ANDN	C69
+ANDN	C32
+AND	C90
+MQTTPUB	@MQTT_flespi	0x11	250	"""NoParish/winder/"""	"3 0x110 ""Heater"" R8 0x110 ""LastDriveOff"" SS104 0x110 ""NextTimerOn"" SS105 0x110 ""TempAlarmLo"" R23 0x110 ""TimerSecsLeft"" CT3.Acc 0x110 ""PeriodEnd"" SS109 0x110 ""LastPowerFail"" SS112 0x110 ""ClockAccuracy"" SS77 0x110 ""MQTT_Errors"" V7 0x110 ""TempAlarmHold"" D48 0x110 ""ClkDrftMins"" D41 0x110 ""ClkDrftSecs"" D39 0x110 ""ClkDrftRateOChange"" D51 0x110 ""WarningBell"" Y4 0x110 ""STOPPED"" C18 0x110 ""CurrentTime"" SS113 0x110 ""StkLOChirpDur"" D58 0x110 ""StrikeLockOut"" C4 0x110 ""StrikeComposite"" SS117 0x110 ""TimeComposite"" SS118 0x110 ""MiscComposite"" SS119 0x110 ""MotorComposite"" SS120 0x110 ""HeaterComposite"" SS121 0x110 ""ClkDrftAdjustment"" SS126 0x110 ""EnvironComposite"" SS122 0x110 ""ClkDrftRateOChange2"" D52 0x110 ""DriftAComposite"" SS123 0x110 ""ErrorsComposite"" SS124 0x110 ""StrikeClutchOff"" SS99 0x110 ""TimeClutchOff"" SS98 0x110 ""DriftHoursAvg"" V50 0x110 ""LastError"" LastERR0 0x110 ""PrevTimeOff"" SS96 0x110 ""PrevStrikeOff"" SS95 0x110 ""Uptime"" SS73 0x110 ""ClkDrftSlope"" SS86 0x110 ""LimitsComposite"" SS76 0x110 ""CfgTempCMin"" R33 0x110 ""CfgTempCRange"" R35 0x110 ""EnvironVoltages"" SS125"	0x0	C62	C63	D84
+
+// Rung Process_MTTQ#17
+// Offset 880
+STR	C64
+ANDN	C69
+ANDN	C32
+AND	C90
+MQTTPUB	@MQTT_flespi	0x11	3600000	"""NoParish/winder/"""	"3 0x1110 ""Heater"" R8 0x1110 ""LastDriveOff"" SS104 0x1110 ""NextTimerOn"" SS105 0x1110 ""TempAlarmLo"" R23 0x1110 ""PeriodEnd"" SS109 0x1110 ""TimerSecsLeft"" CT3.Acc 0x1110 ""LastPowerFail"" SS112 0x1110 ""TimeDrift"" SS77 0x1110 ""MQTT_Errors"" V7 0x1110 ""TempAlarmHold"" D48 0x1110 ""ClkDriftSecs"" D39 0x1110 ""ClkDtfMins"" D41 0x1110 ""ClkDrftRateOChange"" D51 0x1110 ""STOPPED"" C18 0x1110 ""StkLOChirpDur"" D58 0x1110 ""StrikeComposite"" SS117 0x1110 ""TimeComposite"" SS118 0x1110 ""MiscComposite"" SS119 0x1110 ""HeaterComposite"" SS121 0x1110 ""ClkDrftAdjustment"" SS126 0x1110 ""EnvironComposite"" SS122 0x1110 ""DriftHoursAvg"" V50 0x1110 ""Uptime"" SS73 0x1110 ""LastError"" LastERR0 0x1110 ""LimitsComposite"" SS76 0x1110 ""CfgTempCMin"" R33 0x1110 ""CfgTempCRange"" R35 0x1110 ""EnvironVoltages"" SS125"	0x0	C62	C63	D84
+
+// Rung Process_MTTQ#18
+// Offset 1053
+NOP
+
+// Rung Process_MTTQ#19
+// Offset 1054
+NOP
+
+// Rung Process_MTTQ#20
+// Offset 1055
+#BEGIN FMT_COMMENT 
+"##<br>"
+"## Listen for things to do, set Debug_Event, Start, Stop, etc.<br>"
+"##  --  <b>LIMITED TO 10 TOPICS</b>  --<br>##"
+#END
+
+NOP
+
+// Rung Process_MTTQ#21
+// Offset 1056
+STR	C64
+ANDN	C69
+ANDN	C32
+AND	C90
+MQTTSUB	@MQTT_flespi	0x10	"""NoParish/winder/"""	"3 0x10 ""DebugEvent"" SS72 0x10 ""TempAlarmLo"" R23 0x10 ""HeaterDuty"" R25 0x10 ""TimerSecsLeft"" CT3.Acc 0x10 ""MQTT_Errors"" V7 0x10 ""StkLOChirpDur"" D58 0x10 ""Hammer"" C72 0x10 ""CfgTempCMin"" R33 0x10 ""CfgTempCRange"" R35"	C62	C63	D84
+
+// Rung Process_MTTQ#22
+// Offset 1120
+NOP
+
+// Rung Process_MTTQ#23
+// Offset 1121
+NOP
+
+// Rung Process_MTTQ#24
+// Offset 1122
+#BEGIN COMMENT 
+"##"
+"## Deal with Debug Event commands"
+"##"
+#END
+
+STRGT	SS72.Length	0
+STR2INT	SS72	10	V4	DST511
+COPY	0x1	"4 0x0 V4 V1 1 0x0 0 V4 1"
+TIMEDOUT	1000	C65	0x0
+STRCLEAR	SS72	1
+
+// Rung Process_MTTQ#25
+// Offset 1145
+NOP
+
+// Rung Process_MTTQ#26
+// Offset 1146
+NOP
+
+// Rung Process_MTTQ#27
+// Offset 1147
+STR	C1001
+RST	C1001
+WATCHDOG	0x1
+AND	ST2
+REBOOT
+
+// End of Code Block Process_MTTQ
+$PGMEND	Process_MTTQ
+
+// Beginning of Code Block OBS_Time_Drift
+$PRGRM	OBS_Time_Drift
+
+// Rung OBS_Time_Drift#1
+// Offset 0
+#BEGIN COMMENT 
+"######################"
+"##"
+"##       TIME  DRIFT  PROGRAM"
+"##"
+"##  Try and determine amout of time the clock is off, by comparing the time the "
+"##    strike lockout photo switch occurs versus cpu time."
+"##  We can only detect how far off of the hour we are, and can only guess as to "
+"##    whether it is slow or fast, because we dont know the position of the hour hand."
+"##"
+#END
+
+STR	ST1
+SUSPEND	OBS_Time_Drift
+RUN	Time_Drift
+
+// Rung OBS_Time_Drift#2
+// Offset 4
+#BEGIN COMMENT 
+"##"
+"##  Record starting time of strike lockout period"
+"##"
+#END
+
+STRPD	C4
+MEMCOPY	SDT0	UDT24	0x20000	1
+
+// Rung OBS_Time_Drift#3
+// Offset 10
+NOP
+
+// Rung OBS_Time_Drift#4
+// Offset 11
+#BEGIN COMMENT 
+"##"
+"##  This rung approximates the Time Drift of the Tower Clock movement by calculating"
+"##  the difference between the physical Strike Lockout time and the BRX cpu time."
+"##  Thusly:"
+"##     Adding 2/5 of the current strike lockout duration to the current time truncated to the"
+"##     hour/minute time yields the calculated ending strike lockout time.  Subtracting"
+"##     that from actual strike lockout time gives us the Drift (rounded to the minute)."
+"##"
+#END
+
+STRND	C4
+AND	ST2
+MEMCOPY	SDT0	UDT26	0x20000	1
+MOVE	D30	D40
+DTDIFF	UDT26	UDT24	D38
+MATH	D43	"((D40 / 3600) * 3600) + (D38 / 2)"
+EPOCH2DT	D43	UDT25
+MATH	D39	"(D40 + D42) - D43"
+DTOFFSET	UDT26	D42	UDT27
+DTDIFF	UDT27	UDT25	D44
+MATH	D54	"((D43 + D42) - D40) % 3600"
+MATH	D41	"ROUND(D39 / 60.0)"
+
+// Rung OBS_Time_Drift#5
+// Offset 77
+#BEGIN COMMENT 
+"##"
+"##  Actual is time now + 2 minutes"
+"##  Estimated is now rounded up to the next hour"
+"##  Delta is difference Estimated - Actual"
+"## if Estimated > Actual, delta will be negative (slow)"
+"## if Estimated < Actual, delta will be positive (fast)"
+"##  Only good to the current hour, so truncate Delta to one hour"
+"##"
+#END
+
+NOP
+
+// Rung OBS_Time_Drift#6
+// Offset 78
+#BEGIN COMMENT 
+"##"
+"##  This rung approximates the Time Drift of the Tower Clock movement by calculating"
+"##  the difference between the physical Strike Lockout time and the BRX cpu time."
+"##  Thusly:"
+"##     The switch turns on 2 min before the strike and off 3.75 min after."
+"##     Set ActualStrikeEp =  the switch start time plus 2 minutes ( + debug value)"
+"##     Set ExpectedStrikeEp = the current time and ROUND to the nearest minute."
+"##     Set ClkDriftSeconds - expectedStrike - actualStrike "
+"##     Round to the nearest minute to get Drift"
+""
+"##"
+#END
+
+STRPD	C4
+AND	ST2
+MATH	D63	"D30 + (2 * 60) + D42"
+MATH	D59	"((D30 / 3600) * 3600) + 3600"
+MATH	D39	"(D59 - D63) % 3600"
+MATH	D41	"ROUND(D39 / 60.0)"
+EPOCH2DT	D63	UDT25
+MATH	D53	"ABS(D39) * 1000"
+
+// Rung OBS_Time_Drift#7
+// Offset 136
+STR	ST1
+ANDPD	C4
+MATH	D63	"D30 + (2 * 60) + D42"
+EPOCH2DT	D63	UDT25
+MATH	D39	"D63 % 3600"
+MATH	D39	"IF(D39 > 1800, 3600 - D39, -D39)"
+MATH	D53	"ABS(D39 * 1000)"
+MATH	D41	"ROUND(D39 / 60.0)"
+
+// Rung OBS_Time_Drift#8
+// Offset 194
+#BEGIN COMMENT 
+"##"
+"##  Determine whether the clock is on time, fast, or slow based on sign of drift"
+"##"
+#END
+
+STRDLT	D39
+ANDE	D41	0
+STRPRINT	SS77	0x4	"""Clock is$0D$0AOn Time"""
+
+// Rung OBS_Time_Drift#9
+// Offset 211
+STRDLT	D39
+ANDNE	D41	0
+MATH	D45	"ABS(D41 / 60)"
+MATH	D46	"ABS(D41 % 60)"
+
+// Rung OBS_Time_Drift#10
+// Offset 236
+STRDLT	D39
+ANDNE	D41	0
+ANDGT	D45	0
+STRPRINT	SS77	0x4	"""Clock is$0D$0A"" FmtInt(D45,dec,2) ""h "" FmtInt(D46,dec,2) ""m$0D$0A"""
+
+// Rung OBS_Time_Drift#11
+// Offset 263
+STRDLT	D39
+ANDE	D45	0
+STRPRINT	SS77	0x4	"""Clock is$0D$0A"" FmtTMR(D53,sec) ""$0D$0A"""
+
+// Rung OBS_Time_Drift#12
+// Offset 282
+STRDLT	D39
+ANDGT	D39	0
+STRPRINT	SS77	0x6	"""Ahead"""
+
+// Rung OBS_Time_Drift#13
+// Offset 296
+STRDLT	D39
+ANDLT	D39	0
+STRPRINT	SS77	0x6	"""Behind"""
+
+// Rung OBS_Time_Drift#14
+// Offset 310
+#BEGIN COMMENT 
+"## greater than X minutes, let any listening MQTT icon detect and blink"
+#END
+
+STRDLT	D39
+ANDGT	D41	20
+STRPRINT	SS77	0x6	"""!!"""
+
+// Rung OBS_Time_Drift#15
+// Offset 323
+NOP
+
+// Rung OBS_Time_Drift#16
+// Offset 324
+#BEGIN COMMENT 
+"##"
+"##  Calculate the drift rate over 48 hours.  Report at period end (CHK_New_Period)"
+"## Correction is 1 turn = 1/2 minute over 12 hours.  CW=faster, CCW=slower"
+"## Since we are using 48 hrs delta, we use 1 turn = 60 seconds over 48hrs"
+"##"
+#END
+
+STRDLT	D63
+COPY	0x0	"4 0x0 ClockDriftAccSec0 ClockDriftAccSec1 49"
+MATH	ClockDriftAccSec0	"D63 % 3600"
+MATH	ClockDriftAccSec0	"IF(ClockDriftAccSec0 > 1800, 3600 - ClockDriftAccSec0, -ClockDriftAccSec0)"
+COPY	0x0	"4 0x0 ClockDriftAccum0 ClockDriftAccum1 49"
+COPY	0x1	"4 0x0 UDT25 ClockDriftAccum0 1"
+DT2EPOCH	ClockDriftAccum0	D56
+DT2EPOCH	ClockDriftAccum48	D57
+
+// Rung OBS_Time_Drift#17
+// Offset 378
+STRDLT	D63
+AND	ST1
+MATH	D51	"(D56 % 3600) - (D57 % 3600)"
+MATH	D51	"IF(D51 > 1800, 3600 - D51, -D51)"
+MATH	D64	"ROUND((ClockDriftAccSec0 + ClockDriftAccSec1 + ClockDriftAccSec2 + ClockDriftAccSec3 + ClockDriftAccSec4 + ClockDriftAccSec5) / 6.0)"
+MATH	D68	"ROUND((ClockDriftAccSec44 + ClockDriftAccSec45 + ClockDriftAccSec46 + ClockDriftAccSec47 + ClockDriftAccSec48 + ClockDriftAccSec49) / 6.0)"
+MATH	D52	"D64 - D68"
+MATH	D52	"IF(0, IF(D52 > 1800, 3600 - D52, -D52), D52)"
+MATH	R29	"ABS(D52 / 60.0)"
+
+// Rung OBS_Time_Drift#18
+// Offset 483
+#BEGIN COMMENT 
+"##"
+"## Correction is 1 turn = 1/2 minute over 24 hours.  CW=faster, CCW=slower"
+"## Since we are using 48 hrs delta, we use 1 turn = 60 seconds over 48hrs"
+"##  Allow for ""close enough""  within a second or 2"
+"##"
+#END
+
+STRDLT	D63
+ANDGT	D52	1
+STRPRINT	SS126	0x5	"""Gaining Time: Adjust by"" FmtReal(R29,3,2,dec) ""turns CCW"""
+
+// Rung OBS_Time_Drift#19
+// Offset 507
+STRDLT	D63
+ANDGE	D52	-1
+ANDLE	D52	1
+STRPRINT	SS126	0x4	"""Clock Not Drifting"""
+
+// Rung OBS_Time_Drift#20
+// Offset 528
+STRDLT	D63
+ANDLT	D52	1
+STRPRINT	SS126	0x5	"""Losing Time: Adjust by"" FmtReal(R29,3,2,dec) ""turns CW"""
+
+// End of Code Block OBS_Time_Drift
+$PGMEND	OBS_Time_Drift
+
+// Beginning of Code Block Time_Drift
+$PRGRM	Time_Drift
+
+// Rung Time_Drift#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"######################<br>##<br>"
+"##      <B><U><FONT tsize=4>TIME  DRIFT  "
+"PROGRAM</FONT></U></B><br>##<br>"
+"##  Try and determine amout of time the clock is off, by "
+"comparing the time the <br>##    strike lockout photo "
+"switch occurs versus cpu time.<br>"
+"##  We can only detect how far off of the hour we are, and "
+"can only guess as to <br>##    whether it is slow or fast, "
+"because we dont know the position of the hour hand.<br>##"
+#END
+
+NOP
+
+// Rung Time_Drift#2
+// Offset 1
+SG	Time_Drift.S0
+
+// Rung Time_Drift#3
+// Offset 3
+#BEGIN COMMENT 
+"##"
+"##  Start this whole thing off when the Strike Lockout sensor is activated"
+"##"
+"##  Actual is time now + 2 minutes"
+"##  Estimated is now rounded up to the next hour"
+"##  Delta is difference Estimated - Actual"
+"## if Estimated > Actual, delta will be negative (slow)"
+"## if Estimated < Actual, delta will be positive (fast)"
+"##  Only good to the current hour (dont know which hour), so truncate Delta to one hour"
+"##"
+#END
+
+STRPD	C4
+JMP	Time_Drift.S1
+
+// Rung Time_Drift#4
+// Offset 6
+SG	Time_Drift.S1
+
+// Rung Time_Drift#5
+// Offset 8
+#BEGIN COMMENT 
+"##"
+"##  This rung approximates the Time Drift of the Tower Clock movement by calculating"
+"##  the difference between the physical Strike Lockout time and the BRX cpu time."
+"##  Thusly:"
+"##     The switch turns on 2 min before the strike and off 3.75 min after."
+"##     Set ActualStrikeEp =  the switch start time plus 2 minutes ( + debug value)"
+"##     Set ExpectedStrikeEp = the current time and ROUND to the nearest minute."
+"##     Set ClkDriftSeconds - expectedStrike - actualStrike "
+"##     Round to the nearest minute to get Drift"
+""
+"##"
+#END
+
+STR	ST1
+MATH	D63	"D30 + (2 * 60) + D42"
+EPOCH2DT	D63	UDT25
+MATH	D39	"D63 % 3600"
+MATH	D39	"IF(D39 > 1800, 3600 - D39, -D39)"
+MATH	D53	"ABS(D39 * 1000)"
+MATH	D41	"ROUND(D39 / 60.0)"
+
+// Rung Time_Drift#6
+// Offset 64
+STRNE	D41	0
+MATH	D45	"ABS(D41 / 60)"
+MATH	D46	"ABS(D41 % 60)"
+
+// Rung Time_Drift#7
+// Offset 86
+#BEGIN COMMENT 
+"##"
+"##  Determine whether the clock is on time, fast, or slow based on sign of drift"
+"##"
+#END
+
+STR	ST1
+STRPRINT	SS77	0x4	"""Clock is exactly"""
+
+// Rung Time_Drift#8
+// Offset 96
+STRE	D39	0
+STRPRINT	SS77	0x6	""" on the money!"""
+
+// Rung Time_Drift#9
+// Offset 109
+STRNE	D39	0
+STRPRINT	SS77	0x6	""" "" FmtTMR(D53,sec)"
+
+// Rung Time_Drift#10
+// Offset 121
+STRGT	D39	0
+STRPRINT	SS77	0x6	""" ahead"""
+
+// Rung Time_Drift#11
+// Offset 132
+STRLT	D39	0
+STRPRINT	SS77	0x6	""" behind"""
+
+// Rung Time_Drift#12
+// Offset 143
+#BEGIN COMMENT 
+"## greater than X minutes, let any listening MQTT icon detect and blink"
+#END
+
+STRGT	D41	20
+STRPRINT	SS77	0x6	"""!!"""
+
+// Rung Time_Drift#13
+// Offset 153
+#BEGIN FMT_COMMENT 
+"#<BR>"
+"#  Loop through string using findstr and replace each <b>$0D$0A</b> with "
+"a space<br>"
+"#  store it into a different string for new_period log<BR>#"
+#END
+
+NOP
+
+// Rung Time_Drift#14
+// Offset 154
+STR	ST1
+COPY	0x1	"4 0x0 SS77 SS85 1 0x0 0 D81 1 0x0 0 C13 1"
+
+// Rung Time_Drift#15
+// Offset 166
+REPEAT
+
+// Rung Time_Drift#16
+// Offset 167
+STR	ST1
+STRFIND	SS85	0xC	D81	ST1023	C13	"""$0D$0A"""
+
+// Rung Time_Drift#17
+// Offset 176
+STRNE	D81	-1
+STRDELETE	SS85	D81	2
+
+// Rung Time_Drift#18
+// Offset 183
+UNTIL	C13
+
+// Rung Time_Drift#19
+// Offset 186
+NOP
+
+// Rung Time_Drift#20
+// Offset 187
+STR	ST1
+COPY	0x0	"4 0x0 ClockDriftAccum0 ClockDriftAccum1 49"
+COPY	0x1	"4 0x0 UDT25 ClockDriftAccum0 1"
+DT2EPOCH	ClockDriftAccum0	D56
+DT2EPOCH	ClockDriftAccum48	D57
+MATH	D69	"(D56 % 3600) - (D57 % 3600)"
+MATH	D51	"IF(D69 > 1800, 3600 - D69, IF(D69 < -1800, -(3600 + D69), -D69))"
+
+// Rung Time_Drift#21
+// Offset 244
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  Calculate the drift rate over 48 hours.  Report at period "
+"end (CHK_New_Period)<br>"
+"## Correction is 1 turn = 1/2 minute over 24 hours.  "
+"CW=faster, CCW=slower<br>"
+"## Since we are using 48 hrs delta, we use 1 turn = 60 "
+"seconds over 48hrs<br>"
+"## Except due to the auto adjuster, we want to calc drift "
+"over 24 hrs, <br>##   so we use 1 turn = 30 seconds over 24 "
+"hrs<br>##"
+#END
+
+STR	ST1
+COPY	0x0	"4 0x0 ClockDriftAccSec0 ClockDriftAccSec1 49"
+MATH	ClockDriftAccSec0	"D63 % 3600"
+MATH	ClockDriftAccSec0	"IF(ClockDriftAccSec0 > 1800, 3600 - ClockDriftAccSec0, IF(ClockDriftAccSec0 < -1800, -(3600 + ClockDriftAccSec0), -ClockDriftAccSec0))"
+
+// Rung Time_Drift#22
+// Offset 284
+#BEGIN COMMENT 
+"##"
+"##  If someone adjusted the mechanism, reset history to current drift amount"
+"##   to measure from this point on"
+"##"
+#END
+
+STR	C12
+INIT	"3 ClockDriftAccSec1 ClockDriftAccSec49 ClockDriftAccSec0"
+RST	C12
+
+// Rung Time_Drift#23
+// Offset 292
+STR	ST1
+INIT	"3 D68 ST1023 0 D64 ST1023 0"
+JMP	Time_Drift.S2
+
+// Rung Time_Drift#24
+// Offset 301
+SG	Time_Drift.S2
+
+// Rung Time_Drift#25
+// Offset 303
+#BEGIN FMT_COMMENT 
+"##<br>"
+"## We want to average out the drift over several hours to "
+"reduce thrash<br>"
+"##  We will avereage over 6 hours or 18 hours depending on "
+"timeframe used<br>"
+"## i.e. if we adjust for a 24hr period, average out the "
+"first 6 hrs and the last 6 hrs<br>"
+"##       if we adjust for a 48hr period, average out the "
+"first 12 hrs and the last 12 hrs<br>"
+"## <br>##  The MATH operator cant evalute an array "
+"subscript, only a hard address<br>"
+"##    like thing[12] vs thing12 so we cant iterate<br>##<br>"
+"##  SO  skip the loop and process it manually<br>"
+"##  in this case AccSec36 = AccSec48 - 12 (hrs avg)<br>"
+"##                  or AccSec18 = AccSec24 - 6 (hrs "
+"avg)<br>##"
+#END
+
+MATH	D64	"ROUND(AVGR(ClockDriftAccSec0, V50))"
+MATH	D68	"ROUND(AVGR(ClockDriftAccSec36, V50))"
+
+// Rung Time_Drift#26
+// Offset 321
+#BEGIN FMT_COMMENT 
+"##<br>##  SKIP the FOR loop<br>##"
+#END
+
+STR	ST1
+JMP	Time_Drift.S4
+
+// Rung Time_Drift#27
+// Offset 323
+FOR	D80	1	V50	1
+
+// Rung Time_Drift#28
+// Offset 329
+STR	ST2
+MATH	D64	"D64 + ClockDriftAccSec[D80 - 1]"
+MATH	D68	"D68 + ClockDriftAccSec[(48 - V50) + (D80 - 1)]"
+
+// Rung Time_Drift#29
+// Offset 358
+NEXT
+
+// Rung Time_Drift#30
+// Offset 360
+NOP
+
+// Rung Time_Drift#31
+// Offset 361
+#BEGIN FMT_COMMENT 
+"##<br>"
+"## Finish calculating the averages, and take the difference of "
+"the two averages.<br>"
+"##  Use that Rate Of Change to calculate the adjustment "
+"screw correction.<br>##<br>"
+"## Adjustment is 1 turn = 30 secs drift over 24 hours.  "
+"CW=faster, CCW=slower<br>"
+"## Since we are using 48 hrs delta, we use 1 turn = 60 "
+"seconds over 48hrs<br>##"
+#END
+
+STR	ST2
+MATH	D64	"ROUND(D64 / V50)"
+MATH	D68	"ROUND(D68 / V50)"
+
+// Rung Time_Drift#32
+// Offset 380
+SG	Time_Drift.S4
+
+// Rung Time_Drift#33
+// Offset 382
+#BEGIN FMT_COMMENT 
+"##<br>##  AverageA is most recent, AverageB is older<br>"
+"##  Rate of change is recent - older for the period (either "
+"24hrs or 48hrs)<br>"
+"##  Turns adjustment is RoC / 30 for 24 hours (or RoC / 60 "
+"min for 48hrs)<br>##<br>"
+"## Adjustment is 1 turn = 30 secs RoC over 24 hours.  "
+"CW=faster, CCW=slower<br>"
+"## Adjustment is 1 turn = 60 secs RoC over 48 hours.  "
+"CW=faster, CCW=slower<br>##"
+#END
+
+STR	ST1
+MATH	D52	"D64 - D68"
+MATH	R29	"ABS(D52 / 60.0)"
+
+// Rung Time_Drift#34
+// Offset 401
+#BEGIN FMT_COMMENT 
+"##<BR>"
+"##  Convert number of turns to a fraction in eigths<br>##"
+#END
+
+STR	ST1
+CALL	Real2FractionStr	0x1	DST511	"3"	"3"
+
+// Rung Time_Drift#35
+// Offset 409
+NOP
+
+// Rung Time_Drift#36
+// Offset 410
+#BEGIN FMT_COMMENT 
+"##<br>##  Consider it close enough, otherwise...<br>##"
+#END
+
+STRGE	D52	-3
+ANDLE	D52	3
+STRPRINT	SS126	0x4	"""Drift Rate is not significant"" "" ("" D52 "" ~ "" FmtReal(R29,3,2,dec) "" turns)"""
+
+// Rung Time_Drift#37
+// Offset 442
+STRGT	D52	3
+STRPRINT	SS126	0x5	"""Gaining Time: Adjust"" SS75 ""turn CCW"""
+
+// Rung Time_Drift#38
+// Offset 460
+STRLT	D52	-3
+STRPRINT	SS126	0x5	"""Losing Time: Adjust"" SS75 ""turn CW"""
+
+// Rung Time_Drift#39
+// Offset 478
+STR	ST1
+JMP	Time_Drift.S3
+
+// Rung Time_Drift#40
+// Offset 480
+SG	Time_Drift.S3
+
+// Rung Time_Drift#41
+// Offset 482
+#BEGIN COMMENT 
+"##"
+"##  Wait here for strike lockout to come off of sensor, then come around again..."
+"##"
+#END
+
+STRND	C4
+JMP	Time_Drift.S0
+
+// End of Code Block Time_Drift
+$PGMEND	Time_Drift
+
+// Beginning of Code Block CHK_New_Period2
+$PRGRM	CHK_New_Period2
+
+// Rung CHK_New_Period2#1
+// Offset 0
+STR	ST1
+SUSPEND	CHK_New_Period2
+
+// Rung CHK_New_Period2#2
+// Offset 2
+#BEGIN FMT_COMMENT 
+"#############################<br>##<br>"
+"##  CHECK_NEW_PERIOD  program<br>##<br>"
+"## New data accumulation period.  Generate an email with "
+"the previous periods data<br>"
+"##  <br>## First check on network connectivity and update "
+"system time, check for DST change<br>##<br>"
+"## Then New Period Precursor - Save Current Logfile name "
+"before we roll over<br>##<br>"
+"## Finally, detect the new Period, and generate the start "
+"of Period Log, <br>##    then email out the old one<br>"
+"##<br>##"
+#END
+
+SG	CHK_New_Period2.S0
+
+// Rung CHK_New_Period2#3
+// Offset 4
+#BEGIN COMMENT 
+"##"
+"##  Sync the clock once an hour - wait for one minute past the hour to try to catch DST"
+"##"
+#END
+
+STRE	SDT0.Minute	1
+ANDE	SDT0.Second	0
+NETTIME	@IntEthernet	1163513799	123	1000	0x0	C33	C32
+
+// Rung CHK_New_Period2#4
+// Offset 21
+#BEGIN COMMENT 
+"##"
+"##  Process DST - https://www.iana.org/time-zones"
+"##   If first Sunday in Nov after 2am, set SummerTime = False"
+"##"
+#END
+
+STRE	SDT0.Month	11
+ANDE	SDT0.DayOfWeek	0
+ANDGE	SDT0.Day	1
+ANDE	SDT0.Hour	2
+ANDE	SDT0.Minute	0
+ANDE	SDT0.Second	0
+RST	ST768
+
+// Rung CHK_New_Period2#5
+// Offset 46
+#BEGIN COMMENT 
+"##"
+"##  Process DST"
+"##   If second Sunday in March after 2am. set SummerTime = True"
+"##"
+#END
+
+STRE	SDT0.Month	3
+ANDE	SDT0.DayOfWeek	0
+ANDGE	SDT0.Day	8
+ANDE	SDT0.Hour	2
+ANDE	SDT0.Minute	0
+ANDE	SDT0.Second	0
+SET	ST768
+
+// Rung CHK_New_Period2#6
+// Offset 71
+STRDLT	ST768
+AND	ST768
+STRPRINT	SS56	0x4	"""Spring FORWARD"""
+NOT
+STRPRINT	SS56	0x4	"""Fall BACK"""
+
+// Rung CHK_New_Period2#7
+// Offset 93
+STRDLT	ST768
+EMAIL	@NoParishMailer	"""psvail@verizon.net"""	"""rzelle@actweb.com,josephcferguson@comcast.net"""	""""""	"""NP Tower Clock Auto-Winder"""	0x0	"""$0D$0AHi,$0D$0ADST has changed.  It's time to "" SS56 "" one hour!  Please adjust the clock.$0D$0AThanks!"""	0x0	C35	C36
+
+// Rung CHK_New_Period2#8
+// Offset 157
+#BEGIN COMMENT 
+"##"
+"##  Keep track of operating modes for emailing"
+"##"
+#END
+
+NOP
+
+// Rung CHK_New_Period2#9
+// Offset 158
+STRPD	C102
+CALL	Setup_Time_Strs	0x1	DST511	"3"	"3"
+CALL	Setup_Mode_Strs	0x1	DST511	"3"	"3"
+STRPRINT	SS42	0x5	"""Battery Ok"""
+
+// Rung CHK_New_Period2#10
+// Offset 182
+STR	ST149
+STRPRINT	SS42	0x5	"""WARNING!!!   Battery is LOW!"""
+
+// Rung CHK_New_Period2#11
+// Offset 195
+#BEGIN COMMENT 
+"##############################"
+"##"
+"##  See if we have exceeded the new time period"
+"##"
+#END
+
+STR	C50
+DTCMP	SDT0	UDT6	0x3	C37	ST1023	C37
+
+// Rung CHK_New_Period2#12
+// Offset 202
+STRPD	C37
+JMP	CHK_New_Period2.S1
+
+// Rung CHK_New_Period2#13
+// Offset 205
+#BEGIN COMMENT 
+"##"
+"##  We are within the Period Log Roll timeframe, Process logfiles names"
+"##"
+#END
+
+SG	CHK_New_Period2.S1
+
+// Rung CHK_New_Period2#14
+// Offset 207
+NOP
+
+// Rung CHK_New_Period2#15
+// Offset 208
+#BEGIN COMMENT 
+"##"
+"##  Set the log rollover to one minute before the NewPeriod_DT"
+"## This tries to make sure the current filename is populated - ie. a LOG cmd was issued"
+"##"
+#END
+
+STR	ST1
+STRPRINT	SS55	0x4	"SS1 "": "" D3 "" Starts, "" SS37 "" Active ;"""
+STRPRINT	SS56	0x4	"SS0 "": "" D2 "" Starts,"" SS38 "" Active ;"""
+STRPRINT	SS57	0x5	"SS5 "": "" SS39 "" Active"""
+
+// Rung CHK_New_Period2#16
+// Offset 255
+#BEGIN COMMENT 
+"##"
+"## Make the last-ish entry of the period be the summary of time actuated"
+"##"
+#END
+
+STR	ST1
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS35 1 SS55 3"	"TimeStamp() "","" SS35 "","" SS55 "","" SS56 "","" SS57 ""$0D$0A"""	0x0	C200	C201
+COPY	0x0	"4 0x0 PeriodSummaries0 PeriodSummaries1 99"
+STRPRINT	PeriodSummaries0	0x1	"TimeStamp() SS55 SS56 SS57"
+STRPRINT	SS15	0x4	"SS11 "".csv"""
+
+// Rung CHK_New_Period2#17
+// Offset 334
+STR	ST1
+JMP	CHK_New_Period2.S2
+
+// Rung CHK_New_Period2#18
+// Offset 336
+#BEGIN COMMENT 
+"##"
+"##  Now loop until we are at the specified new period"
+"##"
+#END
+
+SG	CHK_New_Period2.S2
+
+// Rung CHK_New_Period2#19
+// Offset 338
+NOP
+
+// Rung CHK_New_Period2#20
+// Offset 339
+NOP
+
+// Rung CHK_New_Period2#21
+// Offset 340
+#BEGIN COMMENT 
+"#################################"
+"##"
+"##  New logging period detection - Email out previous logfile with summary stats"
+"##"
+"##"
+""
+#END
+
+STR	C50
+DTCMP	SDT0	UDT4	0x3	C34	ST1023	C34
+
+// Rung CHK_New_Period2#22
+// Offset 347
+STRPD	C34
+JMP	CHK_New_Period2.S3
+
+// Rung CHK_New_Period2#23
+// Offset 350
+#BEGIN COMMENT 
+"##"
+"##   Processing new period, log it and generate email"
+"##"
+#END
+
+SG	CHK_New_Period2.S3
+
+// Rung CHK_New_Period2#24
+// Offset 352
+STR	ST1
+RST	C35
+
+// Rung CHK_New_Period2#25
+// Offset 354
+#BEGIN COMMENT 
+"##"
+"##  use CfgNewPeriodFreq to deterimine next reporting period, unless flag is set"
+"##"
+#END
+
+STRN	C80
+CALL	Truncate_Time	0x0	DST511	"3 SDT0 UDT2 1 D10 D11 1 D10 D12 1 0 C78 1"	"3 UDT3 UDT4 1"
+
+// Rung CHK_New_Period2#26
+// Offset 376
+#BEGIN COMMENT 
+"##"
+"##  If flag is set,, use day of week - every sunday"
+"##  else use CfgNewPeriodFreq"
+"##"
+#END
+
+STR	C80
+MATH	D60	"D30 + (IF(7 == SDT0.DayOfWeek, 7, 7 - SDT0.DayOfWeek) * HOURS_24)"
+EPOCH2DT	D60	UDT28
+COPY	0x1	"4 0x0 0 UDT28.Hour 1 0x0 0 UDT28.Minute 1 0x0 0 UDT28.Second 1 0x0 UDT28 UDT4 1 0x0 0 C35 1"
+
+// Rung CHK_New_Period2#27
+// Offset 412
+STR	ST1
+DTOFFSET	UDT4	-15	UDT6
+STRPRINT	SS11	0x4	"SS2 UDT6.Year FmtInt(UDT6.Month,dec,2,zeropad) FmtInt(UDT6.Day,dec,2,zeropad)"
+
+// Rung CHK_New_Period2#28
+// Offset 427
+NOP
+
+// Rung CHK_New_Period2#29
+// Offset 428
+STRE	R8	0
+STRPRINT	SS54	0x4	""""""
+
+// Rung CHK_New_Period2#30
+// Offset 437
+STR	C15
+ANDGT	R8	0
+STRPRINT	SS54	0x5	"SS47 R8 SS52"
+
+// Rung CHK_New_Period2#31
+// Offset 450
+#BEGIN COMMENT 
+"##"
+"##  Reflect the loging period in the email"
+"##"
+#END
+
+STR	C80
+STRPRINT	SS114	0x4	"""New period every sunday. """
+
+// Rung CHK_New_Period2#32
+// Offset 463
+STRN	C80
+STRPRINT	SS114	0x4	"""It's a new reporting period (every "" SS74 ""). """
+
+// Rung CHK_New_Period2#33
+// Offset 481
+#BEGIN COMMENT 
+"##"
+"##  Now that the new period logfile name is set up, lets write the first log out"
+"##"
+#END
+
+STR	ST1
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS12 1 SS14 1 SS13 1 SS54 1"	"TimeStamp() "","" SS12 "","" SS14 "","" SS13 "","" SS54 ""$0D$0A"""	0x0	C200	C201
+
+// Rung CHK_New_Period2#34
+// Offset 537
+STR	ST1
+DNSLOOKUP	@IntEthernet	0x0	-800858402	0	"""google.com"""	D4	0x101	CHK_New_Period2.S5	CHK_New_Period2.S4
+
+// Rung CHK_New_Period2#35
+// Offset 553
+SG	CHK_New_Period2.S4
+
+// Rung CHK_New_Period2#36
+// Offset 555
+#BEGIN COMMENT 
+"####################"
+"#"
+"#   NEED ERROR HANDLING IF DNSLOOKUP FAILS"
+"#"
+"####################"
+#END
+
+JMP	CHK_New_Period2.S5
+
+// Rung CHK_New_Period2#37
+// Offset 556
+#BEGIN COMMENT 
+"##"
+"##   Ok, Lets try to send an email!"
+"##"
+#END
+
+SG	CHK_New_Period2.S5
+
+// Rung CHK_New_Period2#38
+// Offset 558
+NOP
+
+// Rung CHK_New_Period2#39
+// Offset 559
+#BEGIN COMMENT 
+"## Turn on debugging logs - use Debug-->Do-more Logger"
+#END
+
+STRPD	C20
+SET	ST36
+
+// Rung CHK_New_Period2#40
+// Offset 562
+STR	ST2
+STRPRINT	SXL1	0x0	"""This message was generated automatically.$0D$0A"" SS127 ""=Period End$0D$0A"" FmtDate(UDT4,asia) ""=Next Period End$0A$0D"" SS114 ""Next  is "" FmtDate(UDT4,asia) "".$0D$0A"" ""The system is in "" SS14 "" and set to "" SS13 "".$0D$0AThe Strike Clutch activated "" D3 "" times, for "" SS37 "".$0D$0AThe Time  Clutch activated "" D2 "" times, for "" SS38 "".$0D$0AThe Drive Motor was on for a total of "" SS39 "".$0D$0A$0D$0A"" ""Clock is "" FmtInt(D46,dec,2) ""m off.  Rate of drift is "" D51 "" seconds over 48 hours ("" SS126 "")$0D$0A"" ""Summertime (DST)="" ST768 ""$0D$0A$0D$0A"" SS42 ""$0D$0A"" DST5 "" Errors,  "" DST6 "" Warnings, "" DST385 "" WatchdogReboots$0D$0A"" ""LastErrMsgs: "" DST30 ""$0D$0A  "" DST32"
+
+// Rung CHK_New_Period2#41
+// Offset 732
+STR	C14
+ORPD	C20
+STRPRINT	SXL0	0x0	"""This message was generated automatically.$0D$0A"" SS114 ""Next  on "" FmtDate(UDT4,asia) "".$0D$0A"" ""The system is in "" SS14 "" and set to "" SS13 "".$0D$0AThe Strike Clutch activated "" D3 "" times, for "" SS37 "".$0D$0AThe Time  Clutch activated "" D2 "" times, for "" SS38 "".$0D$0AThe Drive Motor was on for a total of "" SS39 "".$0D$0A$0D$0ACurrent Temperature:$09 "" FmtReal(R2,4,1,dec) "" degF$0D$0APeriod Extremes (degF):$0D$0A$09"" SS43 ""$0D$0A$09"" SS44 ""$0D$0ALifetime Extremes (degF):$0D$0A$09"" SS45 ""$0D$0A$09"" SS46 ""$0D$0A$0D$0ACurrent Relative Humidity:$09 "" FmtReal(R14,4,1,dec) ""%$0D$0APeriod Extremes (% RH):$0D$0A$09"" SS58 ""$0D$0A$09"" SS59 ""$0D$0ALifetime Extremes (% RH):$0D$0A$09"" SS60 ""$0D$0A$09"" SS61 ""$0D$0A$0D$0A"" ""Clock is "" FmtInt(D46,dec,2) ""m off.  Rate of drift is "" D51 "" seconds over 48 hours$0D$0A"" ""Summertime (DST)="" ST768 ""$0D$0A$0D$0A"" SS42 ""$0D$0A"" DST5 "" Errors,  "" DST6 "" Warnings, "" DST385 "" WatchdogReboots$0D$0A"" ""LastErrMsgs: "" DST30 ""$0D$0A  "" DST32"
+FILELOG	@SDCardFS	SS127	0x0	SS0	"2 SXL0 1"	"TimeStamp() "","" SXL0 ""$0D$0A"""	0x0	C200	C201
+
+// Rung CHK_New_Period2#42
+// Offset 990
+#BEGIN COMMENT 
+"##"
+"## If ethernet works, send summary email at period end, and clear period accumulators"
+"## Set $EnableMsgDump and use DBG_SEND_EMAIL to force one out. DoMore Logger"
+"##"
+#END
+
+STR	C33
+AND	C14
+ORPD	C20
+EMAIL	@NoParishMailer	"""psvail@verizon.net"""	"""rzelle@actweb.com,josephcferguson@comcast.net"""	""""""	"""NP Tower Clock Auto-Winder"""	0x2	"SXL0"	0x0	C35	C36	@SDCardFS	SS15
+MOVE	0	C20
+
+// Rung CHK_New_Period2#43
+// Offset 1035
+NOP
+
+// Rung CHK_New_Period2#44
+// Offset 1036
+SG	CHK_New_Period2.S7
+
+// Rung CHK_New_Period2#45
+// Offset 1038
+#BEGIN COMMENT 
+"##"
+"##   ERROR HANDLING FOR EMAIL FAILURE"
+"##"
+#END
+
+NOP
+
+// Rung CHK_New_Period2#46
+// Offset 1039
+SG	CHK_New_Period2.S6
+
+// Rung CHK_New_Period2#47
+// Offset 1041
+#BEGIN COMMENT 
+"##"
+"##  EMAIL SUCCESS!   Reset Period"
+"##"
+#END
+
+NOP
+
+// Rung CHK_New_Period2#48
+// Offset 1042
+#BEGIN COMMENT 
+"##"
+"##  Instantiate the NewPeriod time, reset periodic accumulators"
+"##"
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 0 D3 1 0x0 0 D2 1 0x0 0 D33 1 0x0 0 D34 1 0x0 0 D35 1 0x0 MIN_TEMPERATURE R3 1 0x0 MAX_TEMPERATURE R4 1 0x0 MAX_HUMIDITY R13 1 0x0 MIN_HUMIDITY R12 1 0x0 0 V7 1"
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SXL0 1"	"TimeStamp() "","" SXL0 ""$0D$0A"""	0x0	C200	C201
+
+// Rung CHK_New_Period2#49
+// Offset 1101
+#BEGIN COMMENT 
+"##"
+"##    LOOP AROUND TO BEGINNING"
+"##"
+#END
+
+NOP
+
+// Rung CHK_New_Period2#50
+// Offset 1102
+STR	ST1
+JMP	CHK_New_Period2.S0
+
+// End of Code Block CHK_New_Period2
+$PGMEND	CHK_New_Period2
+
+// Beginning of Code Block Adjuster
+$PRGRM	Adjuster
+
+// Rung Adjuster#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT "
+"tsize=4>#########################################</FONT><br><FONT "
+"tsize=4>##</FONT><br>"
+"<B><FONT tsize=4>##  A D J U S T E R  - program to adjust "
+"the 'Knob'</FONT></B><br><FONT tsize=4>##</FONT><br>"
+"<FONT tsize=4>##  After the hour strike lockout comes off "
+"sensor, </FONT><br>"
+"<FONT tsize=4>##  use the axis driver to advance or retard "
+"</FONT><FONT tsize=4>the motor that </FONT><br>"
+"<FONT tsize=4>##  is geared to the adjustment knob on the "
+"top of the pendulum</FONT><br><FONT tsize=4>##</FONT><br>"
+"<FONT tsize=4>#########################################</FONT>"
+#END
+
+NOP
+
+// Rung Adjuster#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+" "
+#END
+
+SG	Adjuster.S0
+
+// Rung Adjuster#3
+// Offset 3
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  Wait here for Strike Lockout sensor to turn off <br>##  AND "
+"its been at least 48hrs since last adjustment<br>##"
+#END
+
+STRND	C4
+ANDGE	D30	D93
+JMP	Adjuster.S0
+
+// Rung Adjuster#4
+// Offset 10
+SG	Adjuster.S1
+
+// Rung Adjuster#5
+// Offset 12
+#BEGIN FMT_COMMENT 
+"##<br>##  Now calculate the move<br>"
+"##  We want to turn the knob 1 full turn for each 30 "
+"seconds drift over 24 hrs<br>"
+"##  So that means we need to produce a total of <FONT "
+"color=ff0000><b>10,000</b></FONT> pulses for each turn<br>"
+"##  We will limit each move to no more than a full turn to "
+"avoid runaway<br>##"
+#END
+
+STRGT	R29	1.0
+MOVE	1.0	R50
+NOT
+MOVE	R29	R50
+
+// Rung Adjuster#6
+// Offset 23
+STR	ST1
+MATH	D95	"10000"
+MATH	D94	"ROUND(R50 * D95)"
+
+// Rung Adjuster#7
+// Offset 39
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  Prepare for the move.  Calculate motor driver parameters<br>##"
+#END
+
+STR	C93
+AXCONFIG	@Axis0	$Axis0	0x0	DST511	0	100	1000	1000	1000	0	DST511	DST511	ST1023	ST1023	0x0	C95	C96
+
+// Rung Adjuster#8
+// Offset 53
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  Perform the adjustment and calculate the <br>##  current time "
+"plus 48 hours for next adjustment threshold<br>##"
+#END
+
+STRPD	C95
+AXPOSTRAP	@Axis0	$Axis0	0x100000	ST1023	1000	DST511	DST511	DST511	0x0	C97	C98
+MATH	D93	"D30 + (48 * 60 * 60)"
+FILELOG	@SDCardFS	SS11	0x0	SS0	"2 SS90 1 SS126 1 SS91 1 D94 1"	"TimeStamp() "","" SS90 "","" SS126 "","" SS91 "","" D94 ""$0D$0A"""	0x0	C200	C201
+
+// Rung Adjuster#9
+// Offset 132
+NOP
+
+// Rung Adjuster#10
+// Offset 133
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##  Set CALIBRATE DEBUG to simulate an overloaded debug command<br>"
+"## We do this to mark when an operator manually changes the "
+"clock hands <br>##   or adjusts the knob.  <br>##<br>"
+"##  In this case <b>WE</b> have adjusted the knob, so we "
+"want to mark it??<br>##<br>"
+"## This will set the drift accumulators to the next hours "
+"<br>##  drift, and set the rate of change to zero<br>##"
+#END
+
+STR	C97
+MOVE	DEBUG_CALIBRATE	V1
+
+// Rung Adjuster#11
+// Offset 137
+#BEGIN FMT_COMMENT 
+"##<BR>##  Come around and wait for next hour<BR>##"
+#END
+
+STR	C97
+JMP	Adjuster.S0
+
+// Rung Adjuster#12
+// Offset 139
+#BEGIN FMT_COMMENT 
+"##<br>##  Not sure how to recover here.<br>"
+"## Come around and wait for next hour<br>##"
+#END
+
+STR	C98
+JMP	Adjuster.S0
+
+// End of Code Block Adjuster
+$PGMEND	Adjuster
+
+// Beginning of Code Block Initialize_HTML
+$PRGRM	Initialize_HTML
+
+// Rung Initialize_HTML#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT "
+"tsize=4>#########################################</FONT><br><FONT "
+"tsize=4>##</FONT><br>"
+"<B><FONT tsize=4>##  I N I T I A L I Z E _ H T M L  - "
+"program to Initialize the html pages</FONT></B><br>"
+"<FONT tsize=4>##</FONT><br><FONT tsize=4>##  Wait for power "
+"up, then create a RamFS-based folder</FONT><br>"
+"<FONT tsize=4>##  Then copy the SDCardFS-based folder into "
+"the runtime location</FONT> <br><FONT tsize=4>##</FONT><br>"
+"<FONT tsize=4>#########################################</FONT>"
+#END
+
+NOP
+
+// Rung Initialize_HTML#2
+// Offset 1
+SG	Initialize_HTML.S0
+
+// Rung Initialize_HTML#3
+// Offset 3
+#BEGIN FMT_COMMENT 
+"##<br>"
+"##   Hangout here until we get a power-on startup event (or "
+"shortcut),<br>##  then proceed to instantiate the HTML "
+"status pages into run time storage<br>##"
+#END
+
+STRPD	T4.Done
+ORPD	C999
+JMP	Initialize_HTML.S1
+
+// Rung Initialize_HTML#4
+// Offset 8
+SG	Initialize_HTML.S1
+
+// Rung Initialize_HTML#5
+// Offset 10
+COPY	0x1	"4 0x0 0 C996 1"
+FILEQUERY	@RamFS	"""\UP"""	0x0	DST511	DST511	DST511	DST511	DST511	0x1	Initialize_HTML.S2	C996
+
+// Rung Initialize_HTML#6
+// Offset 24
+STR	C996
+FILENEWFLDR	@RamFS	"""\UP"""	0x101	Initialize_HTML.S2	Initialize_HTML.S2
+
+// Rung Initialize_HTML#7
+// Offset 33
+SG	Initialize_HTML.S2
+
+// Rung Initialize_HTML#8
+// Offset 35
+FILECOPY	@SDCardFS	"""\HTML_SRC\Status.htm"""	@RamFS	"""\UP\Status.htm"""	0x0	0x0	C998	C997
+FILECOPY	@SDCardFS	"""\HTML_SRC\Status2.htm"""	@RamFS	"""\UP\Status2.htm"""	0x0	0x0	C998	C997
+FILECOPY	@SDCardFS	"""\HTML_SRC\Status3.htm"""	@RamFS	"""\UP\Status3.htm"""	0x0	0x0	C998	C997
+FILECOPY	@SDCardFS	"""\HTML_SRC\NP_Logo.png"""	@RamFS	"""\UP\NP_Logo.png"""	0x0	0x101	Initialize_HTML.S3	Initialize_HTML.S10
+
+// Rung Initialize_HTML#9
+// Offset 114
+SG	Initialize_HTML.S3
+
+// Rung Initialize_HTML#10
+// Offset 116
+#BEGIN FMT_COMMENT 
+"##<BR>##  All done, loop for a new power up<BR>##"
+#END
+
+JMP	Initialize_HTML.S0
+
+// Rung Initialize_HTML#11
+// Offset 117
+SG	Initialize_HTML.S10
+
+// Rung Initialize_HTML#12
+// Offset 119
+#BEGIN FMT_COMMENT 
+"##<BR>##   ACK!!  ERROR!!  Now what?<BR>##"
+#END
+
+NOP
+
+// Rung Initialize_HTML#13
+// Offset 120
+STR	ST1
+JMP	Initialize_HTML.S0
+
+// Rung Initialize_HTML#14
+// Offset 122
+SG	Initialize_HTML.S4
+
+// End of Code Block Initialize_HTML
+$PGMEND	Initialize_HTML
+
+#BEGIN ELEMENT_DOC
+"X0","FLAGS =","STK_PHOTO_SW","","Strike drum photo switch. For Pulse counted triggering","N.O."
+"X1","FLAGS =","TIME_PHOTO_SW","","Wind drum photo switch. For Pulse counted triggering","N.O."
+"X2","FLAGS =","TIME_LIMIT_SW","","Limit switch at the top of the Wind weight chute","N.O."
+"X3","FLAGS =","STK_LIMIT_SW","","Limit switch at the top of the strike weight chute","N.O."
+"X4","FLAGS =","STK_LOCKOUT_SW","","Photo switch ON when the time is in the strike zone at the hour. This prevents winding under tension","N.O. "
+"X5","FLAGS =","START_BUTTON","","If STOPPED, must hit this to run","N.O."
+"X6","FLAGS =","AUTO_V_MAN_SW","","Toggle switch to select:","AUTO Mode = ON or","MANUAL Mode = OFF","N.O."
+"X7","FLAGS =","PHOTO_V_TIMER_SW","","Toggle switch to select:","Photo Mode = ON or","TIMER Mode = OFF","N.O."
+"X8","FLAGS =","STOP_BUTTON_NOT","","Momentary switch to gently stop all motion","N.C."
+"X9","FLAGS =","DEBUG_BUTTON","","This momentary is overloaded to initiate calibration, as well as set various debugging triggers","N.O."
+"X10","FLAGS =","WHY_IS_NOT_USED","","No idea what this input really maps to?  X10-X17 should be expansion module, but X10-X15 is reserved for BRX?"
+"X16","FLAGS =","STK_HAMMER_SW","","Cam following microswitch for bell striker"
+"Y0","FLAGS =","STK_CLUTCH_SSR","","0-100% to drive Strike Clutch SSR"
+"Y1","FLAGS =","TIME_CLUTCH_SSR","","0-100% to drive Wind Clutch SSR"
+"Y2","FLAGS =","ADJUSTER_PULSES","","High freq pulses"
+"Y3","FLAGS =","HEATER_SSR","","0-100% Heater SSR"
+"Y4","FLAGS =","WARNING_BELL","",""
+"Y5","FLAGS =","TIMER_IS_ACTIVE","",""
+"Y6","FLAGS =","STOPPED","",""
+"Y7","FLAGS =","HEARTBEAT","",""
+"Y8","FLAGS =","DRIVE_MOTOR_SSR","","On or Off"
+"Y9","FLAGS =","ADJUSTER_DIR","",""
+"Y10","FLAGS =","CALIBRATING_IND","",""
+"WX0","FLAGS =","TempHumid_IN","","Analog input from Temperature/humidity box","Native 0 to 10V ","-20 to +80 degC","0-100% RH","-20-170F works"
+"WY0","FLAGS =","UNUSED_WY0_OUT","","0-10V"
+"C0","FLAGS =","STK_PHOTO_DB","",""
+"C1","FLAGS =","TIME_PHOTO_DB","",""
+"C2","FLAGS =","CALIBRATE_ACTIVE","","Currently waiting for Limit Switches to trip"
+"C3","FLAGS =","DBG_DO_CALIBRATE","",""
+"C4","FLAGS =","STK_LOCKOUT_DB","","Prevent winding Strike on the hour"
+"C5","FLAGS =","TIMER_TRIGGER","",""
+"C6","FLAGS =","DBG_DO_TIMER_ON","",""
+"C7","FLAGS =","CfgCalibAutoTrig","","Do we turn on cal on power cycle and/or swith into photo mode?"
+"C8","FLAGS =","TIMER_ON_RUNNING","","Currently winding due to Timer Triggering"
+"C9","FLAGS =","DBG_STK_LOCK_TRG","","Simulate Strike Lock Opto for 2 minutes on the hour"
+"C10","FLAGS =","STK_DEMAND","","Call for Strike Drum winding"
+"C11","FLAGS =","TIME_DEMAND","","Call for Time Drum winding"
+"C12","FLAGS =","PhysAdjOccurred","",""
+"C13","FLAGS =","MatchNotFound","",""
+"C14","FLAGS =","New_Period_Latch","",""
+"C15","FLAGS =","CfgHeaterPresent","","Is the heater installed?"
+"C16","FLAGS =","PHOTO_VS_TIMER","","Photo Triggering if ON"
+"C17","FLAGS =","PWR_UP_CAL_REQ","",""
+"C18","FLAGS =","STOP_ACTIVE","","Dont allow motion until Start"
+"C19","FLAGS =","AUTO_VS_MAN","","Auto Mode if ON"
+"C20","FLAGS =","DBG_DO_SND_EMAIL","",""
+"C21","FLAGS =","DRV_MOTOR_DL","",""
+"C22","FLAGS =","CALIBRATE_FLASHR","",""
+"C23","FLAGS =","DRV_MOTOR_ON_OS","",""
+"C24","FLAGS =","DRV_MOTOR_OFF_OS","",""
+"C32","FLAGS =","Ethernet_Failure","",""
+"C33","FLAGS =","Ethernet_Success","",""
+"C34","FLAGS =","New_Period","",""
+"C35","FLAGS =","Email_Success","",""
+"C36","FLAGS =","Email_Failure","",""
+"C37","FLAGS =","NewPer_Logroll","",""
+"C38","FLAGS =","STOP_BUTTON_DB","",""
+"C39","FLAGS =","START_BUTTON_DB","",""
+"C40","FLAGS =","STK_LIMIT_DB","",""
+"C41","FLAGS =","TIME_LIMIT_DB","",""
+"C42","FLAGS =","TIME_CL_ACTIVE","",""
+"C43","FLAGS =","STK_CL_ACTIVE","",""
+"C44","FLAGS =","CfgStrikeLockSim","","Are we simulating strike lockout photo?"
+"C45","FLAGS =","TempAlarmHI","","Indicator that Temperature exceeded HI threshold"
+"C46","FLAGS =","TempAlarmLO","","Indicator that Temperature exceeded LO threshold"
+"C47","FLAGS =","TempAlarmLOLO","","Indicator that Temperature exceeded LO LO threshold"
+"C48","FLAGS =","Heater_Ramping","","Changing Heater dutycycle"
+"C49","FLAGS =","DBG_ENV_ALARMS","","Bypass sensor, to allow manual manipulation"
+"C50","FLAGS =","t500ms","",""
+"C51","FLAGS =","CfgForceTimerHr","","force timer on to a certain hour"
+"C52","FLAGS =","CALIB_NXT_TMR_ON","","Set Timer calibration values"
+"C53","FLAGS =","CALIBRATE_PERIOD","","Set Period calibration values"
+"C54","FLAGS =","CALIBRATE_PHOTO","","Set Pulse detector calibration values"
+"C55","FLAGS =","t10Second","",""
+"C56","FLAGS =","ReadTemperature","",""
+"C57","FLAGS =","ReadHumidity","",""
+"C58","FLAGS =","DEBUG_CTR_RESET","",""
+"C59","FLAGS =","DBG_DO_INSTALL","",""
+"C60","FLAGS =","DBG_DO_SPARE","",""
+"C61","FLAGS =","DEBUG_DB","",""
+"C62","FLAGS =","MQTT_Success","",""
+"C63","FLAGS =","MQTT_Failure","",""
+"C64","FLAGS =","CfgSendMQTTMsgs","","Transmit data over MQTT periodically"
+"C65","FLAGS =","TimerOnMQTT_trg","",""
+"C66","FLAGS =","DBG_DO_TRIGGER","",""
+"C69","FLAGS =","MQTT_Fail_Latch","",""
+"C70","FLAGS =","STK_HAMMER_DB","",""
+"C71","FLAGS =","TempAlarmHold","",""
+"C72","FLAGS =","DbgStkHammer","",""
+"C73","FLAGS =","SavedTempLo","",""
+"C74","FLAGS =","SavedTempLoLo","",""
+"C75","FLAGS =","StkLO_Warning","","Short Chirp"
+"C76","FLAGS =","Motor_Warning","","Long Ring"
+"C77","FLAGS =","StkLODelayTrg","",""
+"C78","FLAGS =","Truncate_Flag","",""
+"C79","FLAGS =","CfgStkClutchEna","","Strike Clutch IS installed"
+"C80","FLAGS =","CfgNewPeriodDoW","","Force new period to next and every sunday"
+"C81","FLAGS =","CfgTimClutchEna","","Time Clutch IS installed"
+"C82","FLAGS =","FanOn","",""
+"C83","FLAGS =","StkLOLatched","",""
+"C84","FLAGS =","LastEmailFailed","",""
+"C85","FLAGS =","HAMMER_DB","",""
+"C90","FLAGS =","MQTT_Enable_All","",""
+"C93","FLAGS =","AdjusterConfig","",""
+"C94","FLAGS =","AdjusterMove","",""
+"C95","FLAGS =","AdjusterCfgOK","",""
+"C96","FLAGS =","AdjusterCfgNG","",""
+"C97","FLAGS =","AdjusterMoveOK","",""
+"C98","FLAGS =","AdjusterMoveNG","",""
+"C99","FLAGS =","SetInstallDate","",""
+"C100","FLAGS =","TIME_CTR_RESET","",""
+"C101","FLAGS =","STK_CTR_RESET","",""
+"C102","FLAGS =","t2second","",""
+"C103","FLAGS =","TimerOnRestoreHr","",""
+"C200","FLAGS =","File_OP_Success","",""
+"C201","FLAGS =","File_OP_FAIL","",""
+"C203","FLAGS =","File_Write_OK","",""
+"C996","FLAGS =","File_Not_Exist","",""
+"C999","FLAGS =","Copy_HTML_Files","",""
+"C1000","FLAGS =","Test_New_Period","",""
+"C1001","FLAGS =","REBOOT_PLC","",""
+"C1002","FLAGS =","ResetEnvirons","",""
+"C1063","FLAGS =","fake_mqtt_Fail","",""
+"V0","FLAGS =","CfgTimerOnHour","","What hour does timer mode get forced to?"
+"V1","FLAGS =","DEBUG_Event","",""
+"V2","FLAGS =","TempRawCntAvg","",""
+"V3","FLAGS =","HumidRawCntAvg","",""
+"V4","FLAGS =","DbgEventReceived","",""
+"V5","FLAGS =","TemperatureFInt","",""
+"V6","FLAGS =","MQTTSubStrIsNull","",""
+"V7","FLAGS =","MQTT_Error_Acc","",""
+"V10","FLAGS =","TempRawCntArray","","V10-V29 avg Temp raw"
+"V11","FLAGS =","TempRawV11","",""
+"V12","FLAGS =","TempRawV12","",""
+"V13","FLAGS =","TempRawV13","",""
+"V14","FLAGS =","TempRawV14","",""
+"V20","FLAGS =","TempRawV20","",""
+"V21","FLAGS =","TempRawV21","",""
+"V28","FLAGS =","TempRawV28","",""
+"V29","FLAGS =","TempRawV29","",""
+"V30","FLAGS =","HumidRawCntArray","","V30-V49 avg Humidity raw"
+"V31","FLAGS =","HumidRawV31","",""
+"V32","FLAGS =","HumidRawV32","",""
+"V39","FLAGS =","HumidRawV39","",""
+"V40","FLAGS =","HumidRawV40","",""
+"V48","FLAGS =","HumidRawV48","",""
+"V49","FLAGS =","HumidRawV49","",""
+"V50","FLAGS =","CfgDriftHoursAvg","",""
+"V51","FLAGS =","CfgDrftTolerance","",""
+"V84:SD","FLAGS =","MQTT_Error_Lo_Hi","",""
+"V100","FLAGS =","TempEmailStrLen","",""
+"N0","FLAGS =","CfgNewPeriodDay","",""
+"N5","FLAGS =","TimeCntMaxMinus1","",""
+"N6","FLAGS =","CfgStrikeCntMax","","clutch off pulse count"
+"N7","FLAGS =","CfgTimeCntMax","","clutch off pulse count"
+"N8","FLAGS =","CfgStrikeCntMin","","cllutch on pulse count"
+"N9","FLAGS =","CfgTimeCntMin","","clutch on pulse count"
+"N10","FLAGS =","CfgStrikeBackOff","",""
+"N11","FLAGS =","CfgTimeBackOff","",""
+"D0","FLAGS =","Truncate_Ep1","",""
+"D1","FLAGS =","CfgTimerOnDur","","how many seconds to wind in timer mode"
+"D2","FLAGS =","TIME_COUNT_ACC","","number of times clutch was activated in period"
+"D3","FLAGS =","STRIKE_COUNT_ACC","","number of times clutch was on in period"
+"D4","FLAGS =","Mailer_IP_Addr","",""
+"D5","FLAGS =","MQTT_Error_Time","",""
+"D6","FLAGS =","Time_Start_Ep","",""
+"D7","FLAGS =","Time_Stop_Ep","",""
+"D8","FLAGS =","Drive_Start_Ep","",""
+"D9","FLAGS =","Drive_Stop_Ep","",""
+"D10","FLAGS =","CfgNewPeriodFreq","","How often is the period?  should be multiple of 24 hours- in seconds"
+"D11","FLAGS =","Truncate_Modulus","","what to truncate time to"
+"D12","FLAGS =","Truncate_Added","","seconds to add after truncation"
+"D13","FLAGS =","CfgMaxClutchDuty","","Maximum clutch duty cycle ; 90% keeps it around 90vdc"
+"D14","FLAGS =","Strike_Stop_Ep","",""
+"D15","FLAGS =","Strike_Start_Ep","",""
+"D16","FLAGS =","Temp_Ep","",""
+"D17","FLAGS =","PowerFailDurDays","",""
+"D18","FLAGS =","Strike_Photo_Ep1","",""
+"D19","FLAGS =","Strike_Photo_Ep2","",""
+"D20","FLAGS =","Time_Photo_Ep1","",""
+"D21","FLAGS =","Time_Photo_Ep2","",""
+"D22","FLAGS =","TIME_PHOTO_ACC","","current time drum pulse count"
+"D23","FLAGS =","STRIKE_PHOTO_ACC","","current strike drum pulse count"
+"D24","FLAGS =","CfgTimerOnFreq","","How often does timer mode activate?"
+"D25","FLAGS =","TimeOnTime","",""
+"D26","FLAGS =","StkOnTime","",""
+"D27","FLAGS =","PowerFail_DurTrg","",""
+"D28","FLAGS =","PowerFailDur_Tmp","",""
+"D29","FLAGS =","DrvOnTime","",""
+"D30","FLAGS =","Now_Ep","",""
+"D31","FLAGS =","LastAlive_Ep","",""
+"D32","FLAGS =","TimerOnDur","",""
+"D33","FLAGS =","StkOnTimePeriod","",""
+"D34","FLAGS =","TimeOnTimePeriod","",""
+"D35","FLAGS =","DrvOnTimePeriod","",""
+"D36","FLAGS =","PwrFailTmp_ptr","",""
+"D37","FLAGS =","CfgMQTT_ErrorBIG","",""
+"D38","FLAGS =","StkLO_Duration","",""
+"D39","FLAGS =","ClkDriftSeconds","",""
+"D40","FLAGS =","StkLO_EndEp","",""
+"D41","FLAGS =","ClkDriftMinutes","",""
+"D42","FLAGS =","DbgClockOffset","",""
+"D43","FLAGS =","StkLO_CalcEndEp","",""
+"D44","FLAGS =","ClkDriftSecsAlt","",""
+"D45","FLAGS =","ClkDriftHrsFrac","",""
+"D46","FLAGS =","ClkDriftMinFrac","",""
+"D47","FLAGS =","TmpNewPerFreq1k","",""
+"D48","FLAGS =","TempHoldCountDwn","",""
+"D49","FLAGS =","AlarmHoldMs","",""
+"D50","FLAGS =","CfgAlarmHoldSecs","",""
+"D51","FLAGS =","ClkDrftRateOChg","",""
+"D52","FLAGS =","ClkDrftRateOChg2","",""
+"D53","FLAGS =","ClkDriftSecAbsMs","",""
+"D54","FLAGS =","LastPhotoTimeEp","",""
+"D55","FLAGS =","SYS_Downtime","",""
+"D56","FLAGS =","ClockDrift_00_Ep","",""
+"D57","FLAGS =","ClockDrift_48_Ep","",""
+"D58","FLAGS =","CfgStkLOChirpDur","",""
+"D59","FLAGS =","ExpectedStrikeEP","",""
+"D60","FLAGS =","NewPeriodTempEp","",""
+"D61","FLAGS =","StrSearchTmp_ptr","",""
+"D62","FLAGS =","StrSearchLength","",""
+"D63","FLAGS =","ActualStrikeEP","",""
+"D64","FLAGS =","DriftAverageA","",""
+"D65","FLAGS =","ClutchDutyRamp_A","",""
+"D66","FLAGS =","ClutchDutyRamp_B","",""
+"D67","FLAGS =","ClutchDutyRamp_C","",""
+"D68","FLAGS =","DriftAverageB","",""
+"D69","FLAGS =","ClkDrftRateTmp","",""
+"D70","FLAGS =","TimePhotoDur","",""
+"D71","FLAGS =","StrikePhotoDur","",""
+"D72","FLAGS =","PrevStrikeOffEp","",""
+"D73","FLAGS =","PrevTimeOffEp","",""
+"D74","FLAGS =","UptimeSecs","",""
+"D75","FLAGS =","PrevTimeOffTime","",""
+"D76","FLAGS =","PrevStrikeOffTim","",""
+"D77","FLAGS =","UptimeWeeks","",""
+"D78","FLAGS =","UptimeDays","",""
+"D79","FLAGS =","UptimeHours","",""
+"D80","FLAGS =","TimeDriftNdx","",""
+"D81","FLAGS =","SearchPos","",""
+"D82","FLAGS =","PrevTimPhoto_ep1","",""
+"D83","FLAGS =","Time_Photo_Delta","",""
+"D84","FLAGS =","MQTTErrorsExt_Lo","",""
+"D85","FLAGS =","MQTTErrorsExt_Hi","",""
+"D86","FLAGS =","CalibrationCount","",""
+"D90","FLAGS =","NTPD_IP_ADDRESS","",""
+"D91","FLAGS =","ClkAdjNdx","",""
+"D92","FLAGS =","ClkDrftAdj_int","",""
+"D93","FLAGS =","NextAdjMin_Ep","",""
+"D94","FLAGS =","AdjusterPulses","",""
+"D95","FLAGS =","AdjPulsesPerTurn","",""
+"D100","FLAGS =","TempDbl_1","",""
+"D101","FLAGS =","TempDbl_2","",""
+"R0","FLAGS =","STK_CL_DUTYCYCLE","","0-100% to drive Strike Clutch SSR"
+"R1","FLAGS =","TIM_CL_DUTYCYCLE","","0-100% to drive Wind Clutch SSR"
+"R2","FLAGS =","Temperature_F","","Temperature either 0 to +70 or -20 to 80 Degrees Centigrade","BUT","-20 to +170 Fahrenheit seems to scale well"
+"R3","FLAGS =","Temperature_HI","","High Temperature so far this period"
+"R4","FLAGS =","Temperature_LO","","Low Temperature so far this period"
+"R5","FLAGS =","SensorFiltered","","filtered raw sensor data"
+"R6","FLAGS =","TempAllTime_HI","","High Temperature since forever"
+"R7","FLAGS =","TempAllTime_LO","","Low Temperature since forever"
+"R8","FLAGS =","HEATER_DUTYCYCLE","","BRX wants to be between ","32 and 140 degF"
+"R9","FLAGS =","Heater_Duty_Sp","","Heater PWM duty cycle"
+"R10","FLAGS =","HumidAllTime_HI","",""
+"R11","FLAGS =","HumidAllTime_LO","",""
+"R12","FLAGS =","Humidity_HI","",""
+"R13","FLAGS =","Humidity_LO","",""
+"R14","FLAGS =","RelativeHumidity","",""
+"R15","FLAGS =","EnvironHI","",""
+"R16","FLAGS =","EnvironLO","",""
+"R17","FLAGS =","EnvironAllTimeHI","",""
+"R18","FLAGS =","EnvironAllTimeLO","",""
+"R19","FLAGS =","EnvironReading","",""
+"R20","FLAGS =","Temperature_C","",""
+"R21","FLAGS =","Latched_TempF","",""
+"R22","FLAGS =","Sensor_Voltage","",""
+"R23","FLAGS =","CfgTempAlarmLo","",""
+"R24","FLAGS =","MQTTTmpTimer","",""
+"R25","FLAGS =","CfgHeatDutyLo","",""
+"R26","FLAGS =","CfgHeatDutyLoLo","",""
+"R27","FLAGS =","LoLoAlarmLim","",""
+"R28","FLAGS =","SavedHtrDutySp","",""
+"R29","FLAGS =","ClkDrftAdjust","",""
+"R30","FLAGS =","StkClutchVoltage","",""
+"R31","FLAGS =","TimClutchVoltage","",""
+"R32","FLAGS =","ClkDrftAdj_frac","",""
+"R33","FLAGS =","CfgTempCMin","",""
+"R34","FLAGS =","TempCMax","",""
+"R35","FLAGS =","CfgTempCRange","",""
+"R36","FLAGS =","TemperatureVolts","",""
+"R37","FLAGS =","HumidityVolts","",""
+"R40","FLAGS =","ClkDriftSlope0","",""
+"R41","FLAGS =","ClkDriftSlope1","",""
+"R42","FLAGS =","ClkDriftSlope2","",""
+"R50","FLAGS =","AdjusterNoTurns","",""
+"T0","FLAGS =","DEBUG_DELAY","",""
+"T1","FLAGS =","DEBUG_TIMER","",""
+"T2","FLAGS =","WARNING_TIMER","",""
+"T3","FLAGS =","SimulatedLockDur","",""
+"T4","FLAGS =","STARTUP_TIMER","",""
+"T5","FLAGS =","OBS_TempHoldTMR","",""
+"T6","FLAGS =","MQTT_LOCK_TMR","",""
+"T7","FLAGS =","TempHoldTMR","",""
+"T8","FLAGS =","ReadTempTMR","",""
+"T9","FLAGS =","ReadHumidTMR","",""
+"T10","FLAGS =","StkLOTIMER","",""
+"CT0","FLAGS =","STK_PULSE_CTR","","counter for strike pulses"
+"CT1","FLAGS =","TIME_PULSE_CTR","","counter for wind pulses"
+"CT2","FLAGS =","DEBUG_CTR","",""
+"CT3","FLAGS =","TIMER_MODE_TMR","","timer for Timer Mode triggering"
+"CT4","FLAGS =","STK_HAMMER_CTR","",""
+"SS0","FLAGS =","Time_Clutch_ss","",""
+"SS1","FLAGS =","Strike_Clutch_ss","",""
+"SS2","FLAGS =","WinderLogBase","",""
+"SS3","FLAGS =","On_ss","",""
+"SS4","FLAGS =","Off_ss","",""
+"SS5","FLAGS =","Drive_Motor_ss","",""
+"SS6","FLAGS =","Timer_Trig_ss","",""
+"SS7","FLAGS =","Photo_Trigger_ss","",""
+"SS8","FLAGS =","Auto_Mode_ss","",""
+"SS9","FLAGS =","Manual_Mode_ss","",""
+"SS10","FLAGS =","Timer_Trigger_ss","",""
+"SS11","FLAGS =","Current_Log_Base","",""
+"SS12","FLAGS =","New_Period_ss","",""
+"SS13","FLAGS =","P_T_Trigger_ss","",""
+"SS14","FLAGS =","A_M_Mode_ss","",""
+"SS15","FLAGS =","Last_Log_File","",""
+"SS16","FLAGS =","Total_Stk_Cnt_ss","",""
+"SS17","FLAGS =","Total_Tim_Cnt_ss","",""
+"SS18","FLAGS =","Photo_v_Timer_ss","",""
+"SS19","FLAGS =","Auto_v_Man_ss","",""
+"SS20","FLAGS =","Strike_Photo_ss","",""
+"SS21","FLAGS =","Time_Photo_ss","",""
+"SS22","FLAGS =","Lockout_Photo_ss","",""
+"SS23","FLAGS =","Strike_Limit_ss","",""
+"SS24","FLAGS =","Time_Limit_ss","",""
+"SS25","FLAGS =","CALIBRATE_ss","",""
+"SS26","FLAGS =","Start_Button_ss","",""
+"SS27","FLAGS =","Stop_Button_ss","",""
+"SS28","FLAGS =","Init_Called_ss","",""
+"SS29","FLAGS =","Power_Loss_ss","",""
+"SS30","FLAGS =","Calibration_ss","",""
+"SS31","FLAGS =","Stop_Var_ss","",""
+"SS32","FLAGS =","Watchdog_ss","",""
+"SS33","FLAGS =","Mode_Sw1_ss","",""
+"SS34","FLAGS =","Mode_Sw2_ss","",""
+"SS35","FLAGS =","Summary_ss","",""
+"SS36","FLAGS =","Hourly_Temp_ss","",""
+"SS37","FLAGS =","StkOnTimePer_ss","",""
+"SS38","FLAGS =","TimOnTimePer_ss","",""
+"SS39","FLAGS =","DrvOnTimePer_ss","",""
+"SS40","FLAGS =","PowerFail_Dur_ss","",""
+"SS41","FLAGS =","PowerFail_DT_ss","",""
+"SS42","FLAGS =","Battery_Warn_ss","",""
+"SS43","FLAGS =","TemperatureHI_ss","",""
+"SS44","FLAGS =","TemperatureLO_ss","",""
+"SS45","FLAGS =","TempAllTimeHI_ss","",""
+"SS46","FLAGS =","TempAllTimeLO_ss","",""
+"SS47","FLAGS =","Heater_ss","",""
+"SS48","FLAGS =","Temp_Hi_ss","",""
+"SS49","FLAGS =","Temp_Lo_ss","",""
+"SS50","FLAGS =","Temp_LoLo_ss","",""
+"SS51","FLAGS =","DegF_ss","",""
+"SS52","FLAGS =","Percent_ss","",""
+"SS54","FLAGS =","Tmp_Heater_ss","",""
+"SS55","FLAGS =","Tmp_Strike_ss","",""
+"SS56","FLAGS =","Tmp_Time_ss","",""
+"SS57","FLAGS =","Tmp_Drive_ss","",""
+"SS58","FLAGS =","Humid_Hi_ss","",""
+"SS59","FLAGS =","Humid_Lo_ss","",""
+"SS60","FLAGS =","HumidAllTimeHIss","",""
+"SS61","FLAGS =","HumidAllTimeLOss","",""
+"SS62","FLAGS =","Hourly_Humid_ss","",""
+"SS63","FLAGS =","TimOnTime_ss","",""
+"SS64","FLAGS =","StkOnTime_ss","",""
+"SS65","FLAGS =","DrvOnTime_ss","",""
+"SS66","FLAGS =","TimerOnDur_ss","",""
+"SS67","FLAGS =","Debug_Event_ss","",""
+"SS68","FLAGS =","Drift_ss","",""
+"SS69","FLAGS =","Tmp_HeaterSP_ss","",""
+"SS70","FLAGS =","Temperature_ss","",""
+"SS71","FLAGS =","Humidity_ss","",""
+"SS72","FLAGS =","DebugEvent_ss","",""
+"SS73","FLAGS =","Uptime_ss","",""
+"SS74","FLAGS =","NewPeriod_ss","",""
+"SS75","FLAGS =","ClkAdjEights_ss","",""
+"SS76","FLAGS =","LimitsCompact_ss","",""
+"SS77","FLAGS =","ClockDrift_ss","",""
+"SS78","FLAGS =","Failed_LogFile","",""
+"SS79","FLAGS =","PercentRH_ss","",""
+"SS80","FLAGS =","Hammer_Stk_ss","",""
+"SS81","FLAGS =","TempAlarmHold_ss","",""
+"SS82","FLAGS =","SummerTime_ss","",""
+"SS83","FLAGS =","Counts_ss","",""
+"SS84","FLAGS =","UptimeLong_ss","",""
+"SS85","FLAGS =","ClockDrift2_ss","",""
+"SS86","FLAGS =","ClkDrftSlope_ss","",""
+"SS87","FLAGS =","Accuracy_ss","",""
+"SS88","FLAGS =","PrevStkOffTim_ss","",""
+"SS89","FLAGS =","PrevTimOffTim_ss","",""
+"SS90","FLAGS =","Adjuster_ss","",""
+"SS91","FLAGS =","AdjPulses_ss","",""
+"SS95","FLAGS =","PrevStrikeOff_ss","",""
+"SS96","FLAGS =","PrevTimeOff_ss","",""
+"SS97","FLAGS =","DriveOff_ss","",""
+"SS98","FLAGS =","TimeClutchOffss","",""
+"SS99","FLAGS =","StrikeClutchOffs","",""
+"SS100","FLAGS =","PrevTimeClOff_ss","",""
+"SS101","FLAGS =","TimeClOff_ss","",""
+"SS102","FLAGS =","PrevStkClOff_ss","",""
+"SS103","FLAGS =","StkClOff_ss","",""
+"SS104","FLAGS =","Last_Drive_Offss","",""
+"SS105","FLAGS =","Next_TimerOn_ss","",""
+"SS106","FLAGS =","MQTT_TempAlarmLo","",""
+"SS107","FLAGS =","TempAlarmLo_ss","",""
+"SS108","FLAGS =","TimerMode_Acc_ss","",""
+"SS109","FLAGS =","PeriodEnd_ss","",""
+"SS110","FLAGS =","StrikeCount_ss","",""
+"SS111","FLAGS =","TimeCount_ss","",""
+"SS112","FLAGS =","PowerFail_ss","",""
+"SS113","FLAGS =","CurrentTime_ss","",""
+"SS114","FLAGS =","EmailNewPer_ss","",""
+"SS115","FLAGS =","TimeDur_ss","",""
+"SS116","FLAGS =","StrikeDur_ss","",""
+"SS117","FLAGS =","StrikeCompact_ss","",""
+"SS118","FLAGS =","TimeCompact_ss","",""
+"SS119","FLAGS =","MiscCompact_ss","",""
+"SS120","FLAGS =","MotorCompact_ss","",""
+"SS121","FLAGS =","HeaterCompact_ss","",""
+"SS122","FLAGS =","EnvironCompact_s","",""
+"SS123","FLAGS =","DriftACompact_ss","",""
+"SS124","FLAGS =","ErrorsCompact_ss","",""
+"SS125","FLAGS =","EnvironVolts_ss","",""
+"SS126","FLAGS =","ClockDriftFix_ss","",""
+"SS127","FLAGS =","Last_Log_Base","",""
+"SL1","FLAGS =","Summary_log","",""
+"SL2","FLAGS =","Environs_log","",""
+"UDT0","FLAGS =","MotionStop_DT","",""
+"UDT1","FLAGS =","NEXT_TIMER_ON","","This timer is used in Timer Triggering mode to determine when to start winding"
+"UDT2","FLAGS =","Truncate_DT1","",""
+"UDT3","FLAGS =","Truncate_DT2","",""
+"UDT4","FLAGS =","NewPeriod_DT","",""
+"UDT5","FLAGS =","Truncate_DT3","",""
+"UDT6","FLAGS =","NewPer_Log_DT","",""
+"UDT7","FLAGS =","NewPer_Pend_DT","",""
+"UDT8","FLAGS =","PowerFail_DT","",""
+"UDT9","FLAGS =","LastAlive_DT","",""
+"UDT10","FLAGS =","Temperature_LOdt","",""
+"UDT11","FLAGS =","Temperature_HIdt","",""
+"UDT12","FLAGS =","TempAllTime_HIdt","",""
+"UDT13","FLAGS =","TempAllTime_LOdt","",""
+"UDT14","FLAGS =","EnvironHI_dt","",""
+"UDT15","FLAGS =","EnvironLO_dt","",""
+"UDT16","FLAGS =","EnvironAllTime_H","",""
+"UDT17","FLAGS =","EnvironAllTime_L","",""
+"UDT18","FLAGS =","HumidityHI_dt","",""
+"UDT19","FLAGS =","HumidityLO_dt","",""
+"UDT20","FLAGS =","HumidityATHI_dt","",""
+"UDT21","FLAGS =","HumidityATLO_dt","",""
+"UDT22","FLAGS =","EnvironAT_HI_dt","",""
+"UDT23","FLAGS =","EnvironAT_LO_dt","",""
+"UDT24","FLAGS =","StkLO_StartDT","",""
+"UDT25","FLAGS =","StkLO_CalcEndDT","",""
+"UDT26","FLAGS =","StkLO_EndDT","",""
+"UDT27","FLAGS =","StkLO_AltEndDT","",""
+"UDT28","FLAGS =","TRUNCATE_TEST","",""
+"UDT29","FLAGS =","ActualStrikeDT","",""
+"UDT30","FLAGS =","InstallationDate","","When was this installed in Clock Tower?"
+"UDT31","FLAGS =","TimePhoto_1_DT","",""
+"UDT32","FLAGS =","PrevTimeOffDT","",""
+"UDT33","FLAGS =","PrevStrikeOffDT","",""
+"UDT34","FLAGS =","DriveOffDT","",""
+"SXL0","FLAGS =","EmailBody_SXL","",""
+"SXL2","FLAGS =","FailedEmailBody","",""
+"Initialize","FLAGS =","","","Initialize all strings, and time-based items with reasonably current values"
+"Calc_NEXT_TIMER","FLAGS =","","","Set up a new timer-based ON time derived from and replaced into NEXT_TIMER_ON"
+"CHK_New_Period","FLAGS =","","","See if we are entering a new Logging Period (day, week, whatever)"
+"Logger","FLAGS =","","","Write a LOG entry whenever switches change state, or a notable event occurs"
+"Timer_Mode","FLAGS =","","","Time-based activation"
+"Photo_Mode","FLAGS =","","","Process Pulse Mode optical SW activity"
+"$STK_PWM.DutyCycle","FLAGS =","","","0-100% to drive Strike Clutch SSR"
+"$WND_PWM.DutyCycle","FLAGS =","","","0-100% to drive Wind Clutch SSR"
+"Calibrate","FLAGS =","","","set certain startup and calibration values upon demand (x9)"
+"Setup_Mode_Strs","FLAGS =","","","Update strings based on switches"
+"Setup_Time_Strs","FLAGS =","","","Update various time strings"
+"Process_Environs","FLAGS =","","","Read in Environment values from outside box"
+"Process_Debug","FLAGS =","","","Set Debugging items based on how many button presses within 5 seconds"
+"SK1","FLAGS =","CALIBRATE_ON","32767","Calibrate ON Value"
+"SK2","FLAGS =","CALIBRATE_OFF","0","Calibrate OFF Value"
+"SK3","FLAGS =","HEATER_OFF","0",""
+"SK4","FLAGS =","HEATER_ON_MEDIUM","20","Duty cycle"
+"SK5","FLAGS =","HEATER_ON_HIGH","50",""
+"SK6","FLAGS =","MAX_TEMPERATURE","127.0",""
+"SK7","FLAGS =","MIN_TEMPERATURE","-4.0",""
+"SK8","FLAGS =","MAX_HUMIDITY","100",""
+"SK9","FLAGS =","MIN_HUMIDITY","0",""
+"SK10","FLAGS =","DEBUG_EMAIL","3","Send Email upon demand"
+"SK11","FLAGS =","DEBUG_TIMER_ON","2","Start Timer ON upon demand"
+"SK12","FLAGS =","DEBUG_CALIBRATE","1","Start Calibration upon demand"
+"SK13","FLAGS =","DEBUG_INSTALL","5","Install lifetime values upon demand, but once really"
+"SK14","FLAGS =","DEBUG_SPARE","4","spare"
+"SK15","FLAGS =","DEBUG_TRIGGERING","6","Toggle Triggering Mode between Pulse and Timer"
+"SK16","FLAGS =","HOURS_24","86400.0",""
+"SK17","FLAGS =","HOURS_48","172800.0",""
+"SK18","FLAGS =","DAYS_7","604800.0",""
+"SK19","FLAGS =","HOURS_72","259200.0",""
+"SK20","FLAGS =","HOURS_12","43200.0",""
+"SK21","FLAGS =","DAYS_3","259200.0",""
+"SK22","FLAGS =","DAYS_4","345600.0",""
+"SK23","FLAGS =","DAYS_5","432000.0",""
+"SK24","FLAGS =","DAYS_6","518400.0",""
+"SK25","FLAGS =","DAYS_2","172800.0",""
+"UN0","FLAGS =","REDO","",""
+#END
+
