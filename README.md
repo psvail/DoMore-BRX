@@ -10,6 +10,9 @@ Physically, there are two winding drums, each of which has a weight attached via
 This project was designed for a [Do-More BRX-DM1E-18ED23](<https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/brx_plcs_(stackable_micro_brick)/plcs_-a-_cpus/bx-dm1e-18ed23>) Programmable Logic Controller, after Dana's original controller components were disabled by lightning in 2017. 
 This repository initially contains version 55, created and maintained in Automation Direct's [Do-More Designer IDE](<https://www.automationdirect.com/support/software-downloads?itemcode=Do-more%20Designer>) and is the initial upload for posterity in October of 2025. This project continues to be a work-in-progress.<br>
 
+Recent additions include a new I/O module [BX-16CD3D2](https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/brx_plcs_(stackable_micro_brick)/dc_i-z-o/bx-16cd3d2)
+ with the intent of adding a bell strike counter, and an automatied advance/retard servo motor on the pendulum mount point. 
+
 Gory details of operation of the BRX and training videos can be found [HERE](https://accautomation.ca/brx-plc-analog-io-system-configuration/)
 
 
